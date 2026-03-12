@@ -1,0 +1,15 @@
+{
+  "login": {
+    "title": "登入",
+    "username": "使用者名称",
+    "password": "密码",
+    "remember": "记住我",
+    "loginBtn": "登入",
+    "usernamePlaceholder": "请输入使用者名称",
+    "passwordPlaceholder": "请输入密码"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "海外支撐系統"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "login": {
+    "title": "登录",
+    "username": "账号",
+    "password": "密码",
+    "remember": "记住登录信息",
+    "loginBtn": "登录",
+    "usernamePlaceholder": "请输入用户名",
+    "passwordPlaceholder": "请输入密码",
+    "loggingIn": "登录中...",
+    "forgotPassword": "忘记密码？",
+    "pleaseEnterAccount": "请输入账号",
+    "pleaseEnterPassword": "请输入密码",
+    "loginSuccessful": "登录成功！"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "海外支撑系统"
+  },
+  "layout": {
+    "logo": "渠道支持系统",
+    "logoShort": "CSS",
+    "collapseExpand": "折叠/展开",
+    "select": "请选择",
+    "futuresRebate": "合约返佣比例",
+    "spotRebate": "现货返佣比例",
+    "etfRebate": "ETF返佣比例",
+    "apiRebate": "API返佣比例",
+    "languages": {
+      "kr": "한국어",
+      "en": "English",
+      "tr": "Türkçe",
+      "vi": "Tiếng Việt",
+      "ru": "Русский",
+      "tw": "繁體中文",
+      "pt": "Português",
+      "ja": "日本語",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "修改密码",
+    "managementArea": "管理区域：其他",
+    "logout": "退出登录",
+    "messageInfo": "CrazyEarn 快乐周 #2：USDT 年化收益 13%",
+    "more": "更多"
+  },
+  "menu": {
+    "homePage": "首页概览",
+    "searchRebate": "查询返佣记录",
+    "rebateSummary": "返佣汇总",
+    "rebateRecords": "返佣记录",
+    "partnerManagement": "合作伙伴管理",
+    "partnerConfig": "合作伙伴配置",
+    "partnerList": "合作伙伴列表",
+    "referralLinks": "推荐链接",
+    "searchAllOrders": "查询所有订单",
+    "depositWithdraw": "充提币",
+    "otcDeposit": "OTC 充提币",
+    "coinDeposit": "币币充提币",
+    "transfer": "划转",
+    "externalDeposit": "外部充值总额",
+    "viewAgreement": "查看协议",
+    "regulatoryGuidelines": "监管指南",
+    "agentAgreement": "代理协议",
+    "materialDownload": "资料下载",
+    "securityCenter": "安全中心"
+  },
+  "home": {
+    "teamDailyNew": "团队每日新注册",
+    "tabs": {
+      "realtime": "实时",
+      "yesterday": "昨天",
+      "last7days": "近7天",
+      "last30days": "近30天",
+      "thisMonth": "本月",
+      "lastMonth": "上月",
+      "thisYear": "本年",
+      "history": "历史"
+    },
+    "cards": {
+      "registrations": "注册人数（团队）",
+      "tradingVolume": "交易量（团队）",
+      "tradingFees": "交易手续费（团队）",
+      "totalCommission": "总共享佣金（团队）"
+    },
+    "charts": {
+      "dailyNewDeposit": "团队每日新增充值",
+      "dailyNewWithdrawal": "团队每日新增提现",
+      "dailyNewTransactionVolume": "团队每日新增交易量",
+      "dailyTransactionFee": "团队每日交易手续费概览",
+      "estimatedRebatesYesterday": "团队昨日预估返佣",
+      "estimatedRebatesToday": "团队今日预估返佣金额",
+      "exactRebatesYesterday": "团队昨日实际返佣",
+      "totalDeposit": "团队总充值",
+      "totalWithdrawal": "团队总提现",
+      "activeUsers": "交易团队活跃用户数"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "我的返佣",
+    "selfReturnRebate": "自返佣",
+    "clientTransactionFee": "客户交易手续费",
+    "clientContributionRebate": "客户贡献返佣",
+    "totalTransactionFee": "总交易手续费",
+    "totalRebate": "总返佣",
+    "uid": "UID",
+    "note": "备注",
+    "userType": "用户类型",
+    "client": "客户",
+    "agent": "代理",
+    "currency": "币种",
+    "allCurrency": "全部币种",
+    "start": "开始",
+    "end": "结束",
+    "search": "查询",
+    "reset": "重置",
+    "table": {
+      "date": "日期",
+      "uid": "UID",
+      "time": "时间",
+      "symbol": "交易对",
+      "type": "类型",
+      "side": "方向",
+      "volume": "数量",
+      "price": "价格",
+      "fee": "手续费",
+      "rebate": "返佣",
+      "currency": "币种",
+      "note": "备注"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "请选择",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "yesterday": "昨天",
+    "today": "今天",
+    "search": "查询",
+    "distributionNote": "返佣将于次日 07:00 (UTC) 发放",
+    "back": "上一页",
+    "next": "下一页",
+    "transactionType": {
+      "futures": "合约",
+      "nonApi": "非API",
+      "api": "API",
+      "spot": "现货",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "币种",
+      "estimatedRebate": "预估返佣金额",
+      "actualRebate": "实际返佣金额",
+      "transactionType": "交易类型",
+      "arrivalTime": "到账时间",
+      "issueStatus": "发放状态",
+      "issued": "已发放",
+      "pending": "待发放"
+    }
+  }
+}

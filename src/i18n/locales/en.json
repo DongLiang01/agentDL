@@ -1,0 +1,160 @@
+{
+  "login": {
+    "title": "Login",
+    "username": "Account",
+    "password": "Password",
+    "remember": "Remember Login Info",
+    "loginBtn": "Login",
+    "usernamePlaceholder": "Please enter username",
+    "passwordPlaceholder": "Please enter password",
+    "loggingIn": "Logging in...",
+    "forgotPassword": "Forgot password?",
+    "pleaseEnterAccount": "Please enter account",
+    "pleaseEnterPassword": "Please enter password",
+    "loginSuccessful": "Login successful!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "Overseas Support System"
+  },
+  "layout": {
+    "logo": "Channel Support System",
+    "logoShort": "CSS",
+    "collapseExpand": "Collapse/Expand",
+    "select": "Select",
+    "futuresRebate": "Futures rebate ratio",
+    "spotRebate": "Spot rebate ratio",
+    "etfRebate": "ETF rebate ratio",
+    "apiRebate": "API rebate ratio",
+    "languages": {
+      "kr": "한국어",
+      "en": "English",
+      "tr": "Türkçe",
+      "vi": "Tiếng Việt",
+      "ru": "Русский",
+      "tw": "繁體中文",
+      "pt": "Português",
+      "ja": "日本語",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "Change Password",
+    "managementArea": "Management Area: Other",
+    "logout": "Log out",
+    "messageInfo": "CrazyEarn Happy Week # 2: 13% APR on USDT",
+    "more": "More"
+  },
+  "menu": {
+    "homePage": "Home Page Overview",
+    "searchRebate": "Search Rebate Record",
+    "rebateSummary": "Rebate Summary",
+    "rebateRecords": "Rebate Records",
+    "partnerManagement": "Partner Management",
+    "partnerConfig": "Partner Configuration",
+    "partnerList": "Partner List",
+    "referralLinks": "Referral Links",
+    "searchAllOrders": "Search All Orders",
+    "depositWithdraw": "Deposit&Withdraw",
+    "otcDeposit": "OTC Deposit/Withdraw",
+    "coinDeposit": "Deposit/Withdraw(coins)",
+    "transfer": "Transfer",
+    "externalDeposit": "The total amount of external deposit",
+    "viewAgreement": "View Agreement",
+    "regulatoryGuidelines": "Regulatory Guidelines",
+    "agentAgreement": "Agent agreement",
+    "materialDownload": "Material Download",
+    "securityCenter": "Security Center"
+  },
+  "home": {
+    "teamDailyNew": "Team Daily New Registration",
+    "tabs": {
+      "realtime": "Real Time",
+      "yesterday": "Yesterday",
+      "last7days": "Last 7 days",
+      "last30days": "Last 30 days",
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "thisYear": "This Year",
+      "history": "History"
+    },
+    "cards": {
+      "registrations": "Registrations (Team)",
+      "tradingVolume": "Trading Volume (Team)",
+      "tradingFees": "Trading Fees (Team)",
+      "totalCommission": "Total Commission Shared(Team)"
+    },
+    "charts": {
+      "dailyNewDeposit": "Team Daily New Deposit",
+      "dailyNewWithdrawal": "Team Daily New Withdrawal",
+      "dailyNewTransactionVolume": "Team Daily New Transaction Volume",
+      "dailyTransactionFee": "Team Daily Transaction Fee Overview",
+      "estimatedRebatesYesterday": "Team estimated rebates on yesterday",
+      "estimatedRebatesToday": "The estimated rebate amount of our team for today",
+      "exactRebatesYesterday": "Team exact rebates on yesterday",
+      "totalDeposit": "Team Total Deposit",
+      "totalWithdrawal": "Team Total Withdrawal",
+      "activeUsers": "Number of active users of trading team"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "My Rebate",
+    "selfReturnRebate": "Self-return Rebate",
+    "clientTransactionFee": "Client Transaction Fee",
+    "clientContributionRebate": "Client Contribution Rebate",
+    "totalTransactionFee": "Total Transaction Fee",
+    "totalRebate": "Total Rebate",
+    "uid": "UID",
+    "note": "Note",
+    "userType": "User Type",
+    "client": "Client",
+    "agent": "Agent",
+    "currency": "Currency",
+    "allCurrency": "All Currency",
+    "start": "Start",
+    "end": "End",
+    "search": "Search",
+    "reset": "Reset",
+    "table": {
+      "date": "Date",
+      "uid": "UID",
+      "time": "Time",
+      "symbol": "Symbol",
+      "type": "Type",
+      "side": "Side",
+      "volume": "Volume",
+      "price": "Price",
+      "fee": "Fee",
+      "rebate": "Rebate",
+      "currency": "Currency",
+      "note": "Note"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "Please select",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "yesterday": "Yesterday",
+    "today": "Today",
+    "search": "Search",
+    "distributionNote": "Rebate will be distribute to you at 07:00 (UTC) of next day",
+    "back": "Back",
+    "next": "Next",
+    "transactionType": {
+      "futures": "Futures",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "Spot",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "Currency",
+      "estimatedRebate": "Estimated rebate amount",
+      "actualRebate": "Actual rebate amount",
+      "transactionType": "Transaction type",
+      "arrivalTime": "Arrival Time",
+      "issueStatus": "Issue Status",
+      "issued": "Issued",
+      "pending": "Pending"
+    }
+  }
+}
