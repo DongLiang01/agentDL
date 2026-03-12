@@ -66,7 +66,14 @@
     "securityCenter": "보안 센터"
   },
   "home": {
+    "newSystemButton": "새로운 채널 지원 시스템이 이제 온라인입니다. 클릭하여 새 경험을 얻으세요",
     "teamDailyNew": "팀 일일 신규 가입",
+    "timeOfDataUpdate": "데이터 업데이트 시간: ",
+    "select": "선택",
+    "all": "전체",
+    "futures": "선물",
+    "spot": "현물",
+    "etf": "ETF",
     "tabs": {
       "realtime": "실시간",
       "yesterday": "어제",
@@ -84,16 +91,16 @@
       "totalCommission": "총 공유 수수료 (팀)"
     },
     "charts": {
-      "dailyNewDeposit": "팀 일일 신규 입금",
-      "dailyNewWithdrawal": "팀 일일 신규 출금",
-      "dailyNewTransactionVolume": "팀 일일 신규 거래량",
-      "dailyTransactionFee": "팀 일일 거래 수수료 개요",
-      "estimatedRebatesYesterday": "어제 팀 예상 리베이트",
-      "estimatedRebatesToday": "오늘 팀 예상 리베이트 금액",
-      "exactRebatesYesterday": "어제 팀 실제 리베이트",
-      "totalDeposit": "팀 총 입금",
-      "totalWithdrawal": "팀 총 출금",
-      "activeUsers": "거래 팀 활성 사용자 수"
+      "dailyNewDeposit": "팀 어제 신규 입금",
+      "dailyNewWithdrawal": "팀 어제 신규 출금",
+      "dailyNewTransactionVolume": "팀 어제 거래량",
+      "dailyTransactionFee": "팀 어제 거래 수수료 개요",
+      "estimatedRebatesYesterday": "팀 어제 예상 수익 금액",
+      "estimatedRebatesToday": "팀 오늘 예상 수익 금액",
+      "exactRebatesYesterday": "팀 어제 실제 수익 금액",
+      "totalDeposit": "팀 누적 입금",
+      "totalWithdrawal": "팀 누적 출금",
+      "activeUsers": "팀 선물 활성 사용자 수"
     }
   },
   "rebateSummary": {

@@ -66,7 +66,14 @@
     "securityCenter": "Security Center"
   },
   "home": {
+    "newSystemButton": "The new Channel Support System is now online. Click to jump and get a new experience",
     "teamDailyNew": "Team Daily New Registration",
+    "timeOfDataUpdate": "Time of data update: ",
+    "select": "Select",
+    "all": "All",
+    "futures": "Futures",
+    "spot": "Spot",
+    "etf": "ETF",
     "tabs": {
       "realtime": "Real Time",
       "yesterday": "Yesterday",
@@ -84,16 +91,16 @@
       "totalCommission": "Total Commission Shared(Team)"
     },
     "charts": {
-      "dailyNewDeposit": "Team Daily New Deposit",
-      "dailyNewWithdrawal": "Team Daily New Withdrawal",
-      "dailyNewTransactionVolume": "Team Daily New Transaction Volume",
-      "dailyTransactionFee": "Team Daily Transaction Fee Overview",
-      "estimatedRebatesYesterday": "Team estimated rebates on yesterday",
-      "estimatedRebatesToday": "The estimated rebate amount of our team for today",
-      "exactRebatesYesterday": "Team exact rebates on yesterday",
-      "totalDeposit": "Team Total Deposit",
-      "totalWithdrawal": "Team Total Withdrawal",
-      "activeUsers": "Number of active users of trading team"
+      "dailyNewDeposit": "Team Yesterday New Deposit",
+      "dailyNewWithdrawal": "Team Yesterday New Withdrawal",
+      "dailyNewTransactionVolume": "Team Yesterday Trading Volume",
+      "dailyTransactionFee": "Team Yesterday Transaction Fee Overview",
+      "estimatedRebatesYesterday": "Team Yesterday Estimated Rebate Amount",
+      "estimatedRebatesToday": "Team Today Estimated Rebate Amount",
+      "exactRebatesYesterday": "Team Yesterday Exact Rebate Amount",
+      "totalDeposit": "Team Cumulative Deposit",
+      "totalWithdrawal": "Team Cumulative Withdrawal",
+      "activeUsers": "Team Futures Active Users"
     }
   },
   "rebateSummary": {

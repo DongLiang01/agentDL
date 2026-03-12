@@ -66,7 +66,14 @@
     "securityCenter": "安全中心"
   },
   "home": {
+    "newSystemButton": "新的渠道支持系统现已上线。点击跳转获得新体验",
     "teamDailyNew": "团队每日新注册",
+    "timeOfDataUpdate": "数据更新时间：",
+    "select": "请选择",
+    "all": "全部",
+    "futures": "合约",
+    "spot": "现货",
+    "etf": "ETF",
     "tabs": {
       "realtime": "实时",
       "yesterday": "昨天",
@@ -84,16 +91,16 @@
       "totalCommission": "总共享佣金（团队）"
     },
     "charts": {
-      "dailyNewDeposit": "团队每日新增充值",
-      "dailyNewWithdrawal": "团队每日新增提现",
-      "dailyNewTransactionVolume": "团队每日新增交易量",
-      "dailyTransactionFee": "团队每日交易手续费概览",
-      "estimatedRebatesYesterday": "团队昨日预估返佣",
-      "estimatedRebatesToday": "团队今日预估返佣金额",
-      "exactRebatesYesterday": "团队昨日实际返佣",
-      "totalDeposit": "团队总充值",
-      "totalWithdrawal": "团队总提现",
-      "activeUsers": "交易团队活跃用户数"
+      "dailyNewDeposit": "团队昨日新增充值",
+      "dailyNewWithdrawal": "团队昨日新增提现",
+      "dailyNewTransactionVolume": "团队昨日交易量",
+      "dailyTransactionFee": "团队昨日手续费概览",
+      "estimatedRebatesYesterday": "团队昨日预计收益金额",
+      "estimatedRebatesToday": "团队今日预计收益金额",
+      "exactRebatesYesterday": "团队昨日实际收益金额",
+      "totalDeposit": "团队累计入金",
+      "totalWithdrawal": "团队累计出金",
+      "activeUsers": "团队合约活跃用户数"
     }
   },
   "rebateSummary": {
