@@ -27,14 +27,15 @@
     "etfRebate": "ETF 리베이트 비율",
     "apiRebate": "API 리베이트 비율",
     "languages": {
-      "kr": "한국어",
+      "zh-CN": "중국어 간체",
+      "zh-TW": "중국어 번체",
       "en": "English",
-      "tr": "Türkçe",
-      "vi": "Tiếng Việt",
-      "ru": "Русский",
-      "tw": "繁體中文",
-      "pt": "Português",
+      "ko": "한국어",
       "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
       "uk": "Українська",
       "ar": "العربية"
     },
@@ -59,11 +60,65 @@
     "coinDeposit": "코인 입출금",
     "transfer": "이체",
     "externalDeposit": "외부 입금 총액",
-    "viewAgreement": "계약 보기",
-    "regulatoryGuidelines": "규제 가이드라인",
-    "agentAgreement": "에이전트 계약",
-    "materialDownload": "자료 다운로드",
     "securityCenter": "보안 센터"
+  },
+  "transfer": {
+    "search": {
+      "uid": "사용자 UID",
+      "userType": "사용자 유형",
+      "direction": "업무 방향",
+      "startDate": "시작 날짜",
+      "endDate": "종료 날짜"
+    },
+    "type": {
+      "nonPartner": "비 파트너",
+      "partner": "파트너"
+    },
+    "direction": {
+      "deposit": "입금",
+      "withdraw": "출금"
+    },
+    "button": {
+      "search": "검색",
+      "download": "다운로드"
+    },
+    "dataUpdateTime": "데이터 업데이트 시간",
+    "table": {
+      "uid": "사용자 UID",
+      "userType": "사용자 유형",
+      "currency": "통화",
+      "amount": "수량",
+      "direction": "업무 방향",
+      "note": "메모",
+      "createTime": "생성 시간"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "사용자 UID",
+      "userType": "사용자 유형",
+      "currency": "통화",
+      "startDate": "시작일",
+      "endDate": "종료일"
+    },
+    "type": {
+      "nonPartner": "비 파트너",
+      "partner": "파트너"
+    },
+    "button": {
+      "search": "검색",
+      "download": "다운로드"
+    },
+    "dataUpdateTime": "데이터 업데이트 시간",
+    "table": {
+      "uid": "사용자 UID",
+      "userType": "사용자 유형",
+      "currency": "통화",
+      "totalExternalDeposit": "노드 총 외부 입금",
+      "totalExternalWithdraw": "노드 총 외부 출금",
+      "totalNodeUsers": "노드 총 인원",
+      "totalExternalDepositUsers": "노드 총 외부 입금 인원"
+    }
   },
   "home": {
     "newSystemButton": "새로운 채널 지원 시스템이 이제 온라인입니다. 클릭하여 새 경험을 얻으세요",
@@ -163,5 +218,330 @@
       "issued": "지급 완료",
       "pending": "대기 중"
     }
+  },
+  "common": {
+    "search": "조회",
+    "export": "내보내기",
+    "download": "다운로드",
+    "reset": "초기화",
+    "confirm": "확인",
+    "cancel": "취소",
+    "uid": "UID",
+    "userType": "사용자 유형",
+    "currency": "통화",
+    "allCurrency": "전체 통화",
+    "direction": "방향",
+    "status": "상태",
+    "note": "메모",
+    "time": "시간",
+    "date": "날짜",
+    "quantity": "수량",
+    "noData": "데이터 없음"
+  },
+  "otcDeposit": {
+    "title": "OTC 입출금",
+    "search": {
+      "uid": "UID",
+      "orderId": "주문 ID",
+      "userType": "사용자 유형",
+      "accountType": "계정 유형",
+      "currency": "통화",
+      "quoteCurrency": "견적 통화",
+      "direction": "방향",
+      "status": "상태",
+      "dateRange": "Till",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "businessDirection": "비즈니스 방향"
+    },
+    "userType": {
+      "currentUser": "현재 사용자",
+      "subordinates": "하급자",
+      "allUsers": "모든 사용자",
+      "client": "클라이언트",
+      "agent": "에이전트"
+    },
+    "businessDirection": {
+      "deposit": "입금",
+      "withdrawal": "출금"
+    },
+    "accountType": {
+      "main": "메인 계정",
+      "sub": "하위 계정"
+    },
+    "direction": {
+      "openLong": "롱 오프닝",
+      "openShort": "숏 오프닝",
+      "closeLong": "롱 클로징",
+      "closeShort": "숏 클로징"
+    },
+    "status": {
+      "closed": "마감",
+      "canceled": "취소됨"
+    },
+    "table": {
+      "no": "번호",
+      "uid": "UID",
+      "userType": "사용자 유형",
+      "accountType": "계정 유형",
+      "mainAccount": "주 계정",
+      "currency": "통화",
+      "quantity": "수량",
+      "businessDirection": "비즈니스 방향",
+      "margin": "보증금",
+      "leverage": "레버리지",
+      "quoteCurrency": "견적 통화",
+      "openPrice": "개시 가격",
+      "dealPrice": "거래 가격",
+      "averagePrice": "평균 가격",
+      "openQty": "개시 수량",
+      "dealQty": "거래 수량",
+      "direction": "방향",
+      "status": "상태",
+      "type": "유형",
+      "orderId": "주문 ID",
+      "orderNo": "주문 번호",
+      "openTime": "개시 시간",
+      "note": "메모",
+      "transactionTime": "거래 시간"
+    },
+    "button": {
+      "search": "검색",
+      "export": "내보내기"
+    },
+    "updateTime": "데이터 업데이트 시간"
+  },
+  "coinDeposit": {
+    "title": "코인 입출금",
+    "search": {
+      "uid": "UID",
+      "userType": "사용자 유형",
+      "businessDirection": "비즈니스 방향",
+      "currency": "통화",
+      "dateRange": "Till",
+      "startDate": "시작일",
+      "endDate": "종료일"
+    },
+    "userType": {
+      "nonPartner": "비 파트너",
+      "partner": "파트너"
+    },
+    "businessDirection": {
+      "deposit": "입금",
+      "withdrawal": "출금"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "사용자 유형",
+      "currency": "통화",
+      "quantity": "수량",
+      "businessDirection": "비즈니스 방향",
+      "note": "메모",
+      "transactionTime": "거래 시간"
+    },
+    "button": {
+      "search": "검색",
+      "export": "내보내기"
+    },
+    "updateTime": "데이터 업데이트 시간"
+  },
+  "partnerConfig": {
+    "title": "파트너 구성",
+    "search": {
+      "uid": "UID",
+      "note": "메모",
+      "futuresRebateRatio": "선물 리베이트 비율",
+      "type": "유형"
+    },
+    "type": {
+      "client": "고객",
+      "agent": "에이전트"
+    },
+    "button": {
+      "search": "조회",
+      "addPartner": "파트너 추가",
+      "modifyInfo": "정보 수정",
+      "back": "이전",
+      "next": "다음",
+      "cancel": "취소",
+      "ok": "확인"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "국가/지역",
+      "futuresRebateRatio": "선물 리베이트 비율",
+      "apiRebateRatio": "API 리베이트 비율",
+      "spotRebateRatio": "현물 리베이트 비율",
+      "etfRebateRatio": "ETF 리베이트 비율",
+      "note": "메모",
+      "loginName": "로그인 이름",
+      "mobileNumber": "전화번호",
+      "email": "이메일"
+    },
+    "dialog": {
+      "addPartner": "파트너 추가",
+      "changePassword": "비밀번호 변경",
+      "uid": "UID",
+      "type": "유형",
+      "futuresRebate": "선물 리베이트",
+      "apiRebate": "API 리베이트",
+      "spotRebate": "현물 리베이트",
+      "etfRebate": "ETF 리베이트",
+      "note": "메모",
+      "newPassword": "새 비밀번호",
+      "confirmPassword": "비밀번호 확인"
+    },
+    "updateTime": "데이터 업데이트 시간"
+  },
+  "partnerList": {
+    "title": "파트너 목록",
+    "search": {
+      "uid": "UID",
+      "note": "메모",
+      "feeRatio": "수수료 비율",
+      "userType": "사용자 유형"
+    },
+    "type": {
+      "client": "고객",
+      "agent": "에이전트"
+    },
+    "button": {
+      "search": "조회"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "파트너 ID",
+      "futuresRebateRatio": "선물 리베이트 비율",
+      "totalFuturesRebate": "팀 총 선물 리베이트",
+      "totalFuturesServiceCharge": "팀 총 선물 수수료",
+      "spotRebateRatio": "현물 리베이트 비율",
+      "totalSpotRebate": "팀 총 현물 리베이트",
+      "totalSpotServiceCharge": "팀 총 현물 수수료",
+      "etfRebateRatio": "ETF 리베이트 비율",
+      "totalEtfRebate": "팀 총 ETF 리베이트",
+      "totalEtfServiceCharge": "팀 총 ETF 수수료",
+      "currencyName": "통화 이름",
+      "teamTotalDeposit": "팀 총 입금",
+      "teamTotalWithdrawal": "팀 총 출금",
+      "teamTotalNumber": "팀 총 인원",
+      "teamTotalDepositUsers": "팀 입금 사용자 수",
+      "firstDepositTime": "첫 입금 시간",
+      "note": "메모",
+      "loginName": "로그인 이름",
+      "mobileNumber": "전화번호",
+      "email": "이메일",
+      "registrationTime": "계정 등록 시간"
+    }
+  },
+  "referralLinks": {
+    "title": "추천 링크",
+    "referralLink": "추천 링크",
+    "directUsers": "직접 사용자 추천 링크",
+    "copyLink": "링크 복사",
+    "partnerLinks": "파트너 추천 링크",
+    "createNewLink": "새 링크 생성",
+    "table": {
+      "referralCode": "추천 코드",
+      "spotCommission": "현물 수수료",
+      "inferiorSpotCommission": "하위 현물 수수료",
+      "etfCommission": "ETF 수수료",
+      "inferiorEtfCommission": "하위 ETF 수수료",
+      "futuresCommission": "선물 수수료",
+      "inferiorFuturesCommission": "하위 선물 수수료",
+      "apiCommission": "API 수수료",
+      "inferiorApiCommission": "하위 API 수수료",
+      "numberOfInvites": "초대 인원",
+      "note": "메모",
+      "operate": "작업"
+    },
+    "button": {
+      "editMemo": "메모 편집",
+      "viewReferralList": "추천 목록 보기",
+      "cancel": "취소",
+      "ok": "확인"
+    },
+    "dialog": {
+      "referralList": "추천 목록",
+      "createNewLink": "새 링크 생성",
+      "editMemo": "메모 편집",
+      "partnerReferralLink": "파트너 추천 링크",
+      "spotCommission": "현물 수수료",
+      "inferiorSpotCommission": "하위 현물 수수료",
+      "etfCommission": "ETF 수수료",
+      "inferiorEtfCommission": "하위 ETF 수수료",
+      "futuresCommission": "선물 수수료",
+      "inferiorFuturesCommission": "하위 선물 수수료",
+      "apiCommission": "API 수수료",
+      "inferiorApiCommission": "하위 API 수수료",
+      "note": "메모",
+      "memo": "메모"
+    },
+    "message": {
+      "copySuccess": "복사 성공!",
+      "copyFailed": "복사 실패!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "모든 주문 조회",
+    "search": {
+      "uid": "UID",
+      "orderId": "주문 ID",
+      "userType": "사용자 유형",
+      "accountType": "계정 유형",
+      "currency": "통화",
+      "direction": "방향",
+      "status": "상태",
+      "dateRange": "날짜 범위",
+      "startDate": "시작 날짜",
+      "endDate": "종료 날짜"
+    },
+    "userType": {
+      "currentUser": "현재 사용자",
+      "subordinates": "하급자",
+      "allUsers": "모든 사용자"
+    },
+    "accountType": {
+      "main": "메인 계정",
+      "sub": "하위 계정",
+      "all": "모든 통화"
+    },
+    "direction": {
+      "openLong": "롱 오프닝",
+      "openShort": "숏 오프닝",
+      "closeLong": "롱 클로징",
+      "closeShort": "숏 클로징"
+    },
+    "status": {
+      "closed": "마감",
+      "canceled": "취소됨"
+    },
+    "button": {
+      "search": "조회"
+    },
+    "table": {
+      "no": "번호",
+      "uid": "UID",
+      "accountType": "계정 유형",
+      "mainAccount": "주 계정",
+      "currency": "통화",
+      "margin": "보증금",
+      "leverage": "레버리지",
+      "currency2": "통화",
+      "openPrice": "개시 가격",
+      "dealPrice": "거래 가격",
+      "averagePrice": "평균 가격",
+      "openQty": "개시 수량",
+      "dealQty": "거래 수량",
+      "direction": "방향",
+      "status": "상태",
+      "type": "유형",
+      "orderId": "주문 ID",
+      "orderNo": "주문 번호",
+      "openTime": "개시 시간"
+    }
+  },
+  "dashboard": {
+    "title": "대시보드",
+    "welcome": "환영합니다"
   }
 }

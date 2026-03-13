@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "ログイン",
+    "username": "アカウント",
+    "password": "パスワード",
+    "remember": "ログイン情報を記憶",
+    "loginBtn": "ログイン",
+    "usernamePlaceholder": "ユーザー名を入力してください",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "loggingIn": "ログイン中...",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "pleaseEnterAccount": "アカウントを入力してください",
+    "pleaseEnterPassword": "パスワードを入力してください",
+    "loginSuccessful": "ログイン成功！"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "海外サポートシステム"
+  },
+  "layout": {
+    "logo": "チャンネルサポートシステム",
+    "logoShort": "CSS",
+    "collapseExpand": "折りたたむ/展開",
+    "select": "選択",
+    "futuresRebate": "先物リベート率",
+    "spotRebate": "現物リベート率",
+    "etfRebate": "ETFリベート率",
+    "apiRebate": "APIリベート率",
+    "languages": {
+      "zh-CN": "簡体字中国語",
+      "zh-TW": "繁体字中国語",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "パスワード変更",
+    "managementArea": "管理エリア：その他",
+    "logout": "ログアウト",
+    "messageInfo": "CrazyEarn Happy Week # 2: USDTで13% APR",
+    "more": "もっと"
+  },
+  "menu": {
+    "homePage": "ホームページ概要",
+    "searchRebate": "リベート記録を検索",
+    "rebateSummary": "リベート概要",
+    "rebateRecords": "リベート記録",
+    "partnerManagement": "パートナー管理",
+    "partnerConfig": "パートナー設定",
+    "partnerList": "パートナー一覧",
+    "referralLinks": "紹介リンク",
+    "searchAllOrders": "すべての注文を検索",
+    "depositWithdraw": "入金/出金",
+    "otcDeposit": "OTC入金/出金",
+    "coinDeposit": "コイン入金/出金",
+    "transfer": "送金",
+    "externalDeposit": "外部入金合計",
+    "securityCenter": "セキュリティセンター"
+  },
+  "transfer": {
+    "search": {
+      "uid": "ユーザーUID",
+      "userType": "ユーザータイプ",
+      "direction": "ビジネス方向",
+      "startDate": "開始日",
+      "endDate": "終了日"
+    },
+    "type": {
+      "nonPartner": "非パートナー",
+      "partner": "パートナー"
+    },
+    "direction": {
+      "deposit": "入金",
+      "withdraw": "出金"
+    },
+    "button": {
+      "search": "検索",
+      "download": "ダウンロード"
+    },
+    "dataUpdateTime": "データ更新時間",
+    "table": {
+      "uid": "ユーザーUID",
+      "userType": "ユーザータイプ",
+      "currency": "通貨",
+      "amount": "数量",
+      "direction": "ビジネス方向",
+      "note": "メモ",
+      "createTime": "作成時間"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "ユーザーUID",
+      "userType": "ユーザータイプ",
+      "currency": "通貨",
+      "startDate": "開始日",
+      "endDate": "終了日"
+    },
+    "type": {
+      "nonPartner": "非パートナー",
+      "partner": "パートナー"
+    },
+    "button": {
+      "search": "検索",
+      "download": "ダウンロード"
+    },
+    "dataUpdateTime": "データ更新時間",
+    "table": {
+      "uid": "ユーザーUID",
+      "userType": "ユーザータイプ",
+      "currency": "通貨",
+      "totalExternalDeposit": "ノード総外部入金",
+      "totalExternalWithdraw": "ノード総外部出金",
+      "totalNodeUsers": "ノード総人数",
+      "totalExternalDepositUsers": "ノード総外部入金人数"
+    }
+  },
+  "home": {
+    "newSystemButton": "新しいチャンネルサポートシステムがオンラインになりました。クリックして新しい体験を得る",
+    "teamDailyNew": "チーム日次新規登録",
+    "timeOfDataUpdate": "データ更新時間：",
+    "select": "選択",
+    "all": "すべて",
+    "futures": "先物",
+    "spot": "現物",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "リアルタイム",
+      "yesterday": "昨日",
+      "last7days": "過去7日間",
+      "last30days": "過去30日間",
+      "thisMonth": "今月",
+      "lastMonth": "先月",
+      "thisYear": "今年",
+      "history": "履歴"
+    },
+    "cards": {
+      "registrations": "登録（チーム）",
+      "tradingVolume": "取引量（チーム）",
+      "tradingFees": "取引手数料（チーム）",
+      "totalCommission": "手数料分配合計（チーム）"
+    },
+    "charts": {
+      "dailyNewDeposit": "チーム昨日新規入金",
+      "dailyNewWithdrawal": "チーム昨日新規出金",
+      "dailyNewTransactionVolume": "チーム昨日取引量",
+      "dailyTransactionFee": "チーム昨日取引手数料概要",
+      "estimatedRebatesYesterday": "チーム昨日推定リベート額",
+      "estimatedRebatesToday": "チーム今日推定リベート額",
+      "exactRebatesYesterday": "チーム昨日確定リベート額",
+      "totalDeposit": "チーム累計入金",
+      "totalWithdrawal": "チーム累計出金",
+      "activeUsers": "チーム先物アクティブユーザー"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "マイリベート",
+    "selfReturnRebate": "自己リベート",
+    "clientTransactionFee": "クライアント取引手数料",
+    "clientContributionRebate": "クライアント貢献リベート",
+    "totalTransactionFee": "総取引手数料",
+    "totalRebate": "総リベート",
+    "uid": "UID",
+    "note": "メモ",
+    "userType": "ユーザータイプ",
+    "client": "クライアント",
+    "agent": "エージェント",
+    "currency": "通貨",
+    "allCurrency": "すべての通貨",
+    "start": "開始",
+    "end": "終了",
+    "search": "検索",
+    "reset": "リセット",
+    "table": {
+      "date": "日付",
+      "uid": "UID",
+      "time": "時間",
+      "symbol": "シンボル",
+      "type": "タイプ",
+      "side": "サイド",
+      "volume": "数量",
+      "price": "価格",
+      "fee": "手数料",
+      "rebate": "リベート",
+      "currency": "通貨",
+      "note": "メモ"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "選択してください",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "yesterday": "昨日",
+    "today": "今日",
+    "search": "検索",
+    "distributionNote": "リベートは翌日の07:00（UTC）に分配されます",
+    "back": "戻る",
+    "next": "次へ",
+    "transactionType": {
+      "futures": "先物",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "現物",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "通貨",
+      "estimatedRebate": "推定リベート額",
+      "actualRebate": "実際のリベート額",
+      "transactionType": "取引タイプ",
+      "arrivalTime": "到着時間",
+      "issueStatus": "発行ステータス",
+      "issued": "発行済み",
+      "pending": "保留中"
+    }
+  },
+  "common": {
+    "search": "検索",
+    "export": "エクスポート",
+    "download": "ダウンロード",
+    "reset": "リセット",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "uid": "UID",
+    "userType": "ユーザータイプ",
+    "currency": "通貨",
+    "allCurrency": "すべての通貨",
+    "direction": "方向",
+    "status": "ステータス",
+    "note": "メモ",
+    "time": "時間",
+    "date": "日付",
+    "quantity": "数量",
+    "noData": "データなし"
+  },
+  "otcDeposit": {
+    "title": "OTC入金/出金",
+    "search": {
+      "uid": "UID",
+      "orderId": "注文ID",
+      "userType": "ユーザータイプ",
+      "accountType": "アカウントタイプ",
+      "currency": "通貨",
+      "quoteCurrency": "見積通貨",
+      "direction": "方向",
+      "status": "ステータス",
+      "dateRange": "日付範囲",
+      "startDate": "開始日",
+      "endDate": "終了日",
+      "businessDirection": "ビジネス方向"
+    },
+    "userType": {
+      "currentUser": "現在のユーザー",
+      "subordinates": "部下",
+      "allUsers": "すべてのユーザー",
+      "client": "クライアント",
+      "agent": "エージェント"
+    },
+    "businessDirection": {
+      "deposit": "入金",
+      "withdrawal": "出金"
+    },
+    "accountType": {
+      "main": "メインアカウント",
+      "sub": "サブアカウント"
+    },
+    "direction": {
+      "openLong": "オープン/ロング",
+      "openShort": "オープン/ショット",
+      "closeLong": "クローズ/ロング",
+      "closeShort": "クローズ/ショット"
+    },
+    "status": {
+      "closed": "決済済",
+      "canceled": "キャンセル済"
+    },
+    "table": {
+      "no": "No",
+      "uid": "UID",
+      "userType": "ユーザータイプ",
+      "accountType": "アカウントタイプ",
+      "mainAccount": "所属メインアカウント",
+      "currency": "通貨",
+      "quantity": "数量",
+      "businessDirection": "ビジネス方向",
+      "margin": "証拠金",
+      "leverage": "レバレッジ",
+      "quoteCurrency": "見積通貨",
+      "openPrice": "オープン価格",
+      "dealPrice": "取引価格",
+      "averagePrice": "平均価格",
+      "openQty": "オープン数量",
+      "dealQty": "取引数量",
+      "direction": "方向",
+      "status": "ステータス",
+      "type": "タイプ",
+      "orderId": "注文ID",
+      "orderNo": "注文番号",
+      "openTime": "オープン時間",
+      "note": "メモ",
+      "transactionTime": "取引時間"
+    },
+    "button": {
+      "search": "検索",
+      "export": "エクスポート"
+    },
+    "updateTime": "データ更新時間"
+  },
+  "coinDeposit": {
+    "title": "コイン入金/出金",
+    "search": {
+      "uid": "UID",
+      "userType": "ユーザータイプ",
+      "businessDirection": "ビジネス方向",
+      "currency": "通貨",
+      "dateRange": "から",
+      "startDate": "開始日",
+      "endDate": "終了日"
+    },
+    "userType": {
+      "nonPartner": "パートナー以外",
+      "partner": "パートナー"
+    },
+    "businessDirection": {
+      "deposit": "入金",
+      "withdrawal": "出金"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "ユーザータイプ",
+      "currency": "通貨",
+      "quantity": "数量",
+      "businessDirection": "ビジネス方向",
+      "note": "メモ",
+      "transactionTime": "取引時間"
+    },
+    "button": {
+      "search": "検索",
+      "export": "エクスポート"
+    },
+    "updateTime": "データ更新時間"
+  },
+  "partnerConfig": {
+    "title": "パートナー設定",
+    "search": {
+      "uid": "UID",
+      "note": "メモ",
+      "futuresRebateRatio": "先物リベート率",
+      "type": "タイプ"
+    },
+    "type": {
+      "client": "クライアント",
+      "agent": "エージェント"
+    },
+    "button": {
+      "search": "検索",
+      "addPartner": "パートナー追加",
+      "modifyInfo": "情報変更",
+      "back": "戻る",
+      "next": "次へ",
+      "cancel": "キャンセル",
+      "ok": "OK"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "国/地域",
+      "futuresRebateRatio": "先物リベート率",
+      "apiRebateRatio": "APIリベート率",
+      "spotRebateRatio": "現物リベート率",
+      "etfRebateRatio": "ETFリベート率",
+      "note": "メモ",
+      "loginName": "ログイン名",
+      "mobileNumber": "電話番号",
+      "email": "メール"
+    },
+    "dialog": {
+      "addPartner": "パートナー追加",
+      "changePassword": "パスワード変更",
+      "uid": "UID",
+      "type": "タイプ",
+      "futuresRebate": "先物リベート",
+      "apiRebate": "APIリベート",
+      "spotRebate": "現物リベート",
+      "etfRebate": "ETFリベート",
+      "note": "メモ",
+      "newPassword": "新しいパスワード",
+      "confirmPassword": "パスワード確認"
+    },
+    "updateTime": "データ更新時間"
+  },
+  "partnerList": {
+    "title": "パートナー一覧",
+    "search": {
+      "uid": "UID",
+      "note": "メモ",
+      "feeRatio": "手数料率",
+      "userType": "ユーザータイプ"
+    },
+    "type": {
+      "client": "クライアント",
+      "agent": "エージェント"
+    },
+    "button": {
+      "search": "検索"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "パートナー識別",
+      "futuresRebateRatio": "先物リベート率",
+      "totalFuturesRebate": "チーム先物リベート合計",
+      "totalFuturesServiceCharge": "チーム先物サービス料合計",
+      "spotRebateRatio": "現物リベート率",
+      "totalSpotRebate": "チーム現物リベート合計",
+      "totalSpotServiceCharge": "チーム現物サービス料合計",
+      "etfRebateRatio": "ETFリベート率",
+      "totalEtfRebate": "チームETFリベート合計",
+      "totalEtfServiceCharge": "チームETFサービス料合計",
+      "currencyName": "通貨名",
+      "teamTotalDeposit": "チーム入金合計",
+      "teamTotalWithdrawal": "チーム出金合計",
+      "teamTotalNumber": "チーム人数合計",
+      "teamTotalDepositUsers": "チーム入金ユーザー",
+      "firstDepositTime": "初回入金時間",
+      "note": "メモ",
+      "loginName": "ログイン名",
+      "mobileNumber": "電話番号",
+      "email": "メール",
+      "registrationTime": "アカウント登録時間"
+    }
+  },
+  "referralLinks": {
+    "title": "紹介リンク",
+    "referralLink": "紹介リンク",
+    "directUsers": "直接ユーザー紹介リンク",
+    "copyLink": "リンクをコピー",
+    "partnerLinks": "パートナー紹介リンク",
+    "createNewLink": "新規リンク作成",
+    "table": {
+      "referralCode": "紹介コード",
+      "spotCommission": "現物手数料",
+      "inferiorSpotCommission": "下位現物手数料",
+      "etfCommission": "ETF手数料",
+      "inferiorEtfCommission": "下位ETF手数料",
+      "futuresCommission": "先物手数料",
+      "inferiorFuturesCommission": "下位先物手数料",
+      "apiCommission": "API手数料",
+      "inferiorApiCommission": "下位API手数料",
+      "numberOfInvites": "招待数",
+      "note": "メモ",
+      "operate": "操作"
+    },
+    "button": {
+      "editMemo": "メモ編集",
+      "viewReferralList": "紹介リスト表示",
+      "cancel": "キャンセル",
+      "ok": "OK"
+    },
+    "dialog": {
+      "referralList": "紹介リスト",
+      "createNewLink": "新規リンク作成",
+      "editMemo": "メモ編集",
+      "partnerReferralLink": "パートナー紹介リンク",
+      "spotCommission": "現物手数料",
+      "inferiorSpotCommission": "下位現物手数料",
+      "etfCommission": "ETF手数料",
+      "inferiorEtfCommission": "下位ETF手数料",
+      "futuresCommission": "先物手数料",
+      "inferiorFuturesCommission": "下位先物手数料",
+      "apiCommission": "API手数料",
+      "inferiorApiCommission": "下位API手数料",
+      "note": "メモ",
+      "memo": "メモ"
+    },
+    "message": {
+      "copySuccess": "コピー成功！",
+      "copyFailed": "コピー失敗！"
+    }
+  },
+  "searchAllOrders": {
+    "title": "すべての注文を検索",
+    "search": {
+      "uid": "UID",
+      "orderId": "注文ID",
+      "userType": "ユーザータイプ",
+      "accountType": "アカウントタイプ",
+      "currency": "通貨",
+      "direction": "方向",
+      "status": "ステータス",
+      "dateRange": "日付範囲",
+      "startDate": "開始日",
+      "endDate": "終了日"
+    },
+    "userType": {
+      "currentUser": "現在のユーザー",
+      "subordinates": "部下",
+      "allUsers": "すべてのユーザー"
+    },
+    "accountType": {
+      "main": "メインアカウント",
+      "sub": "サブアカウント",
+      "all": "すべての通貨"
+    },
+    "direction": {
+      "openLong": "オープン/ロング",
+      "openShort": "オープン/ショット",
+      "closeLong": "クローズ/ロング",
+      "closeShort": "クローズ/ショット"
+    },
+    "status": {
+      "closed": "決済済",
+      "canceled": "キャンセル済"
+    },
+    "button": {
+      "search": "検索"
+    },
+    "table": {
+      "no": "No",
+      "uid": "UID",
+      "accountType": "アカウントタイプ",
+      "mainAccount": "所属メインアカウント",
+      "currency": "通貨",
+      "margin": "証拠金",
+      "leverage": "レバレッジ",
+      "currency2": "通貨",
+      "openPrice": "オープン価格",
+      "dealPrice": "取引価格",
+      "averagePrice": "平均価格",
+      "openQty": "オープン数量",
+      "dealQty": "取引数量",
+      "direction": "方向",
+      "status": "ステータス",
+      "type": "タイプ",
+      "orderId": "注文ID",
+      "orderNo": "注文番号",
+      "openTime": "オープン時間"
+    }
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "welcome": "ようこそ"
+  }
+}

@@ -1,3 +1,32 @@
+:root {
+  /* ========== 主题色 - 独立于昼夜模式，用于品牌色/状态色统一管理 ========== */
+  /* OpenSea Blue 主色调 */
+  --brand-primary: #2081e2;
+  --brand-primary-light: #4a9aea;
+  --brand-primary-dark: #1868b7;
+
+  /* 次要主题色 */
+  --brand-secondary: #8a939b;
+
+  /* 强调色 */
+  --brand-accent: #2081e2;
+
+  /* 标签/选项卡选中状态 */
+  --brand-tab-active-bg: #2081e2;
+  --brand-tab-active-text: #ffffff;
+
+  /* 选中状态背景/文字 */
+  --brand-selected-bg: #e9f1fb;
+  --brand-selected-text: #2081e2;
+
+  /* 图表主题色 */
+  --brand-chart-1: #2081e2;
+  --brand-chart-2: #4a9aea;
+  --brand-chart-3: #eb5757;
+  --brand-chart-4: #34c759;
+  --brand-chart-5: #e6a23c;
+}
+
 /*
  * Copyright © 2026 TinyTrader. All rights reserved.
  * Author: Raymond
@@ -18,7 +47,14 @@ html, body, #app {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--theme-bg-main);
+  color: var(--theme-text-primary);
 }
 
 #app {

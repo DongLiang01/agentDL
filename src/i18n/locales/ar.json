@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "تسجيل الدخول",
+    "username": "الحساب",
+    "password": "كلمة المرور",
+    "remember": "تذكر معلومات تسجيل الدخول",
+    "loginBtn": "تسجيل الدخول",
+    "usernamePlaceholder": "يرجى إدخال اسم المستخدم",
+    "passwordPlaceholder": "يرجى إدخال كلمة المرور",
+    "loggingIn": "جاري تسجيل الدخول...",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "pleaseEnterAccount": "يرجى إدخال الحساب",
+    "pleaseEnterPassword": "يرجى إدخال كلمة المرور",
+    "loginSuccessful": "تم تسجيل الدخول بنجاح!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "نظام الدعم الدولي"
+  },
+  "layout": {
+    "logo": "نظام دعم القنوات",
+    "logoShort": "CSS",
+    "collapseExpand": "طي/توسيع",
+    "select": "اختيار",
+    "futuresRebate": "نسبة استرداد العقود الآجلة",
+    "spotRebate": "نسبة استرداد العملات الفورية",
+    "etfRebate": "نسبة استرداد ETF",
+    "apiRebate": "نسبة استرداد API",
+    "languages": {
+      "zh-CN": "الصينية المبسطة",
+      "zh-TW": "الصينية التقليدية",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "تغيير كلمة المرور",
+    "managementArea": "منطقة الإدارة: أخرى",
+    "logout": "تسجيل الخروج",
+    "messageInfo": "CrazyEarn Happy Week # 2: 13% APR على USDT",
+    "more": "المزيد"
+  },
+  "menu": {
+    "homePage": "نظرة عامة على الصفحة الرئيسية",
+    "searchRebate": "البحث في سجل الاسترداد",
+    "rebateSummary": "ملخص الاسترداد",
+    "rebateRecords": "سجلات الاسترداد",
+    "partnerManagement": "إدارة الشركاء",
+    "partnerConfig": "تكوين الشركاء",
+    "partnerList": "قائمة الشركاء",
+    "referralLinks": "روابط الإحالة",
+    "searchAllOrders": "البحث في جميع الطلبات",
+    "depositWithdraw": "الإيداع/السحب",
+    "otcDeposit": "الإيداع/السحب OTC",
+    "coinDeposit": "إيداع/سحب العملات",
+    "transfer": "تحويل",
+    "externalDeposit": "المبلغ الإجمالي للإيداع الخارجي",
+    "securityCenter": "مركز الأمان"
+  },
+  "transfer": {
+    "search": {
+      "uid": "معرف المستخدم",
+      "userType": "نوع المستخدم",
+      "direction": "اتجاه العمل",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "type": {
+      "nonPartner": "ليس شريكاً",
+      "partner": "شريك"
+    },
+    "direction": {
+      "deposit": "إيداع",
+      "withdraw": "سحب"
+    },
+    "button": {
+      "search": "بحث",
+      "download": "تحميل"
+    },
+    "dataUpdateTime": "وقت تحديث البيانات",
+    "table": {
+      "uid": "معرف المستخدم",
+      "userType": "نوع المستخدم",
+      "currency": "العملة",
+      "amount": "الكمية",
+      "direction": "اتجاه العمل",
+      "note": "ملاحظة",
+      "createTime": "وقت الإنشاء"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "معرف المستخدم",
+      "userType": "نوع المستخدم",
+      "currency": "العملة",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "type": {
+      "nonPartner": "غير شريك",
+      "partner": "شريك"
+    },
+    "button": {
+      "search": "بحث",
+      "download": "تحميل"
+    },
+    "dataUpdateTime": "وقت تحديث البيانات",
+    "table": {
+      "uid": "معرف المستخدم",
+      "userType": "نوع المستخدم",
+      "currency": "العملة",
+      "totalExternalDeposit": "إجمالي الإيداع الخارجي للعقدة",
+      "totalExternalWithdraw": "إجمالي السحب الخارجي للعقدة",
+      "totalNodeUsers": "إجمالي مستخدمي العقدة",
+      "totalExternalDepositUsers": "إجمالي مستخدمي الإيداع الخارجي للعقدة"
+    }
+  },
+  "home": {
+    "newSystemButton": "نظام دعم القنوات الجديد متصل الآن. انقر للذهاب والحصول على تجربة جديدة",
+    "teamDailyNew": "التسجيلات اليومية الجديدة للفريق",
+    "timeOfDataUpdate": "وقت تحديث البيانات: ",
+    "select": "اختيار",
+    "all": "الكل",
+    "futures": "العقود الآجلة",
+    "spot": "فوري",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "الوقت الفعلي",
+      "yesterday": "أمس",
+      "last7days": "آخر 7 أيام",
+      "last30days": "آخر 30 يومًا",
+      "thisMonth": "هذا الشهر",
+      "lastMonth": "الشهر الماضي",
+      "thisYear": "هذا العام",
+      "history": "السجل"
+    },
+    "cards": {
+      "registrations": "التسجيلات (الفريق)",
+      "tradingVolume": "حجم التداول (الفريق)",
+      "tradingFees": "رسوم التداول (الفريق)",
+      "totalCommission": "إجمالي العمولة المشتركة (الفريق)"
+    },
+    "charts": {
+      "dailyNewDeposit": "إيداعات الفريق الجديدة أمس",
+      "dailyNewWithdrawal": "سحوبات الفريق الجديدة أمس",
+      "dailyNewTransactionVolume": "حجم تداولات الفريق أمس",
+      "dailyTransactionFee": "نظرة عامة على رسوم تداولات الفريق أمس",
+      "estimatedRebatesYesterday": "المبلغ المقدر للاسترداد أمس للفريق",
+      "estimatedRebatesToday": "المبلغ المقدر للاسترداد اليوم للفريق",
+      "exactRebatesYesterday": "المبلغ الفعلي للاسترداد أمس للفريق",
+      "totalDeposit": "إجمالي الإيداعات التراكمية للفريق",
+      "totalWithdrawal": "إجمالي السحوبات التراكمية للفريق",
+      "activeUsers": "المستخدمون النشطون للعقود الآجلة للفريق"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "استردادي",
+    "selfReturnRebate": "استرداد ذاتي",
+    "clientTransactionFee": "رسوم معاملة العميل",
+    "clientContributionRebate": "استرداد مساهمة العميل",
+    "totalTransactionFee": "إجمالي رسوم المعاملات",
+    "totalRebate": "إجمالي الاسترداد",
+    "uid": "UID",
+    "note": "ملاحظة",
+    "userType": "نوع المستخدم",
+    "client": "عميل",
+    "agent": "وكيل",
+    "currency": "العملة",
+    "allCurrency": "جميع العملات",
+    "start": "بداية",
+    "end": "نهاية",
+    "search": "بحث",
+    "reset": "إعادة تعيين",
+    "table": {
+      "date": "التاريخ",
+      "uid": "UID",
+      "time": "الوقت",
+      "symbol": "الرمز",
+      "type": "النوع",
+      "side": "الاتجاه",
+      "volume": "الحجم",
+      "price": "السعر",
+      "fee": "الرسوم",
+      "rebate": "استرداد",
+      "currency": "العملة",
+      "note": "ملاحظة"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "يرجى الاختيار",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "yesterday": "أمس",
+    "today": "اليوم",
+    "search": "بحث",
+    "distributionNote": "سيتم توزيع الاسترداد عليك في الساعة 07:00 (UTC) من اليوم التالي",
+    "back": "رجوع",
+    "next": "التالي",
+    "transactionType": {
+      "futures": "العقود الآجلة",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "فوري",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "العملة",
+      "estimatedRebate": "المبلغ المقدر للاسترداد",
+      "actualRebate": "المبلغ الفعلي للاسترداد",
+      "transactionType": "نوع المعاملة",
+      "arrivalTime": "وقت الوصول",
+      "issueStatus": "حالة الإصدار",
+      "issued": "تم الإصدار",
+      "pending": "قيد الانتظار"
+    }
+  },
+  "common": {
+    "search": "بحث",
+    "export": "تصدير",
+    "download": "تنزيل",
+    "reset": "إعادة تعيين",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "uid": "UID",
+    "userType": "نوع المستخدم",
+    "currency": "العملة",
+    "allCurrency": "جميع العملات",
+    "direction": "الاتجاه",
+    "status": "الحالة",
+    "note": "ملاحظة",
+    "time": "الوقت",
+    "date": "التاريخ",
+    "quantity": "الكمية",
+    "noData": "لا توجد بيانات"
+  },
+  "otcDeposit": {
+    "title": "الإيداع/السحب OTC",
+    "search": {
+      "uid": "UID",
+      "orderId": "معرف الطلب",
+      "userType": "نوع المستخدم",
+      "accountType": "نوع الحساب",
+      "currency": "العملة",
+      "quoteCurrency": "عملة الاقتباس",
+      "direction": "الاتجاه",
+      "status": "الحالة",
+      "dateRange": "نطاق التاريخ",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "businessDirection": "اتجاه العمل"
+    },
+    "userType": {
+      "currentUser": "المستخدم الحالي",
+      "subordinates": "المرؤوسون",
+      "allUsers": "جميع المستخدمين",
+      "client": "عميل",
+      "agent": "وكيل"
+    },
+    "businessDirection": {
+      "deposit": "إيداع",
+      "withdrawal": "سحب"
+    },
+    "accountType": {
+      "main": "الحساب الرئيسي",
+      "sub": "الحساب الفرعي"
+    },
+    "direction": {
+      "openLong": "فتح/Long",
+      "openShort": "فتح/Short",
+      "closeLong": "إغلاق/Long",
+      "closeShort": "إغلاق/Short"
+    },
+    "status": {
+      "closed": "مغلق",
+      "canceled": "ملغى"
+    },
+    "table": {
+      "no": "لا",
+      "uid": "UID",
+      "userType": "نوع المستخدم",
+      "accountType": "نوع الحساب",
+      "mainAccount": "الحساب الرئيسي التابع",
+      "currency": "العملة",
+      "quantity": "الكمية",
+      "businessDirection": "اتجاه العمل",
+      "margin": "الهامش",
+      "leverage": "الرافعة المالية",
+      "quoteCurrency": "عملة الاقتباس",
+      "openPrice": "سعر الفتح",
+      "dealPrice": "سعر الصفقة",
+      "averagePrice": "متوسط السعر",
+      "openQty": "كمية الفتح",
+      "dealQty": "كمية الصفقة",
+      "direction": "الاتجاه",
+      "status": "الحالة",
+      "type": "النوع",
+      "orderId": "معرف الطلب",
+      "orderNo": "رقم الطلب",
+      "openTime": "وقت الفتح",
+      "note": "ملاحظة",
+      "transactionTime": "وقت المعاملة"
+    },
+    "button": {
+      "search": "بحث",
+      "export": "تصدير"
+    },
+    "updateTime": "وقت تحديث البيانات"
+  },
+  "coinDeposit": {
+    "title": "إيداع/سحب العملات",
+    "search": {
+      "uid": "UID",
+      "userType": "نوع المستخدم",
+      "businessDirection": "اتجاه العمل",
+      "currency": "العملة",
+      "dateRange": "إلى",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "userType": {
+      "nonPartner": "ليس شريكًا",
+      "partner": "شريك"
+    },
+    "businessDirection": {
+      "deposit": "إيداع",
+      "withdrawal": "سحب"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "نوع المستخدم",
+      "currency": "العملة",
+      "quantity": "الكمية",
+      "businessDirection": "اتجاه العمل",
+      "note": "ملاحظة",
+      "transactionTime": "وقت المعاملة"
+    },
+    "button": {
+      "search": "بحث",
+      "export": "تصدير"
+    },
+    "updateTime": "وقت تحديث البيانات"
+  },
+  "partnerConfig": {
+    "title": "تكوين الشركاء",
+    "search": {
+      "uid": "UID",
+      "note": "ملاحظة",
+      "futuresRebateRatio": "نسبة استرداد العقود الآجلة",
+      "type": "النوع"
+    },
+    "type": {
+      "client": "عميل",
+      "agent": "وكيل"
+    },
+    "button": {
+      "search": "بحث",
+      "addPartner": "إضافة شريك",
+      "modifyInfo": "تعديل المعلومات",
+      "back": "رجوع",
+      "next": "التالي",
+      "cancel": "إلغاء",
+      "ok": "موافق"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "البلد/المنطقة",
+      "futuresRebateRatio": "نسبة استرداد العقود الآجلة",
+      "apiRebateRatio": "نسبة استرداد API",
+      "spotRebateRatio": "نسبة استرداد العملات الفورية",
+      "etfRebateRatio": "نسبة استرداد ETF",
+      "note": "ملاحظة",
+      "loginName": "اسم تسجيل الدخول",
+      "mobileNumber": "رقم الهاتف",
+      "email": "البريد الإلكتروني"
+    },
+    "dialog": {
+      "addPartner": "إضافة شريك",
+      "changePassword": "تغيير كلمة المرور",
+      "uid": "UID",
+      "type": "النوع",
+      "futuresRebate": "استرداد العقود الآجلة",
+      "apiRebate": "استرداد API",
+      "spotRebate": "استرداد العملات الفورية",
+      "etfRebate": "استرداد ETF",
+      "note": "ملاحظة",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور"
+    },
+    "updateTime": "وقت تحديث البيانات"
+  },
+  "partnerList": {
+    "title": "قائمة الشركاء",
+    "search": {
+      "uid": "UID",
+      "note": "ملاحظة",
+      "feeRatio": "نسبة الرسوم",
+      "userType": "نوع المستخدم"
+    },
+    "type": {
+      "client": "عميل",
+      "agent": "وكيل"
+    },
+    "button": {
+      "search": "بحث"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "هوية الشريك",
+      "futuresRebateRatio": "نسبة استرداد العقود الآجلة",
+      "totalFuturesRebate": "إجمالي استرداد العقود الآجلة للفريق",
+      "totalFuturesServiceCharge": "إجمالي رسوم خدمة العقود الآجلة للفريق",
+      "spotRebateRatio": "نسبة استرداد العملات الفورية",
+      "totalSpotRebate": "إجمالي استرداد العملات الفورية للفريق",
+      "totalSpotServiceCharge": "إجمالي رسوم خدمة العملات الفورية للفريق",
+      "etfRebateRatio": "نسبة استرداد ETF",
+      "totalEtfRebate": "إجمالي استرداد ETF للفريق",
+      "totalEtfServiceCharge": "إجمالي رسوم خدمة ETF للفريق",
+      "currencyName": "اسم العملة",
+      "teamTotalDeposit": "إجمالي إيداعات الفريق",
+      "teamTotalWithdrawal": "إجمالي سحوبات الفريق",
+      "teamTotalNumber": "إجمالي عدد الفريق",
+      "teamTotalDepositUsers": "مستخدمو إيداع الفريق",
+      "firstDepositTime": "وقت الإيداع الأول",
+      "note": "ملاحظة",
+      "loginName": "اسم تسجيل الدخول",
+      "mobileNumber": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "registrationTime": "وقت تسجيل الحساب"
+    }
+  },
+  "referralLinks": {
+    "title": "روابط الإحالة",
+    "referralLink": "رابط الإحالة",
+    "directUsers": "رابط إحالة المستخدمين المباشرين",
+    "copyLink": "نسخ الرابط",
+    "partnerLinks": "روابط إحالة الشركاء",
+    "createNewLink": "إنشاء رابط جديد",
+    "table": {
+      "referralCode": "كود الإحالة",
+      "spotCommission": "عمولة SPOT",
+      "inferiorSpotCommission": "عمولة SPOT الفرعية",
+      "etfCommission": "عمولة ETF",
+      "inferiorEtfCommission": "عمولة ETF الفرعية",
+      "futuresCommission": "عمولة العقود الآجلة",
+      "inferiorFuturesCommission": "عمولة العقود الآجلة الفرعية",
+      "apiCommission": "عمولة API",
+      "inferiorApiCommission": "عمولة API الفرعية",
+      "numberOfInvites": "عدد الدعوات",
+      "note": "ملاحظة",
+      "operate": "تشغيل"
+    },
+    "button": {
+      "editMemo": "تعديل الملاحظة",
+      "viewReferralList": "عرض قائمة الإحالات",
+      "cancel": "إلغاء",
+      "ok": "موافق"
+    },
+    "dialog": {
+      "referralList": "قائمة الإحالات",
+      "createNewLink": "إنشاء رابط جديد",
+      "editMemo": "تعديل الملاحظة",
+      "partnerReferralLink": "رابط إحالة الشريك",
+      "spotCommission": "عمولة SPOT",
+      "inferiorSpotCommission": "عمولة SPOT الفرعية",
+      "etfCommission": "عمولة ETF",
+      "inferiorEtfCommission": "عمولة ETF الفرعية",
+      "futuresCommission": "عمولة العقود الآجلة",
+      "inferiorFuturesCommission": "عمولة العقود الآجلة الفرعية",
+      "apiCommission": "عمولة API",
+      "inferiorApiCommission": "عمولة API الفرعية",
+      "note": "ملاحظة",
+      "memo": "ملاحظة"
+    },
+    "message": {
+      "copySuccess": "تم النسخ بنجاح!",
+      "copyFailed": "فشل النسخ!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "البحث في جميع الطلبات",
+    "search": {
+      "uid": "UID",
+      "orderId": "معرف الطلب",
+      "userType": "نوع المستخدم",
+      "accountType": "نوع الحساب",
+      "currency": "العملة",
+      "direction": "الاتجاه",
+      "status": "الحالة",
+      "dateRange": "نطاق التاريخ",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "userType": {
+      "currentUser": "المستخدم الحالي",
+      "subordinates": "المرؤوسون",
+      "allUsers": "جميع المستخدمين"
+    },
+    "accountType": {
+      "main": "الحساب الرئيسي",
+      "sub": "الحساب الفرعي",
+      "all": "جميع العملات"
+    },
+    "direction": {
+      "openLong": "فتح/Long",
+      "openShort": "فتح/Short",
+      "closeLong": "إغلاق/Long",
+      "closeShort": "إغلاق/Short"
+    },
+    "status": {
+      "closed": "مغلق",
+      "canceled": "ملغى"
+    },
+    "button": {
+      "search": "بحث"
+    },
+    "table": {
+      "no": "لا",
+      "uid": "UID",
+      "accountType": "نوع الحساب",
+      "mainAccount": "الحساب الرئيسي التابع",
+      "currency": "العملة",
+      "margin": "الهامش",
+      "leverage": "الرافعة المالية",
+      "currency2": "العملة",
+      "openPrice": "سعر الفتح",
+      "dealPrice": "سعر الصفقة",
+      "averagePrice": "متوسط السعر",
+      "openQty": "كمية الفتح",
+      "dealQty": "كمية الصفقة",
+      "direction": "الاتجاه",
+      "status": "الحالة",
+      "type": "النوع",
+      "orderId": "معرف الطلب",
+      "orderNo": "رقم الطلب",
+      "openTime": "وقت الفتح"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة القيادة",
+    "welcome": "مرحبا"
+  }
+}

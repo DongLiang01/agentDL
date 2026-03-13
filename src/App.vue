@@ -5,6 +5,14 @@ This software is proprietary and confidential information of TinyTrader.
 -->
 
 <script setup>
+import { onMounted } from 'vue'
+import { useTheme } from './composables/useTheme'
+
+const { theme } = useTheme()
+
+onMounted(() => {
+  console.log('Theme initialized:', theme.value)
+})
 </script>
 
 <template>
@@ -26,6 +34,6 @@ html, body, #app {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 </style>

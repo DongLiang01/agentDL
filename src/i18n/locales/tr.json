@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "Giriş",
+    "username": "Hesap",
+    "password": "Şifre",
+    "remember": "Giriş Bilgilerini Hatırla",
+    "loginBtn": "Giriş",
+    "usernamePlaceholder": "Lütfen kullanıcı adınızı girin",
+    "passwordPlaceholder": "Lütfen şifrenizi girin",
+    "loggingIn": "Giriş yapılıyor...",
+    "forgotPassword": "Şifremi unuttum?",
+    "pleaseEnterAccount": "Lütfen hesabınızı girin",
+    "pleaseEnterPassword": "Lütfen şifrenizi girin",
+    "loginSuccessful": "Giriş başarılı!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "Yurt Dışı Destek Sistemi"
+  },
+  "layout": {
+    "logo": "Kanal Destek Sistemi",
+    "logoShort": "CDS",
+    "collapseExpand": "Daralt/Genişlet",
+    "select": "Seç",
+    "futuresRebate": "Vadeli işlem geri ödeme oranı",
+    "spotRebate": "Spot geri ödeme oranı",
+    "etfRebate": "ETF geri ödeme oranı",
+    "apiRebate": "API geri ödeme oranı",
+    "languages": {
+      "zh-CN": "Basitleştirilmiş Çince",
+      "zh-TW": "Geleneksel Çince",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "Şifre Değiştir",
+    "managementArea": "Yönetim Alanı: Diğer",
+    "logout": "Çıkış yap",
+    "messageInfo": "CrazyEarn Happy Week # 2: USDT'de %13 APR",
+    "more": "Daha fazla"
+  },
+  "menu": {
+    "homePage": "Ana Sayfa Genel Bakış",
+    "searchRebate": "Geri Ödeme Kaydı Ara",
+    "rebateSummary": "Geri Ödeme Özeti",
+    "rebateRecords": "Geri Ödeme Kayıtları",
+    "partnerManagement": "Ortak Yönetimi",
+    "partnerConfig": "Ortak Yapılandırma",
+    "partnerList": "Ortak Listesi",
+    "referralLinks": "Yönlendirme Bağlantıları",
+    "searchAllOrders": "Tüm Siparişleri Ara",
+    "depositWithdraw": "Para Yatırma/Çekme",
+    "otcDeposit": "OTC Para Yatırma/Çekme",
+    "coinDeposit": "Kripto Para Yatırma/Çekme",
+    "transfer": "Transfer",
+    "externalDeposit": "Harici para yatırma toplam tutarı",
+    "securityCenter": "Güvenlik Merkezi"
+  },
+  "transfer": {
+    "search": {
+      "uid": "Kullanıcı UID",
+      "userType": "Kullanıcı Türü",
+      "direction": "İş Yönü",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi"
+    },
+    "type": {
+      "nonPartner": "Ortağ değil",
+      "partner": "Ortağ"
+    },
+    "direction": {
+      "deposit": "Para Yatırma",
+      "withdraw": "Para Çekme"
+    },
+    "button": {
+      "search": "Ara",
+      "download": "İndir"
+    },
+    "dataUpdateTime": "Veri güncelleme zamanı",
+    "table": {
+      "uid": "Kullanıcı UID",
+      "userType": "Kullanıcı Türü",
+      "currency": "Para Birimi",
+      "amount": "Miktar",
+      "direction": "İş Yönü",
+      "note": "Not",
+      "createTime": "Oluşturma zamanı"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "Kullanıcı UID",
+      "userType": "Kullanıcı Türü",
+      "currency": "Para Birimi",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi"
+    },
+    "type": {
+      "nonPartner": "Ortağın değil",
+      "partner": "Ortağın"
+    },
+    "button": {
+      "search": "Ara",
+      "download": "İndir"
+    },
+    "dataUpdateTime": "Veri güncelleme zamanı",
+    "table": {
+      "uid": "Kullanıcı UID",
+      "userType": "Kullanıcı Türü",
+      "currency": "Para Birimi",
+      "totalExternalDeposit": "Düğüm Toplam Harici Yatırma",
+      "totalExternalWithdraw": "Düğüm Toplam Harici Çekme",
+      "totalNodeUsers": "Toplam Düğüm Kullanıcıları",
+      "totalExternalDepositUsers": "Düğüm Toplam Harici Yatırma Kullanıcıları"
+    }
+  },
+  "home": {
+    "newSystemButton": "Yeni Kanal Destek Sistemi artık online. Atlayın ve yeni deneyimi edinin",
+    "teamDailyNew": "Günlük Yeni Kayıt (Ekip)",
+    "timeOfDataUpdate": "Veri güncelleme zamanı: ",
+    "select": "Seç",
+    "all": "Tümü",
+    "futures": "Vadeli İşlemler",
+    "spot": "Spot",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "Gerçek Zamanlı",
+      "yesterday": "Dün",
+      "last7days": "Son 7 gün",
+      "last30days": "Son 30 gün",
+      "thisMonth": "Bu Ay",
+      "lastMonth": "Geçen Ay",
+      "thisYear": "Bu Yıl",
+      "history": "Geçmiş"
+    },
+    "cards": {
+      "registrations": "Kayıtlar (Ekip)",
+      "tradingVolume": "İşlem Hacmi (Ekip)",
+      "tradingFees": "İşlem Ücretleri (Ekip)",
+      "totalCommission": "Toplam Komisyon (Ekip)"
+    },
+    "charts": {
+      "dailyNewDeposit": "Dünkü Yeni Para Yatırma (Ekip)",
+      "dailyNewWithdrawal": "Dünkü Yeni Para Çekme (Ekip)",
+      "dailyNewTransactionVolume": "Dünkü İşlem Hacmi (Ekip)",
+      "dailyTransactionFee": "Dünkü İşlem Ücreti Genel Bakış (Ekip)",
+      "estimatedRebatesYesterday": "Dünkü Tahmini Geri Ödeme (Ekip)",
+      "estimatedRebatesToday": "Bugünkü Tahmini Geri Ödeme (Ekip)",
+      "exactRebatesYesterday": "Dünkü Kesin Geri Ödeme (Ekip)",
+      "totalDeposit": "Kümülatif Para Yatırma (Ekip)",
+      "totalWithdrawal": "Kümülatif Para Çekme (Ekip)",
+      "activeUsers": "Vadeli İşlem Aktif Kullanıcılar (Ekip)"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "Benim Geri Ödemem",
+    "selfReturnRebate": "Kendi İadem",
+    "clientTransactionFee": "Müşteri İşlem Ücreti",
+    "clientContributionRebate": "Müşteri Katkı Geri Ödemesi",
+    "totalTransactionFee": "Toplam İşlem Ücreti",
+    "totalRebate": "Toplam Geri Ödeme",
+    "uid": "UID",
+    "note": "Not",
+    "userType": "Kullanıcı Türü",
+    "client": "Müşteri",
+    "agent": "Acenta",
+    "currency": "Para Birimi",
+    "allCurrency": "Tüm Para Birimleri",
+    "start": "Başlangıç",
+    "end": "Bitiş",
+    "search": "Ara",
+    "reset": "Sıfırla",
+    "table": {
+      "date": "Tarih",
+      "uid": "UID",
+      "time": "Saat",
+      "symbol": "Sembol",
+      "type": "Tür",
+      "side": "Yön",
+      "volume": "Hacim",
+      "price": "Fiyat",
+      "fee": "Ücret",
+      "rebate": "Geri Ödeme",
+      "currency": "Para Birimi",
+      "note": "Not"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "Lütfen seçin",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "yesterday": "Dün",
+    "today": "Bugün",
+    "search": "Ara",
+    "distributionNote": "Geri ödemeniz gelecek gün 07:00'de (UTC) yapılacaktır",
+    "back": "Geri",
+    "next": "İleri",
+    "transactionType": {
+      "futures": "Vadeli İşlemler",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "Spot",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "Para Birimi",
+      "estimatedRebate": "Tahmini geri ödeme tutarı",
+      "actualRebate": "Gerçek geri ödeme tutarı",
+      "transactionType": "İşlem türü",
+      "arrivalTime": "Varış Zamanı",
+      "issueStatus": "Düzenleme Durumu",
+      "issued": "Düzenlendi",
+      "pending": "Beklemede"
+    }
+  },
+  "common": {
+    "search": "Ara",
+    "export": "Dışa Aktar",
+    "download": "İndir",
+    "reset": "Sıfırla",
+    "confirm": "Onayla",
+    "cancel": "İptal",
+    "uid": "UID",
+    "userType": "Kullanıcı Türü",
+    "currency": "Para Birimi",
+    "allCurrency": "Tüm Para Birimleri",
+    "direction": "Yön",
+    "status": "Durum",
+    "note": "Not",
+    "time": "Zaman",
+    "date": "Tarih",
+    "quantity": "Miktar",
+    "noData": "Veri Yok"
+  },
+  "otcDeposit": {
+    "title": "OTC Para Yatırma/Çekme",
+    "search": {
+      "uid": "UID",
+      "orderId": "Sipariş ID",
+      "userType": "Kullanıcı Türü",
+      "accountType": "Hesap Türü",
+      "currency": "Para Birimi",
+      "quoteCurrency": "Kote Para Birimi",
+      "direction": "Yön",
+      "status": "Durum",
+      "dateRange": "Tarih Aralığı",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi",
+      "businessDirection": "İş Yönü"
+    },
+    "userType": {
+      "currentUser": "Mevcut Kullanıcı",
+      "subordinates": "Alt Kullanıcılar",
+      "allUsers": "Tüm Kullanıcılar",
+      "client": "Müşteri",
+      "agent": "Acenta"
+    },
+    "businessDirection": {
+      "deposit": "Para Yatırma",
+      "withdrawal": "Para Çekme"
+    },
+    "accountType": {
+      "main": "Ana Hesap",
+      "sub": "Alt Hesap"
+    },
+    "direction": {
+      "openLong": "Long Aç",
+      "openShort": "Short Aç",
+      "closeLong": "Long Kapat",
+      "closeShort": "Short Kapat"
+    },
+    "status": {
+      "closed": "Kapatıldı",
+      "canceled": "İptal Edildi"
+    },
+    "table": {
+      "no": "No",
+      "uid": "UID",
+      "userType": "Kullanıcı Türü",
+      "accountType": "Hesap Türü",
+      "mainAccount": "Bağlı Ana Hesap",
+      "currency": "Para Birimi",
+      "quantity": "Miktar",
+      "businessDirection": "İş Yönü",
+      "margin": "Marjin",
+      "leverage": "Kaldıraç",
+      "quoteCurrency": "Kote Para Birimi",
+      "openPrice": "Açılış Fiyatı",
+      "dealPrice": "İşlem Fiyatı",
+      "averagePrice": "Ortalama Fiyat",
+      "openQty": "Açılış Miktarı",
+      "dealQty": "İşlem Miktarı",
+      "direction": "Yön",
+      "status": "Durum",
+      "type": "Tür",
+      "orderId": "Sipariş ID",
+      "orderNo": "Sipariş No",
+      "openTime": "Açılış Zamanı",
+      "note": "Not",
+      "transactionTime": "İşlem Zamanı"
+    },
+    "button": {
+      "search": "Ara",
+      "export": "Dışa Aktar"
+    },
+    "updateTime": "Veri güncelleme zamanı"
+  },
+  "coinDeposit": {
+    "title": "Kripto Para Yatırma/Çekme",
+    "search": {
+      "uid": "UID",
+      "userType": "Kullanıcı Türü",
+      "businessDirection": "İş Yönü",
+      "currency": "Para Birimi",
+      "dateRange": "İle",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi"
+    },
+    "userType": {
+      "nonPartner": "Ortak Değil",
+      "partner": "Ortak"
+    },
+    "businessDirection": {
+      "deposit": "Para Yatırma",
+      "withdrawal": "Para Çekme"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "Kullanıcı Türü",
+      "currency": "Para Birimi",
+      "quantity": "Miktar",
+      "businessDirection": "İş Yönü",
+      "note": "Not",
+      "transactionTime": "İşlem Zamanı"
+    },
+    "button": {
+      "search": "Ara",
+      "export": "Dışa Aktar"
+    },
+    "updateTime": "Veri güncelleme zamanı"
+  },
+  "partnerConfig": {
+    "title": "Ortak Yapılandırma",
+    "search": {
+      "uid": "UID",
+      "note": "Not",
+      "futuresRebateRatio": "Vadeli işlem geri ödeme oranı",
+      "type": "Tür"
+    },
+    "type": {
+      "client": "Müşteri",
+      "agent": "Acenta"
+    },
+    "button": {
+      "search": "Ara",
+      "addPartner": "Ortak Ekle",
+      "modifyInfo": "Bilgileri Değiştir",
+      "back": "Geri",
+      "next": "İleri",
+      "cancel": "İptal",
+      "ok": "Tamam"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "Ülke/Bölge",
+      "futuresRebateRatio": "Vadeli işlem geri ödeme oranı",
+      "apiRebateRatio": "API geri ödeme oranı",
+      "spotRebateRatio": "Spot geri ödeme oranı",
+      "etfRebateRatio": "ETF geri ödeme oranı",
+      "note": "Not",
+      "loginName": "Giriş Adı",
+      "mobileNumber": "Cep Telefonu",
+      "email": "E-posta"
+    },
+    "dialog": {
+      "addPartner": "Ortak Ekle",
+      "changePassword": "Şifre Değiştir",
+      "uid": "UID",
+      "type": "Tür",
+      "futuresRebate": "Vadeli İşlem Geri Ödemesi",
+      "apiRebate": "API Geri Ödemesi",
+      "spotRebate": "Spot Geri Ödemesi",
+      "etfRebate": "ETF Geri Ödemesi",
+      "note": "Not",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Şifreyi Onayla"
+    },
+    "updateTime": "Veri güncelleme zamanı"
+  },
+  "partnerList": {
+    "title": "Ortak Listesi",
+    "search": {
+      "uid": "UID",
+      "note": "Not",
+      "feeRatio": "Ücret Oranı",
+      "userType": "Kullanıcı Türü"
+    },
+    "type": {
+      "client": "Müşteri",
+      "agent": "Acenta"
+    },
+    "button": {
+      "search": "Ara"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "Ortak Kimliği",
+      "futuresRebateRatio": "Vadeli işlem geri ödeme oranı",
+      "totalFuturesRebate": "Ekip toplam vadeli işlem geri ödemesi",
+      "totalFuturesServiceCharge": "Ekip toplam vadeli işlem hizmet ücreti",
+      "spotRebateRatio": "Spot geri ödeme oranı",
+      "totalSpotRebate": "Ekip toplam spot geri ödemesi",
+      "totalSpotServiceCharge": "Ekip toplam spot hizmet ücreti",
+      "etfRebateRatio": "ETF geri ödeme oranı",
+      "totalEtfRebate": "Ekip toplam ETF geri ödemesi",
+      "totalEtfServiceCharge": "Ekip toplam ETF hizmet ücreti",
+      "currencyName": "Para Birimi Adı",
+      "teamTotalDeposit": "Ekip Toplam Para Yatırma",
+      "teamTotalWithdrawal": "Ekip Toplam Para Çekme",
+      "teamTotalNumber": "Ekip Toplam Sayı",
+      "teamTotalDepositUsers": "Ekip Para Yatıran Kullanıcılar",
+      "firstDepositTime": "İlk para yatırma zamanı",
+      "note": "Not",
+      "loginName": "Giriş Adı",
+      "mobileNumber": "Cep Telefonu",
+      "email": "E-posta",
+      "registrationTime": "Hesap Kayıt Zamanı"
+    }
+  },
+  "referralLinks": {
+    "title": "Yönlendirme Bağlantıları",
+    "referralLink": "Yönlendirme bağlantısı",
+    "directUsers": "Doğrudan Kullanıcılar Yönlendirme bağlantısı",
+    "copyLink": "Bağlantıyı Kopyala",
+    "partnerLinks": "Ortak Yönlendirme Bağlantıları",
+    "createNewLink": "Yeni Bağlantı Oluştur",
+    "table": {
+      "referralCode": "Yönlendirme kodu",
+      "spotCommission": "Spot komisyonu",
+      "inferiorSpotCommission": "Alt Spot komisyonu",
+      "etfCommission": "ETF Komisyonu",
+      "inferiorEtfCommission": "Alt ETF Komisyonu",
+      "futuresCommission": "Vadeli işlem komisyonu",
+      "inferiorFuturesCommission": "Alt Vadeli işlem komisyonu",
+      "apiCommission": "API Komisyonu",
+      "inferiorApiCommission": "Alt API Komisyonu",
+      "numberOfInvites": "Davet sayısı",
+      "note": "Not",
+      "operate": "İşlem"
+    },
+    "button": {
+      "editMemo": "Notu Düzenle",
+      "viewReferralList": "Yönlendirme Listesini Görüntüle",
+      "cancel": "İptal",
+      "ok": "Tamam"
+    },
+    "dialog": {
+      "referralList": "Yönlendirme Listesi",
+      "createNewLink": "Yeni Bağlantı Oluştur",
+      "editMemo": "Notu Düzenle",
+      "partnerReferralLink": "Ortak Yönlendirme Bağlantısı",
+      "spotCommission": "Spot Komisyonu",
+      "inferiorSpotCommission": "Alt Spot Komisyonu",
+      "etfCommission": "ETF Komisyonu",
+      "inferiorEtfCommission": "Alt ETF Komisyonu",
+      "futuresCommission": "Vadeli İşlem Komisyonu",
+      "inferiorFuturesCommission": "Alt Vadeli İşlem Komisyonu",
+      "apiCommission": "API Komisyonu",
+      "inferiorApiCommission": "Alt API Komisyonu",
+      "note": "Not",
+      "memo": "Not"
+    },
+    "message": {
+      "copySuccess": "Kopyalama başarılı!",
+      "copyFailed": "Kopyalama başarısız!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "Tüm Siparişleri Ara",
+    "search": {
+      "uid": "UID",
+      "orderId": "Sipariş ID",
+      "userType": "Kullanıcı Türü",
+      "accountType": "Hesap türü",
+      "currency": "Para Birimi",
+      "direction": "Yön",
+      "status": "Durum",
+      "dateRange": "Tarih Aralığı",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi"
+    },
+    "userType": {
+      "currentUser": "Mevcut Kullanıcı",
+      "subordinates": "Alt Kullanıcılar",
+      "allUsers": "Tüm Kullanıcılar"
+    },
+    "accountType": {
+      "main": "Ana Hesap",
+      "sub": "Alt Hesap",
+      "all": "Tüm Para Birimleri"
+    },
+    "direction": {
+      "openLong": "Long Aç",
+      "openShort": "Short Aç",
+      "closeLong": "Long Kapat",
+      "closeShort": "Short Kapat"
+    },
+    "status": {
+      "closed": "Kapatıldı",
+      "canceled": "İptal Edildi"
+    },
+    "button": {
+      "search": "Ara"
+    },
+    "table": {
+      "no": "No",
+      "uid": "UID",
+      "accountType": "Hesap türü",
+      "mainAccount": "Bağlı Ana Hesap",
+      "currency": "Para Birimi",
+      "margin": "Marjin",
+      "leverage": "Kaldıraç",
+      "currency2": "Para Birimi",
+      "openPrice": "Açılış Fiyatı",
+      "dealPrice": "İşlem Fiyatı",
+      "averagePrice": "Ortalama Fiyat",
+      "openQty": "Açılış Miktarı",
+      "dealQty": "İşlem Miktarı",
+      "direction": "Yön",
+      "status": "Durum",
+      "type": "Tür",
+      "orderId": "Sipariş ID",
+      "orderNo": "Sipariş No",
+      "openTime": "Açılış Zamanı"
+    }
+  },
+  "dashboard": {
+    "title": "Gösterge Panosu",
+    "welcome": "Hoş geldiniz"
+  }
+}

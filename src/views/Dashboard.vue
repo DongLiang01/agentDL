@@ -6,16 +6,18 @@ This software is proprietary and confidential information of TinyTrader.
 
 <template>
   <div class="dashboard">
-    <h1>Dashboard</h1>
-    <p>Welcome, {{ username }}!</p>
-    <el-button @click="handleLogout">Logout</el-button>
+    <h1>{{ t('dashboard.title') }}</h1>
+    <p>{{ t('dashboard.welcome') }}, {{ username }}!</p>
+    <el-button @click="handleLogout">{{ t('layout.logout') }}</el-button>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const router = useRouter()
 const username = ref('')
 

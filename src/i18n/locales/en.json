@@ -27,16 +27,17 @@
     "etfRebate": "ETF rebate ratio",
     "apiRebate": "API rebate ratio",
     "languages": {
-      "kr": "한국어",
+      "zh-CN": "Simplified Chinese",
+      "zh-TW": "Traditional Chinese",
       "en": "English",
-      "tr": "Türkçe",
-      "vi": "Tiếng Việt",
-      "ru": "Русский",
-      "tw": "繁體中文",
-      "pt": "Português",
-      "ja": "日本語",
-      "uk": "Українська",
-      "ar": "العربية"
+      "ko": "Korean",
+      "ja": "Japanese",
+      "vi": "Vietnamese",
+      "tr": "Turkish",
+      "pt": "Portuguese",
+      "ru": "Russian",
+      "uk": "Ukrainian",
+      "ar": "Arabic"
     },
     "changePassword": "Change Password",
     "managementArea": "Management Area: Other",
@@ -59,11 +60,65 @@
     "coinDeposit": "Deposit/Withdraw(coins)",
     "transfer": "Transfer",
     "externalDeposit": "The total amount of external deposit",
-    "viewAgreement": "View Agreement",
-    "regulatoryGuidelines": "Regulatory Guidelines",
-    "agentAgreement": "Agent agreement",
-    "materialDownload": "Material Download",
     "securityCenter": "Security Center"
+  },
+  "transfer": {
+    "search": {
+      "uid": "User UID",
+      "userType": "User Type",
+      "direction": "Business Direction",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "type": {
+      "nonPartner": "Non-Partner",
+      "partner": "Partner"
+    },
+    "direction": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "button": {
+      "search": "Search",
+      "download": "Download"
+    },
+    "dataUpdateTime": "Data Update Time",
+    "table": {
+      "uid": "User UID",
+      "userType": "User Type",
+      "currency": "Currency",
+      "amount": "Amount",
+      "direction": "Business Direction",
+      "note": "Note",
+      "createTime": "Create Time"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "User UID",
+      "userType": "User Type",
+      "currency": "Currency",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "type": {
+      "nonPartner": "Non-Partner",
+      "partner": "Partner"
+    },
+    "button": {
+      "search": "Search",
+      "download": "Download"
+    },
+    "dataUpdateTime": "Data Update Time",
+    "table": {
+      "uid": "User UID",
+      "userType": "User Type",
+      "currency": "Currency",
+      "totalExternalDeposit": "Total External Deposit of Node",
+      "totalExternalWithdraw": "Total External Withdraw of Node",
+      "totalNodeUsers": "Total Node Users",
+      "totalExternalDepositUsers": "Total External Deposit Users of Node"
+    }
   },
   "home": {
     "newSystemButton": "The new Channel Support System is now online. Click to jump and get a new experience",
@@ -163,5 +218,330 @@
       "issued": "Issued",
       "pending": "Pending"
     }
+  },
+  "common": {
+    "search": "Search",
+    "export": "Export",
+    "download": "Download",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "uid": "UID",
+    "userType": "User Type",
+    "currency": "Currency",
+    "allCurrency": "All Currency",
+    "direction": "Direction",
+    "status": "Status",
+    "note": "Note",
+    "time": "Time",
+    "date": "Date",
+    "quantity": "Quantity",
+    "noData": "No Data"
+  },
+  "otcDeposit": {
+    "title": "OTC Deposit/Withdraw",
+    "search": {
+      "uid": "UID",
+      "orderId": "Order ID",
+      "userType": "User Type",
+      "accountType": "Account Type",
+      "currency": "Currency",
+      "quoteCurrency": "Quote Currency",
+      "direction": "Direction",
+      "status": "Status",
+      "dateRange": "Date Range",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "businessDirection": "Business Direction"
+    },
+    "userType": {
+      "currentUser": "Current User",
+      "subordinates": "Subordinates",
+      "allUsers": "All Users",
+      "client": "Client",
+      "agent": "Agent"
+    },
+    "businessDirection": {
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal"
+    },
+    "accountType": {
+      "main": "Main account",
+      "sub": "Sub-account"
+    },
+    "direction": {
+      "openLong": "Open/Long",
+      "openShort": "Open/Short",
+      "closeLong": "Close/Long",
+      "closeShort": "Close/Short"
+    },
+    "status": {
+      "closed": "Closed",
+      "canceled": "Canceled"
+    },
+    "table": {
+      "no": "No",
+      "uid": "UID",
+      "userType": "User Type",
+      "accountType": "Account Type",
+      "mainAccount": "Belonged main account",
+      "currency": "Currency",
+      "quantity": "Quantity",
+      "businessDirection": "Business Direction",
+      "margin": "Margin",
+      "leverage": "Leverage",
+      "quoteCurrency": "Quote Currency",
+      "openPrice": "Open Price",
+      "dealPrice": "Deal Price",
+      "averagePrice": "Average Price",
+      "openQty": "Open QTY",
+      "dealQty": "Deal QTY",
+      "direction": "Direction",
+      "status": "Status",
+      "type": "Type",
+      "orderId": "Order ID",
+      "orderNo": "Order No",
+      "openTime": "Open time",
+      "note": "Note",
+      "transactionTime": "Transaction Time"
+    },
+    "button": {
+      "search": "Search",
+      "export": "Export"
+    },
+    "updateTime": "Time of data update"
+  },
+  "coinDeposit": {
+    "title": "Coins Deposit/Withdraw",
+    "search": {
+      "uid": "UID",
+      "userType": "User Type",
+      "businessDirection": "Business Direction",
+      "currency": "Currency",
+      "dateRange": "To",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "userType": {
+      "nonPartner": "Non-Partner",
+      "partner": "Partner"
+    },
+    "businessDirection": {
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "User Type",
+      "currency": "Currency",
+      "quantity": "Quantity",
+      "businessDirection": "Business Direction",
+      "note": "Note",
+      "transactionTime": "Transaction Time"
+    },
+    "button": {
+      "search": "Search",
+      "export": "Export"
+    },
+    "updateTime": "Time of data update"
+  },
+  "partnerConfig": {
+    "title": "Partner Configuration",
+    "search": {
+      "uid": "UID",
+      "note": "Note",
+      "futuresRebateRatio": "Futures rebate ratio",
+      "type": "Type"
+    },
+    "type": {
+      "client": "Client",
+      "agent": "Agent"
+    },
+    "button": {
+      "search": "Search",
+      "addPartner": "Add Partner",
+      "modifyInfo": "Modify Information",
+      "back": "Back",
+      "next": "Next",
+      "cancel": "Cancel",
+      "ok": "OK"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "Country/Region",
+      "futuresRebateRatio": "Futures rebate ratio",
+      "apiRebateRatio": "API rebate ratio",
+      "spotRebateRatio": "Spot rebate ratio",
+      "etfRebateRatio": "ETF rebate ratio",
+      "note": "Note",
+      "loginName": "Login Name",
+      "mobileNumber": "Mobile Number",
+      "email": "Email"
+    },
+    "dialog": {
+      "addPartner": "Add Partner",
+      "changePassword": "Change Password",
+      "uid": "UID",
+      "type": "Type",
+      "futuresRebate": "Futures Rebate",
+      "apiRebate": "API Rebate",
+      "spotRebate": "Spot Rebate",
+      "etfRebate": "ETF Rebate",
+      "note": "Note",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "updateTime": "Time of data update"
+  },
+  "partnerList": {
+    "title": "Partner List",
+    "search": {
+      "uid": "UID",
+      "note": "Note",
+      "feeRatio": "Fee Ratio",
+      "userType": "User Type"
+    },
+    "type": {
+      "client": "Client",
+      "agent": "Agent"
+    },
+    "button": {
+      "search": "Search"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "Partner Identity",
+      "futuresRebateRatio": "Futures rebate ratio",
+      "totalFuturesRebate": "Total futures rebate of team",
+      "totalFuturesServiceCharge": "Total futures service charge of team",
+      "spotRebateRatio": "Spot rebate ratio",
+      "totalSpotRebate": "Total spot rebate of team",
+      "totalSpotServiceCharge": "Total spot service charge of team",
+      "etfRebateRatio": "ETF rebate ratio",
+      "totalEtfRebate": "Total ETF rebate of team",
+      "totalEtfServiceCharge": "Total ETF service charge of team",
+      "currencyName": "Currency Name",
+      "teamTotalDeposit": "Team Total Deposit",
+      "teamTotalWithdrawal": "Team Total Withdrawal",
+      "teamTotalNumber": "Team Total Number",
+      "teamTotalDepositUsers": "Team Total Deposit Users",
+      "firstDepositTime": "Time of first deposit",
+      "note": "Note",
+      "loginName": "Login Name",
+      "mobileNumber": "Mobile Number",
+      "email": "Email",
+      "registrationTime": "Account Registration Time"
+    }
+  },
+  "referralLinks": {
+    "title": "Referral Links",
+    "referralLink": "Referral link",
+    "directUsers": "Direct Users Referral link",
+    "copyLink": "Copy the Link",
+    "partnerLinks": "Partner Referral Links",
+    "createNewLink": "Create New Link",
+    "table": {
+      "referralCode": "Referral code",
+      "spotCommission": "Spot commission",
+      "inferiorSpotCommission": "Inferior Spot commission",
+      "etfCommission": "ETF Commission",
+      "inferiorEtfCommission": "Inferior ETF Commission",
+      "futuresCommission": "Futures commission",
+      "inferiorFuturesCommission": "Inferior Futures commission",
+      "apiCommission": "API Commission",
+      "inferiorApiCommission": "Inferior API Commission",
+      "numberOfInvites": "Number of invites",
+      "note": "Note",
+      "operate": "Operate"
+    },
+    "button": {
+      "editMemo": "Edit Memo",
+      "viewReferralList": "View Referral List",
+      "cancel": "Cancel",
+      "ok": "OK"
+    },
+    "dialog": {
+      "referralList": "Referral List",
+      "createNewLink": "Create New Link",
+      "editMemo": "Edit the Memo",
+      "partnerReferralLink": "Partner Referral Link",
+      "spotCommission": "Spot Commission",
+      "inferiorSpotCommission": "Inferior Spot Commission",
+      "etfCommission": "ETF Commission",
+      "inferiorEtfCommission": "Inferior ETF Commission",
+      "futuresCommission": "Futures Commission",
+      "inferiorFuturesCommission": "Inferior Futures Commission",
+      "apiCommission": "API Commission",
+      "inferiorApiCommission": "Inferior API Commission",
+      "note": "Note",
+      "memo": "Memo"
+    },
+    "message": {
+      "copySuccess": "Copy succeeded!",
+      "copyFailed": "Copy failed!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "Search All Orders",
+    "search": {
+      "uid": "UID",
+      "orderId": "Order ID",
+      "userType": "User Type",
+      "accountType": "Account type",
+      "currency": "Currency",
+      "direction": "Direction",
+      "status": "Status",
+      "dateRange": "Date Range",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "userType": {
+      "currentUser": "Current User",
+      "subordinates": "Subordinates",
+      "allUsers": "All Users"
+    },
+    "accountType": {
+      "main": "Main account",
+      "sub": "Sub-account",
+      "all": "All Currency"
+    },
+    "direction": {
+      "openLong": "Open/Long",
+      "openShort": "Open/Short",
+      "closeLong": "Close/Long",
+      "closeShort": "Close/Short"
+    },
+    "status": {
+      "closed": "Closed",
+      "canceled": "Canceled"
+    },
+    "button": {
+      "search": "Search"
+    },
+    "table": {
+      "no": "No",
+      "uid": "UID",
+      "accountType": "Account type",
+      "mainAccount": "Belonged main account",
+      "currency": "Currency",
+      "margin": "Margin",
+      "leverage": "Leverage",
+      "currency2": "Currency",
+      "openPrice": "Open Price",
+      "dealPrice": "Deal Price",
+      "averagePrice": "Average Price",
+      "openQty": "Open QTY",
+      "dealQty": "Deal QTY",
+      "direction": "Direction",
+      "status": "Status",
+      "type": "Type",
+      "orderId": "Order ID",
+      "orderNo": "Order No",
+      "openTime": "Open time"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome"
   }
 }

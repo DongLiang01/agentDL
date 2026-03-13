@@ -9,7 +9,7 @@ This software is proprietary and confidential information of TinyTrader.
     <el-form class="el-form demo-form-inline el-form--inline">
       <el-form-item class="el-form-item el-form-item--mini">
         <div class="el-form-item__content">
-          <el-select v-model="searchForm.transactionType" class="el-select el-select--mini" :placeholder="t('rebateRecords.pleaseSelect')">
+          <el-select v-model="searchForm.transactionType" class="el-select el-select--mini" :placeholder="t('rebateRecords.pleaseSelect')" clearable style="width: 130px">
             <el-option>
               <el-tree
                 :data="transactionTypeTree"
@@ -33,6 +33,7 @@ This software is proprietary and confidential information of TinyTrader.
             :start-placeholder="t('rebateRecords.startDate')"
             :end-placeholder="t('rebateRecords.endDate')"
             class="el-date-editor el-range-editor el-input__inner el-date-editor--daterange el-range-editor--mini"
+            clearable
           />
         </div>
       </el-form-item>
@@ -59,6 +60,7 @@ This software is proprietary and confidential information of TinyTrader.
     </el-form>
 
     <el-table
+      :key="tableKey"
       :data="tableData"
       class="el-table el-table--fit el-table--enable-row-hover"
       style="width: 100%;"
@@ -101,11 +103,15 @@ This software is proprietary and confidential information of TinyTrader.
 </template>
 
 <script setup>
-import { ref, reactive, computed } from 'vue'
+import { ref, reactive, computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
+import { useTheme } from '../composables/useTheme'
 
 const { t } = useI18n()
+
+const { theme, subscribe } = useTheme()
+const tableKey = ref(theme.value)
 
 const searchForm = reactive({
   transactionType: 'non-api',
@@ -162,12 +168,18 @@ const selectToday = () => {
 const handleSearch = () => {
   console.log('Search:', searchForm)
 }
+
+onMounted(() => {
+  subscribe((newTheme) => {
+    tableKey.value = newTheme
+  })
+})
 </script>
 
 <style scoped>
 .content {
   padding: 0;
-  background: rgb(255, 255, 255);
+  background: var(--theme-bg-card);
 }
 
 .content form {
@@ -183,28 +195,28 @@ const handleSearch = () => {
 .content form .el-input-number .el-input__inner,
 .content form .el-input .el-input__inner {
   text-align: left;
-  font-family: PingFangSC-Regular;
+  font-family: inherit;
 }
 
 .content table th {
-  background: rgba(133, 136, 156, 0.1);
+  background: var(--theme-bg-hover);
 }
 
 .content table .cell {
   font-size: 12px;
-  font-family: PingFangSC-Regular;
+  font-family: inherit;
   font-weight: 400;
-  color: rgb(133, 136, 156);
+  color: var(--theme-text-secondary);
   line-height: 18px;
 }
 
 .rebate-text {
-  color: #67c23a;
+  color: var(--el-color-success);
   font-weight: 600;
 }
 
 .actual-rebate-text {
-  color: #409eff;
+  color: var(--brand-primary);
   font-weight: 600;
 }
 
@@ -227,12 +239,12 @@ const handleSearch = () => {
 }
 
 :deep(.el-tree .is-current .el-tree-node__label) {
-  color: rgb(64, 158, 255);
+  color: var(--theme-primary);
   font-weight: 700;
 }
 
 :deep(.el-tree .is-current .el-tree-node__children .el-tree-node__label) {
-  color: rgb(96, 98, 102);
+  color: var(--theme-text-secondary);
   font-weight: 400;
 }
 </style>

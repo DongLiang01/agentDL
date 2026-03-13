@@ -85,7 +85,7 @@ This software is proprietary and confidential information of TinyTrader.
         </el-form-item>
         <el-form-item class="el-form-item el-form-item--mini">
           <div class="el-form-item__content">
-            <el-select v-model="searchForm.userType" class="el-select el-select--mini" :placeholder="t('rebateSummary.userType')">
+            <el-select v-model="searchForm.userType" class="el-select el-select--mini" :placeholder="t('rebateSummary.userType')" clearable style="width: 130px">
               <el-option :label="t('rebateSummary.client')" value="client" />
               <el-option :label="t('rebateSummary.agent')" value="agent" />
             </el-select>
@@ -93,7 +93,7 @@ This software is proprietary and confidential information of TinyTrader.
         </el-form-item>
         <el-form-item class="el-form-item el-form-item--mini">
           <div class="el-form-item__content">
-            <el-select v-model="searchForm.currency" class="el-select el-select--mini" :placeholder="t('rebateSummary.currency')">
+            <el-select v-model="searchForm.currency" class="el-select el-select--mini" :placeholder="t('rebateSummary.currency')" clearable style="width: 130px">
               <el-option :label="t('rebateSummary.allCurrency')" value="" />
               <el-option label="USDT" value="USDT" />
             </el-select>
@@ -108,6 +108,7 @@ This software is proprietary and confidential information of TinyTrader.
               :start-placeholder="t('rebateSummary.start')"
               :end-placeholder="t('rebateSummary.end')"
               class="el-input el-input--mini"
+              clearable
             />
           </div>
         </el-form-item>
@@ -120,7 +121,7 @@ This software is proprietary and confidential information of TinyTrader.
       </el-form>
 
       <div class="table-container">
-        <el-table :data="tableData" class="el-table" border stripe style="width: 100%;">
+        <el-table :key="tableKey" :data="tableData" class="el-table" border stripe style="width: 100%;">
           <el-table-column prop="date" :label="t('rebateSummary.table.date')" width="120" />
           <el-table-column prop="uid" :label="t('rebateSummary.table.uid')" width="120" />
           <el-table-column prop="time" :label="t('rebateSummary.table.time')" width="100" />
@@ -160,11 +161,15 @@ This software is proprietary and confidential information of TinyTrader.
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { QuestionFilled } from '@element-plus/icons-vue'
+import { useTheme } from '../composables/useTheme'
 
 const { t } = useI18n()
+
+const { theme, subscribe } = useTheme()
+const tableKey = ref(theme.value)
 
 const searchForm = reactive({
   uid: '',
@@ -201,6 +206,12 @@ const handleSizeChange = (size) => {
 const handleCurrentChange = (page) => {
   pagination.currentPage = page
 }
+
+onMounted(() => {
+  subscribe((newTheme) => {
+    tableKey.value = newTheme
+  })
+})
 </script>
 
 <style scoped>
@@ -219,15 +230,21 @@ const handleCurrentChange = (page) => {
 }
 
 .box {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 8px;
+  background: linear-gradient(135deg, #2081e2 0%, #1868b7 100%);
+  border-radius: 12px;
   padding: 20px;
-  margin-bottom: 20px;
-  color: #fff;
+  margin-bottom: 16px;
+  color: #ffffff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(32, 129, 226, 0.2);
 }
 
 .box:nth-child(2) {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #4a9aea 0%, #2081e2 100%);
 }
 
 .box .describe {
@@ -245,17 +262,17 @@ const handleCurrentChange = (page) => {
 }
 
 .summary {
-  background: #fff;
+  background: var(--theme-bg-card);
   border-radius: 8px;
   padding: 0;
 }
 
 .fee-text {
-  color: #f56c6c;
+  color: var(--el-color-danger);
 }
 
 .rebate-text {
-  color: #67c23a;
+  color: var(--el-color-success);
   font-weight: 600;
 }
 
@@ -266,7 +283,7 @@ const handleCurrentChange = (page) => {
 }
 
 :deep(.el-table th) {
-  background-color: #f5f7fa;
+  background-color: var(--theme-bg-main);
   font-weight: 600;
 }
 

@@ -27,14 +27,15 @@
     "etfRebate": "ETF返佣比例",
     "apiRebate": "API返佣比例",
     "languages": {
-      "kr": "한국어",
+      "zh-CN": "简体中文",
+      "zh-TW": "繁体中文",
       "en": "English",
-      "tr": "Türkçe",
-      "vi": "Tiếng Việt",
-      "ru": "Русский",
-      "tw": "繁體中文",
-      "pt": "Português",
+      "ko": "한국어",
       "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
       "uk": "Українська",
       "ar": "العربية"
     },
@@ -59,11 +60,65 @@
     "coinDeposit": "币币充提币",
     "transfer": "划转",
     "externalDeposit": "外部充值总额",
-    "viewAgreement": "查看协议",
-    "regulatoryGuidelines": "监管指南",
-    "agentAgreement": "代理协议",
-    "materialDownload": "资料下载",
     "securityCenter": "安全中心"
+  },
+  "transfer": {
+    "search": {
+      "uid": "用户UID",
+      "userType": "用户类型",
+      "direction": "业务方向",
+      "startDate": "开始日期",
+      "endDate": "结束日期"
+    },
+    "type": {
+      "nonPartner": "非合伙人",
+      "partner": "合伙人"
+    },
+    "direction": {
+      "deposit": "入金",
+      "withdraw": "出金"
+    },
+    "button": {
+      "search": "查询",
+      "download": "下载"
+    },
+    "dataUpdateTime": "数据更新时间",
+    "table": {
+      "uid": "用户UID",
+      "userType": "用户类型",
+      "currency": "币种",
+      "amount": "数量",
+      "direction": "业务方向",
+      "note": "备注",
+      "createTime": "成交时间"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "用户UID",
+      "userType": "用户类型",
+      "currency": "币种",
+      "startDate": "开始日期",
+      "endDate": "结束日期"
+    },
+    "type": {
+      "nonPartner": "非合伙人",
+      "partner": "合伙人"
+    },
+    "button": {
+      "search": "查询",
+      "download": "下载"
+    },
+    "dataUpdateTime": "數據更新時間",
+    "table": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "currency": "幣種",
+      "totalExternalDeposit": "節點總外部入金",
+      "totalExternalWithdraw": "節點總外部出金",
+      "totalNodeUsers": "節點總人數",
+      "totalExternalDepositUsers": "節點總外部入金人數"
+    }
   },
   "home": {
     "newSystemButton": "新的渠道支持系统现已上线。点击跳转获得新体验",
@@ -163,5 +218,330 @@
       "issued": "已发放",
       "pending": "待发放"
     }
+  },
+  "common": {
+    "search": "查询",
+    "export": "导出",
+    "download": "下载",
+    "reset": "重置",
+    "confirm": "确认",
+    "cancel": "取消",
+    "uid": "UID",
+    "userType": "用户类型",
+    "currency": "币种",
+    "allCurrency": "全部币种",
+    "direction": "方向",
+    "status": "状态",
+    "note": "备注",
+    "time": "时间",
+    "date": "日期",
+    "quantity": "数量",
+    "noData": "暂无数据"
+  },
+  "otcDeposit": {
+    "title": "OTC 充提币",
+    "search": {
+      "uid": "UID",
+      "orderId": "订单ID",
+      "userType": "用户类型",
+      "accountType": "账户类型",
+      "currency": "币种",
+      "quoteCurrency": "报价币种",
+      "direction": "方向",
+      "status": "状态",
+      "dateRange": "至",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "businessDirection": "业务方向"
+    },
+    "userType": {
+      "currentUser": "当前用户",
+      "subordinates": "下属",
+      "allUsers": "所有用户",
+      "client": "客户",
+      "agent": "代理"
+    },
+    "businessDirection": {
+      "deposit": "入金",
+      "withdrawal": "出金"
+    },
+    "accountType": {
+      "main": "主账户",
+      "sub": "子账户"
+    },
+    "direction": {
+      "openLong": "开多",
+      "openShort": "开空",
+      "closeLong": "平多",
+      "closeShort": "平空"
+    },
+    "status": {
+      "closed": "已关闭",
+      "canceled": "已取消"
+    },
+    "table": {
+      "no": "序号",
+      "uid": "UID",
+      "userType": "用户类型",
+      "accountType": "账户类型",
+      "mainAccount": "所属主账户",
+      "currency": "币种",
+      "quantity": "数量",
+      "businessDirection": "业务方向",
+      "margin": "保证金",
+      "leverage": "杠杆",
+      "quoteCurrency": "报价币种",
+      "openPrice": "开仓价",
+      "dealPrice": "成交价",
+      "averagePrice": "平均价",
+      "openQty": "开仓数量",
+      "dealQty": "成交数量",
+      "direction": "方向",
+      "status": "状态",
+      "type": "类型",
+      "orderId": "订单ID",
+      "orderNo": "订单号",
+      "openTime": "开仓时间",
+      "note": "备注",
+      "transactionTime": "成交时间"
+    },
+    "button": {
+      "search": "查询",
+      "export": "导出"
+    },
+    "updateTime": "数据更新时间"
+  },
+  "coinDeposit": {
+    "title": "币币充提币",
+    "search": {
+      "uid": "UID",
+      "userType": "用户类型",
+      "businessDirection": "业务方向",
+      "currency": "币种",
+      "dateRange": "至",
+      "startDate": "开始日期",
+      "endDate": "结束日期"
+    },
+    "userType": {
+      "nonPartner": "非合伙人",
+      "partner": "合伙人"
+    },
+    "businessDirection": {
+      "deposit": "入金",
+      "withdrawal": "出金"
+    },
+    "table": {
+      "uid": "用户UID",
+      "userType": "用户类型",
+      "currency": "币种",
+      "quantity": "数量",
+      "businessDirection": "业务方向",
+      "note": "备注",
+      "transactionTime": "成交时间"
+    },
+    "button": {
+      "search": "查询",
+      "export": "下载"
+    },
+    "updateTime": "数据更新时间"
+  },
+  "partnerConfig": {
+    "title": "合作伙伴配置",
+    "search": {
+      "uid": "UID",
+      "note": "备注",
+      "futuresRebateRatio": "合约返佣比例",
+      "type": "类型"
+    },
+    "type": {
+      "client": "客户",
+      "agent": "代理"
+    },
+    "button": {
+      "search": "查询",
+      "addPartner": "添加合伙人",
+      "modifyInfo": "修改信息",
+      "back": "上一页",
+      "next": "下一页",
+      "cancel": "取消",
+      "ok": "确定"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "国家/地区",
+      "futuresRebateRatio": "合约返佣比例",
+      "apiRebateRatio": "API返佣比例",
+      "spotRebateRatio": "现货返佣比例",
+      "etfRebateRatio": "ETF返佣比例",
+      "note": "备注",
+      "loginName": "登录名",
+      "mobileNumber": "手机号",
+      "email": "邮箱"
+    },
+    "dialog": {
+      "addPartner": "添加合伙人",
+      "changePassword": "修改密码",
+      "uid": "UID",
+      "type": "类型",
+      "futuresRebate": "合约返佣",
+      "apiRebate": "API返佣",
+      "spotRebate": "现货返佣",
+      "etfRebate": "ETF返佣",
+      "note": "备注",
+      "newPassword": "新密码",
+      "confirmPassword": "确认密码"
+    },
+    "updateTime": "数据更新时间"
+  },
+  "partnerList": {
+    "title": "合作伙伴列表",
+    "search": {
+      "uid": "UID",
+      "note": "备注",
+      "feeRatio": "费率比例",
+      "userType": "用户类型"
+    },
+    "type": {
+      "client": "客户",
+      "agent": "代理"
+    },
+    "button": {
+      "search": "查询"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "合伙人标识",
+      "futuresRebateRatio": "合约返佣比例",
+      "totalFuturesRebate": "团队合约返佣总额",
+      "totalFuturesServiceCharge": "团队合约手续费总额",
+      "spotRebateRatio": "现货返佣比例",
+      "totalSpotRebate": "团队现货返佣总额",
+      "totalSpotServiceCharge": "团队现货手续费总额",
+      "etfRebateRatio": "ETF返佣比例",
+      "totalEtfRebate": "团队ETF返佣总额",
+      "totalEtfServiceCharge": "团队ETF手续费总额",
+      "currencyName": "币种名称",
+      "teamTotalDeposit": "团队入金总额",
+      "teamTotalWithdrawal": "团队出金总额",
+      "teamTotalNumber": "团队总人数",
+      "teamTotalDepositUsers": "团队入金人数",
+      "firstDepositTime": "首次入金时间",
+      "note": "备注",
+      "loginName": "登录名",
+      "mobileNumber": "手机号",
+      "email": "邮箱",
+      "registrationTime": "账户注册时间"
+    }
+  },
+  "referralLinks": {
+    "title": "推荐链接",
+    "referralLink": "推荐链接",
+    "directUsers": "直推用户推荐链接",
+    "copyLink": "复制链接",
+    "partnerLinks": "合伙人推荐链接",
+    "createNewLink": "创建新链接",
+    "table": {
+      "referralCode": "推荐码",
+      "spotCommission": "现货佣金",
+      "inferiorSpotCommission": "下级现货佣金",
+      "etfCommission": "ETF佣金",
+      "inferiorEtfCommission": "下级ETF佣金",
+      "futuresCommission": "合约佣金",
+      "inferiorFuturesCommission": "下级合约佣金",
+      "apiCommission": "API佣金",
+      "inferiorApiCommission": "下级API佣金",
+      "numberOfInvites": "邀请人数",
+      "note": "备注",
+      "operate": "操作"
+    },
+    "button": {
+      "editMemo": "编辑备注",
+      "viewReferralList": "查看推荐列表",
+      "cancel": "取消",
+      "ok": "确定"
+    },
+    "dialog": {
+      "referralList": "推荐列表",
+      "createNewLink": "创建新链接",
+      "editMemo": "编辑备注",
+      "partnerReferralLink": "合伙人推荐链接",
+      "spotCommission": "现货佣金",
+      "inferiorSpotCommission": "下级现货佣金",
+      "etfCommission": "ETF佣金",
+      "inferiorEtfCommission": "下级ETF佣金",
+      "futuresCommission": "合约佣金",
+      "inferiorFuturesCommission": "下级合约佣金",
+      "apiCommission": "API佣金",
+      "inferiorApiCommission": "下级API佣金",
+      "note": "备注",
+      "memo": "备注"
+    },
+    "message": {
+      "copySuccess": "复制成功！",
+      "copyFailed": "复制失败！"
+    }
+  },
+  "searchAllOrders": {
+    "title": "查询所有订单",
+    "search": {
+      "uid": "UID",
+      "orderId": "订单ID",
+      "userType": "用户类型",
+      "accountType": "账户类型",
+      "currency": "币种",
+      "direction": "方向",
+      "status": "状态",
+      "dateRange": "日期范围",
+      "startDate": "开始日期",
+      "endDate": "结束日期"
+    },
+    "userType": {
+      "currentUser": "当前用户",
+      "subordinates": "下属",
+      "allUsers": "所有用户"
+    },
+    "accountType": {
+      "main": "主账户",
+      "sub": "子账户",
+      "all": "所有币种"
+    },
+    "direction": {
+      "openLong": "开多",
+      "openShort": "开空",
+      "closeLong": "平多",
+      "closeShort": "平空"
+    },
+    "status": {
+      "closed": "已关闭",
+      "canceled": "已取消"
+    },
+    "button": {
+      "search": "查询"
+    },
+    "table": {
+      "no": "序号",
+      "uid": "UID",
+      "accountType": "账户类型",
+      "mainAccount": "所属主账户",
+      "currency": "币种",
+      "margin": "保证金",
+      "leverage": "杠杆",
+      "currency2": "币种",
+      "openPrice": "开仓价",
+      "dealPrice": "成交价",
+      "averagePrice": "平均价",
+      "openQty": "开仓数量",
+      "dealQty": "成交数量",
+      "direction": "方向",
+      "status": "状态",
+      "type": "类型",
+      "orderId": "订单ID",
+      "orderNo": "订单号",
+      "openTime": "开仓时间"
+    }
+  },
+  "dashboard": {
+    "title": "仪表盘",
+    "welcome": "欢迎"
   }
 }

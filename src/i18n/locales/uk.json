@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "Вхід",
+    "username": "Обліковий запис",
+    "password": "Пароль",
+    "remember": "Запам'ятати дані для входу",
+    "loginBtn": "Увійти",
+    "usernamePlaceholder": "Будь ласка, введіть ім'я користувача",
+    "passwordPlaceholder": "Будь ласка, введіть пароль",
+    "loggingIn": "Вхід...",
+    "forgotPassword": "Забули пароль?",
+    "pleaseEnterAccount": "Будь ласка, введіть обліковий запис",
+    "pleaseEnterPassword": "Будь ласка, введіть пароль",
+    "loginSuccessful": "Вхід успішний!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "Система підтримки за кордоном"
+  },
+  "layout": {
+    "logo": "Система підтримки каналу",
+    "logoShort": "CSS",
+    "collapseExpand": "Згорнути/Розгорнути",
+    "select": "Вибрати",
+    "futuresRebate": "Коефіцієнт повернення ф'ючерсів",
+    "spotRebate": "Коефіцієнт повернення спот",
+    "etfRebate": "Коефіцієнт повернення ETF",
+    "apiRebate": "Коефіцієнт повернення API",
+    "languages": {
+      "zh-CN": "Спрощена китайська",
+      "zh-TW": "Традиційна китайська",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "Змінити пароль",
+    "managementArea": "Область управління: Інше",
+    "logout": "Вийти",
+    "messageInfo": "CrazyEarn Happy Week # 2: 13% APR на USDT",
+    "more": "Більше"
+  },
+  "menu": {
+    "homePage": "Огляд домашньої сторінки",
+    "searchRebate": "Пошук запису повернення",
+    "rebateSummary": "Підсумок повернень",
+    "rebateRecords": "Записи повернень",
+    "partnerManagement": "Управління партнерами",
+    "partnerConfig": "Налаштування партнерів",
+    "partnerList": "Список партнерів",
+    "referralLinks": "Реферальні посилання",
+    "searchAllOrders": "Пошук усіх замовлень",
+    "depositWithdraw": "Депозит/Зняття",
+    "otcDeposit": "Депозит/Зняття OTC",
+    "coinDeposit": "Депозит/Зняття монет",
+    "transfer": "Переказ",
+    "externalDeposit": "Загальна сума зовнішніх депозитів",
+    "securityCenter": "Центр безпеки"
+  },
+  "transfer": {
+    "search": {
+      "uid": "UID користувача",
+      "userType": "Тип користувача",
+      "direction": "Напрямок",
+      "startDate": "Дата початку",
+      "endDate": "Дата закінчення"
+    },
+    "type": {
+      "nonPartner": "Не партнер",
+      "partner": "Партнер"
+    },
+    "direction": {
+      "deposit": "Депозит",
+      "withdraw": "Зняття"
+    },
+    "button": {
+      "search": "Пошук",
+      "download": "Завантажити"
+    },
+    "dataUpdateTime": "Час оновлення даних",
+    "table": {
+      "uid": "UID користувача",
+      "userType": "Тип користувача",
+      "currency": "Валюта",
+      "amount": "Кількість",
+      "direction": "Напрямок",
+      "note": "Нотатка",
+      "createTime": "Час створення"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "UID користувача",
+      "userType": "Тип користувача",
+      "currency": "Валюта",
+      "startDate": "Дата початку",
+      "endDate": "Дата закінчення"
+    },
+    "type": {
+      "nonPartner": "Не партнер",
+      "partner": "Партнер"
+    },
+    "button": {
+      "search": "Пошук",
+      "download": "Завантажити"
+    },
+    "dataUpdateTime": "Час оновлення даних",
+    "table": {
+      "uid": "UID користувача",
+      "userType": "Тип користувача",
+      "currency": "Валюта",
+      "totalExternalDeposit": "Загальний зовнішній депозит вузла",
+      "totalExternalWithdraw": "Загальне зовнішнє зняття вузла",
+      "totalNodeUsers": "Всього користувачів вузла",
+      "totalExternalDepositUsers": "Всього користувачів зовнішнього депозиту вузла"
+    }
+  },
+  "home": {
+    "newSystemButton": "Нова система підтримки каналу тепер онлайн. Натисніть, щоб отримати новий досвід",
+    "teamDailyNew": "Щоденні нові реєстрації команди",
+    "timeOfDataUpdate": "Час оновлення даних: ",
+    "select": "Вибрати",
+    "all": "Усі",
+    "futures": "Ф'ючерси",
+    "spot": "Спот",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "Реальний час",
+      "yesterday": "Вчора",
+      "last7days": "Останні 7 днів",
+      "last30days": "Останні 30 днів",
+      "thisMonth": "Цей місяць",
+      "lastMonth": "Минулий місяць",
+      "thisYear": "Цей рік",
+      "history": "Історія"
+    },
+    "cards": {
+      "registrations": "Реєстрації (Команда)",
+      "tradingVolume": "Обсяг торгівлі (Команда)",
+      "tradingFees": "Торгові збори (Команда)",
+      "totalCommission": "Загальна комісія (Команда)"
+    },
+    "charts": {
+      "dailyNewDeposit": "Вчорашні нові депозити команди",
+      "dailyNewWithdrawal": "Вчорашні нові зняття команди",
+      "dailyNewTransactionVolume": "Вчорашній обсяг торгівлі команди",
+      "dailyTransactionFee": "Огляд торгових зборів за вчора",
+      "estimatedRebatesYesterday": "Вчорашня очікувана сума повернення",
+      "estimatedRebatesToday": "Сьогоднішня очікувана сума повернення",
+      "exactRebatesYesterday": "Вчорашня точна сума повернення",
+      "totalDeposit": "Сукупний депозит команди",
+      "totalWithdrawal": "Сукупне зняття команди",
+      "activeUsers": "Активні користувачі ф'ючерсів команди"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "Моє повернення",
+    "selfReturnRebate": "Повернення за себе",
+    "clientTransactionFee": "Збір за транзакцію клієнта",
+    "clientContributionRebate": "Повернення за внесок клієнта",
+    "totalTransactionFee": "Загальний збір за транзакції",
+    "totalRebate": "Загальне повернення",
+    "uid": "UID",
+    "note": "Нотатка",
+    "userType": "Тип користувача",
+    "client": "Клієнт",
+    "agent": "Агент",
+    "currency": "Валюта",
+    "allCurrency": "Усі валюти",
+    "start": "Початок",
+    "end": "Кінець",
+    "search": "Пошук",
+    "reset": "Скинути",
+    "table": {
+      "date": "Дата",
+      "uid": "UID",
+      "time": "Час",
+      "symbol": "Символ",
+      "type": "Тип",
+      "side": "Сторона",
+      "volume": "Обсяг",
+      "price": "Ціна",
+      "fee": "Збір",
+      "rebate": "Повернення",
+      "currency": "Валюта",
+      "note": "Нотатка"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "Будь ласка, виберіть",
+    "startDate": "Дата початку",
+    "endDate": "Дата закінчення",
+    "yesterday": "Вчора",
+    "today": "Сьогодні",
+    "search": "Пошук",
+    "distributionNote": "Повернення буде розподілено о 07:00 (UTC) наступного дня",
+    "back": "Назад",
+    "next": "Далі",
+    "transactionType": {
+      "futures": "Ф'ючерси",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "Спот",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "Валюта",
+      "estimatedRebate": "Очікувана сума повернення",
+      "actualRebate": "Фактична сума повернення",
+      "transactionType": "Тип транзакції",
+      "arrivalTime": "Час надходження",
+      "issueStatus": "Статус випуску",
+      "issued": "Випущено",
+      "pending": "Очікування"
+    }
+  },
+  "common": {
+    "search": "Пошук",
+    "export": "Експорт",
+    "download": "Завантажити",
+    "reset": "Скинути",
+    "confirm": "Підтвердити",
+    "cancel": "Скасувати",
+    "uid": "UID",
+    "userType": "Тип користувача",
+    "currency": "Валюта",
+    "allCurrency": "Усі валюти",
+    "direction": "Напрямок",
+    "status": "Статус",
+    "note": "Нотатка",
+    "time": "Час",
+    "date": "Дата",
+    "quantity": "Кількість",
+    "noData": "Немає даних"
+  },
+  "otcDeposit": {
+    "title": "Депозит/Зняття OTC",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID замовлення",
+      "userType": "Тип користувача",
+      "accountType": "Тип рахунку",
+      "currency": "Валюта",
+      "quoteCurrency": "Валюта котирування",
+      "direction": "Напрямок",
+      "status": "Статус",
+      "dateRange": "Діапазон дат",
+      "startDate": "Дата початку",
+      "endDate": "Дата закінчення",
+      "businessDirection": "Бізнес-напрямок"
+    },
+    "userType": {
+      "currentUser": "Поточний користувач",
+      "subordinates": "Підлеглі",
+      "allUsers": "Усі користувачі",
+      "client": "Клієнт",
+      "agent": "Агент"
+    },
+    "businessDirection": {
+      "deposit": "Депозит",
+      "withdrawal": "Зняття"
+    },
+    "accountType": {
+      "main": "Основний рахунок",
+      "sub": "Субрахунок"
+    },
+    "direction": {
+      "openLong": "Відкрити/Long",
+      "openShort": "Відкрити/Short",
+      "closeLong": "Закрити/Long",
+      "closeShort": "Закрити/Short"
+    },
+    "status": {
+      "closed": "Закрито",
+      "canceled": "Скасовано"
+    },
+    "table": {
+      "no": "№",
+      "uid": "UID",
+      "userType": "Тип користувача",
+      "accountType": "Тип рахунку",
+      "mainAccount": "Основний рахунок",
+      "currency": "Валюта",
+      "quantity": "Кількість",
+      "businessDirection": "Бізнес-напрямок",
+      "margin": "Маржа",
+      "leverage": "Кредитне плече",
+      "quoteCurrency": "Валюта котирування",
+      "openPrice": "Ціна відкриття",
+      "dealPrice": "Ціна угоди",
+      "averagePrice": "Середня ціна",
+      "openQty": "Кіл-сть відкриття",
+      "dealQty": "Кіл-сть угоди",
+      "direction": "Напрямок",
+      "status": "Статус",
+      "type": "Тип",
+      "orderId": "ID замовлення",
+      "orderNo": "Номер замовлення",
+      "openTime": "Час відкриття",
+      "note": "Нотатка",
+      "transactionTime": "Час транзакції"
+    },
+    "button": {
+      "search": "Пошук",
+      "export": "Експорт"
+    },
+    "updateTime": "Час оновлення даних"
+  },
+  "coinDeposit": {
+    "title": "Депозит/Зняття монет",
+    "search": {
+      "uid": "UID",
+      "userType": "Тип користувача",
+      "businessDirection": "Бізнес-напрямок",
+      "currency": "Валюта",
+      "dateRange": "До",
+      "startDate": "Дата початку",
+      "endDate": "Дата закінчення"
+    },
+    "userType": {
+      "nonPartner": "Не партнер",
+      "partner": "Партнер"
+    },
+    "businessDirection": {
+      "deposit": "Депозит",
+      "withdrawal": "Зняття"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "Тип користувача",
+      "currency": "Валюта",
+      "quantity": "Кількість",
+      "businessDirection": "Бізнес-напрямок",
+      "note": "Нотатка",
+      "transactionTime": "Час транзакції"
+    },
+    "button": {
+      "search": "Пошук",
+      "export": "Експорт"
+    },
+    "updateTime": "Час оновлення даних"
+  },
+  "partnerConfig": {
+    "title": "Налаштування партнерів",
+    "search": {
+      "uid": "UID",
+      "note": "Нотатка",
+      "futuresRebateRatio": "Коефіцієнт повернення ф'ючерсів",
+      "type": "Тип"
+    },
+    "type": {
+      "client": "Клієнт",
+      "agent": "Агент"
+    },
+    "button": {
+      "search": "Пошук",
+      "addPartner": "Додати партнера",
+      "modifyInfo": "Змінити інформацію",
+      "back": "Назад",
+      "next": "Далі",
+      "cancel": "Скасувати",
+      "ok": "ОК"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "Країна/Регіон",
+      "futuresRebateRatio": "Коефіцієнт повернення ф'ючерсів",
+      "apiRebateRatio": "Коефіцієнт повернення API",
+      "spotRebateRatio": "Коефіцієнт повернення спот",
+      "etfRebateRatio": "Коефіцієнт повернення ETF",
+      "note": "Нотатка",
+      "loginName": "Ім'я для входу",
+      "mobileNumber": "Номер телефону",
+      "email": "Email"
+    },
+    "dialog": {
+      "addPartner": "Додати партнера",
+      "changePassword": "Змінити пароль",
+      "uid": "UID",
+      "type": "Тип",
+      "futuresRebate": "Повернення ф'ючерсів",
+      "apiRebate": "Повернення API",
+      "spotRebate": "Повернення спот",
+      "etfRebate": "Повернення ETF",
+      "note": "Нотатка",
+      "newPassword": "Новий пароль",
+      "confirmPassword": "Підтвердити пароль"
+    },
+    "updateTime": "Час оновлення даних"
+  },
+  "partnerList": {
+    "title": "Список партнерів",
+    "search": {
+      "uid": "UID",
+      "note": "Нотатка",
+      "feeRatio": "Коефіцієнт збору",
+      "userType": "Тип користувача"
+    },
+    "type": {
+      "client": "Клієнт",
+      "agent": "Агент"
+    },
+    "button": {
+      "search": "Пошук"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "Ідентичність партнера",
+      "futuresRebateRatio": "Коефіцієнт повернення ф'ючерсів",
+      "totalFuturesRebate": "Загальне повернення ф'ючерсів команди",
+      "totalFuturesServiceCharge": "Загальний збір за послуги ф'ючерсів команди",
+      "spotRebateRatio": "Коефіцієнт повернення спот",
+      "totalSpotRebate": "Загальне повернення спот команди",
+      "totalSpotServiceCharge": "Загальний збір за послуги спот команди",
+      "etfRebateRatio": "Коефіцієнт повернення ETF",
+      "totalEtfRebate": "Загальне повернення ETF команди",
+      "totalEtfServiceCharge": "Загальний збір за послуги ETF команди",
+      "currencyName": "Назва валюти",
+      "teamTotalDeposit": "Загальний депозит команди",
+      "teamTotalWithdrawal": "Загальне зняття команди",
+      "teamTotalNumber": "Загальна кількість команди",
+      "teamTotalDepositUsers": "Користувачі депозиту команди",
+      "firstDepositTime": "Час першого депозиту",
+      "note": "Нотатка",
+      "loginName": "Ім'я для входу",
+      "mobileNumber": "Номер телефону",
+      "email": "Email",
+      "registrationTime": "Час реєстрації облікового запису"
+    }
+  },
+  "referralLinks": {
+    "title": "Реферальні посилання",
+    "referralLink": "Реферальне посилання",
+    "directUsers": "Реферальне посилання прямих користувачів",
+    "copyLink": "Копіювати посилання",
+    "partnerLinks": "Реферальні посилання партнерів",
+    "createNewLink": "Створити нове посилання",
+    "table": {
+      "referralCode": "Реферальний код",
+      "spotCommission": "Комісія спот",
+      "inferiorSpotCommission": "Комісія спот нижчого рівня",
+      "etfCommission": "Комісія ETF",
+      "inferiorEtfCommission": "Комісія ETF нижчого рівня",
+      "futuresCommission": "Комісія ф'ючерсів",
+      "inferiorFuturesCommission": "Комісія ф'ючерсів нижчого рівня",
+      "apiCommission": "Комісія API",
+      "inferiorApiCommission": "Комісія API нижчого рівня",
+      "numberOfInvites": "Кількість запрошень",
+      "note": "Нотатка",
+      "operate": "Операція"
+    },
+    "button": {
+      "editMemo": "Редагувати нотатку",
+      "viewReferralList": "Переглянути список рефералів",
+      "cancel": "Скасувати",
+      "ok": "ОК"
+    },
+    "dialog": {
+      "referralList": "Список рефералів",
+      "createNewLink": "Створити нове посилання",
+      "editMemo": "Редагувати нотатку",
+      "partnerReferralLink": "Реферальне посилання партнера",
+      "spotCommission": "Комісія спот",
+      "inferiorSpotCommission": "Комісія спот нижчого рівня",
+      "etfCommission": "Комісія ETF",
+      "inferiorEtfCommission": "Комісія ETF нижчого рівня",
+      "futuresCommission": "Комісія ф'ючерсів",
+      "inferiorFuturesCommission": "Комісія ф'ючерсів нижчого рівня",
+      "apiCommission": "Комісія API",
+      "inferiorApiCommission": "Комісія API нижчого рівня",
+      "note": "Нотатка",
+      "memo": "Нотатка"
+    },
+    "message": {
+      "copySuccess": "Копіювання успішне!",
+      "copyFailed": "Копіювання не вдалося!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "Пошук усіх замовлень",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID замовлення",
+      "userType": "Тип користувача",
+      "accountType": "Тип рахунку",
+      "currency": "Валюта",
+      "direction": "Напрямок",
+      "status": "Статус",
+      "dateRange": "Діапазон дат",
+      "startDate": "Дата початку",
+      "endDate": "Дата закінчення"
+    },
+    "userType": {
+      "currentUser": "Поточний користувач",
+      "subordinates": "Підлеглі",
+      "allUsers": "Усі користувачі"
+    },
+    "accountType": {
+      "main": "Основний рахунок",
+      "sub": "Субрахунок",
+      "all": "Усі валюти"
+    },
+    "direction": {
+      "openLong": "Відкрити/Long",
+      "openShort": "Відкрити/Short",
+      "closeLong": "Закрити/Long",
+      "closeShort": "Закрити/Short"
+    },
+    "status": {
+      "closed": "Закрито",
+      "canceled": "Скасовано"
+    },
+    "button": {
+      "search": "Пошук"
+    },
+    "table": {
+      "no": "№",
+      "uid": "UID",
+      "accountType": "Тип рахунку",
+      "mainAccount": "Основний рахунок",
+      "currency": "Валюта",
+      "margin": "Маржа",
+      "leverage": "Кредитне плече",
+      "currency2": "Валюта",
+      "openPrice": "Ціна відкриття",
+      "dealPrice": "Ціна угоди",
+      "averagePrice": "Середня ціна",
+      "openQty": "Кіл-сть відкриття",
+      "dealQty": "Кіл-сть угоди",
+      "direction": "Напрямок",
+      "status": "Статус",
+      "type": "Тип",
+      "orderId": "ID замовлення",
+      "orderNo": "Номер замовлення",
+      "openTime": "Час відкриття"
+    }
+  },
+  "dashboard": {
+    "title": "Панель приладів",
+    "welcome": "Ласкаво просимо"
+  }
+}

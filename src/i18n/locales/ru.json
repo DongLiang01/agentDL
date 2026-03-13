@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "Вход",
+    "username": "Аккаунт",
+    "password": "Пароль",
+    "remember": "Запомнить данные входа",
+    "loginBtn": "Войти",
+    "usernamePlaceholder": "Пожалуйста, введите имя пользователя",
+    "passwordPlaceholder": "Пожалуйста, введите пароль",
+    "loggingIn": "Вход...",
+    "forgotPassword": "Забыли пароль?",
+    "pleaseEnterAccount": "Пожалуйста, введите аккаунт",
+    "pleaseEnterPassword": "Пожалуйста, введите пароль",
+    "loginSuccessful": "Вход выполнен успешно!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "Система поддержки за рубежом"
+  },
+  "layout": {
+    "logo": "Система поддержки каналов",
+    "logoShort": "CSS",
+    "collapseExpand": "Свернуть/Развернуть",
+    "select": "Выбрать",
+    "futuresRebate": "Коэффициент возврата фьючерсов",
+    "spotRebate": "Коэффициент возврата спота",
+    "etfRebate": "Коэффициент возврата ETF",
+    "apiRebate": "Коэффициент возврата API",
+    "languages": {
+      "zh-CN": "Упрощённый китайский",
+      "zh-TW": "Традиционный китайский",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "Изменить пароль",
+    "managementArea": "Область управления: Другое",
+    "logout": "Выйти",
+    "messageInfo": "CrazyEarn Happy Week # 2: 13% APR на USDT",
+    "more": "Подробнее"
+  },
+  "menu": {
+    "homePage": "Обзор домашней страницы",
+    "searchRebate": "Поиск записи возврата",
+    "rebateSummary": "Сводка возвратов",
+    "rebateRecords": "Записи возвратов",
+    "partnerManagement": "Управление партнерами",
+    "partnerConfig": "Настройка партнеров",
+    "partnerList": "Список партнеров",
+    "referralLinks": "Реферальные ссылки",
+    "searchAllOrders": "Поиск всех заказов",
+    "depositWithdraw": "Депозит/Вывод",
+    "otcDeposit": "Депозит/Вывод OTC",
+    "coinDeposit": "Депозит/Вывод монет",
+    "transfer": "Перевод",
+    "externalDeposit": "Общая сумма внешних депозитов",
+    "securityCenter": "Центр безопасности"
+  },
+  "transfer": {
+    "search": {
+      "uid": "UID пользователя",
+      "userType": "Тип пользователя",
+      "direction": "Направление",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания"
+    },
+    "type": {
+      "nonPartner": "Не партнер",
+      "partner": "Партнер"
+    },
+    "direction": {
+      "deposit": "Депозит",
+      "withdraw": "Вывод"
+    },
+    "button": {
+      "search": "Поиск",
+      "download": "Скачать"
+    },
+    "dataUpdateTime": "Время обновления данных",
+    "table": {
+      "uid": "UID пользователя",
+      "userType": "Тип пользователя",
+      "currency": "Валюта",
+      "amount": "Количество",
+      "direction": "Направление",
+      "note": "Заметка",
+      "createTime": "Время создания"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "UID пользователя",
+      "userType": "Тип пользователя",
+      "currency": "Валюта",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания"
+    },
+    "type": {
+      "nonPartner": "Не партнёр",
+      "partner": "Партнёр"
+    },
+    "button": {
+      "search": "Поиск",
+      "download": "Скачать"
+    },
+    "dataUpdateTime": "Время обновления данных",
+    "table": {
+      "uid": "UID пользователя",
+      "userType": "Тип пользователя",
+      "currency": "Валюта",
+      "totalExternalDeposit": "Общий внешний депозит узла",
+      "totalExternalWithdraw": "Общий внешний вывод узла",
+      "totalNodeUsers": "Всего пользователей узла",
+      "totalExternalDepositUsers": "Всего пользователей внешнего депозита узла"
+    }
+  },
+  "home": {
+    "newSystemButton": "Новая система поддержки каналов запущена. Нажмите для нового опыта",
+    "teamDailyNew": "Ежедневные новые регистрации команды",
+    "timeOfDataUpdate": "Время обновления данных: ",
+    "select": "Выбрать",
+    "all": "Все",
+    "futures": "Фьючерсы",
+    "spot": "Спот",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "Реальное время",
+      "yesterday": "Вчера",
+      "last7days": "Последние 7 дней",
+      "last30days": "Последние 30 дней",
+      "thisMonth": "Этот месяц",
+      "lastMonth": "Прошлый месяц",
+      "thisYear": "Этот год",
+      "history": "История"
+    },
+    "cards": {
+      "registrations": "Регистрации (Команда)",
+      "tradingVolume": "Объем торгов (Команда)",
+      "tradingFees": "Торговые комиссии (Команда)",
+      "totalCommission": "Общая комиссия (Команда)"
+    },
+    "charts": {
+      "dailyNewDeposit": "Вчерашние новые депозиты команды",
+      "dailyNewWithdrawal": "Вчерашние новые выводы команды",
+      "dailyNewTransactionVolume": "Вчерашний объем торгов команды",
+      "dailyTransactionFee": "Обзор торговых комиссий за вчера",
+      "estimatedRebatesYesterday": "Вчерашняя предполагаемая сумма возврата",
+      "estimatedRebatesToday": "Сегодняшняя предполагаемая сумма возврата",
+      "exactRebatesYesterday": "Вчерашняя точная сумма возврата",
+      "totalDeposit": "Общий депозит команды",
+      "totalWithdrawal": "Общий вывод команды",
+      "activeUsers": "Активные пользователи фьючерсов команды"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "Мой возврат",
+    "selfReturnRebate": "Возврат за себя",
+    "clientTransactionFee": "Комиссия за транзакцию клиента",
+    "clientContributionRebate": "Возврат за вклад клиента",
+    "totalTransactionFee": "Общая комиссия за транзакции",
+    "totalRebate": "Общий возврат",
+    "uid": "UID",
+    "note": "Заметка",
+    "userType": "Тип пользователя",
+    "client": "Клиент",
+    "agent": "Агент",
+    "currency": "Валюта",
+    "allCurrency": "Все валюты",
+    "start": "Начало",
+    "end": "Конец",
+    "search": "Поиск",
+    "reset": "Сбросить",
+    "table": {
+      "date": "Дата",
+      "uid": "UID",
+      "time": "Время",
+      "symbol": "Символ",
+      "type": "Тип",
+      "side": "Сторона",
+      "volume": "Объем",
+      "price": "Цена",
+      "fee": "Комиссия",
+      "rebate": "Возврат",
+      "currency": "Валюта",
+      "note": "Заметка"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "Пожалуйста, выберите",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "yesterday": "Вчера",
+    "today": "Сегодня",
+    "search": "Поиск",
+    "distributionNote": "Возврат будет перечислен вам в 07:00 (UTC) следующего дня",
+    "back": "Назад",
+    "next": "Далее",
+    "transactionType": {
+      "futures": "Фьючерсы",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "Спот",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "Валюта",
+      "estimatedRebate": "Предполагаемая сумма возврата",
+      "actualRebate": "Фактическая сумма возврата",
+      "transactionType": "Тип транзакции",
+      "arrivalTime": "Время поступления",
+      "issueStatus": "Статус выпуска",
+      "issued": "Выпущено",
+      "pending": "Ожидание"
+    }
+  },
+  "common": {
+    "search": "Поиск",
+    "export": "Экспорт",
+    "download": "Скачать",
+    "reset": "Сбросить",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "uid": "UID",
+    "userType": "Тип пользователя",
+    "currency": "Валюта",
+    "allCurrency": "Все валюты",
+    "direction": "Направление",
+    "status": "Статус",
+    "note": "Заметка",
+    "time": "Время",
+    "date": "Дата",
+    "quantity": "Количество",
+    "noData": "Нет данных"
+  },
+  "otcDeposit": {
+    "title": "Депозит/Вывод OTC",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID заказа",
+      "userType": "Тип пользователя",
+      "accountType": "Тип аккаунта",
+      "currency": "Валюта",
+      "quoteCurrency": "Валюта котировки",
+      "direction": "Направление",
+      "status": "Статус",
+      "dateRange": "Диапазон дат",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "businessDirection": "Бизнес-направление"
+    },
+    "userType": {
+      "currentUser": "Текущий пользователь",
+      "subordinates": "Подчиненные",
+      "allUsers": "Все пользователи",
+      "client": "Клиент",
+      "agent": "Агент"
+    },
+    "businessDirection": {
+      "deposit": "Депозит",
+      "withdrawal": "Вывод"
+    },
+    "accountType": {
+      "main": "Основной аккаунт",
+      "sub": "Субаккаунт"
+    },
+    "direction": {
+      "openLong": "Открыть/Long",
+      "openShort": "Открыть/Short",
+      "closeLong": "Закрыть/Long",
+      "closeShort": "Закрыть/Short"
+    },
+    "status": {
+      "closed": "Закрыто",
+      "canceled": "Отменено"
+    },
+    "table": {
+      "no": "№",
+      "uid": "UID",
+      "userType": "Тип пользователя",
+      "accountType": "Тип аккаунта",
+      "mainAccount": "Основной аккаунт",
+      "currency": "Валюта",
+      "quantity": "Количество",
+      "businessDirection": "Бизнес-направление",
+      "margin": "Маржа",
+      "leverage": "Кредитное плечо",
+      "quoteCurrency": "Валюта котировки",
+      "openPrice": "Цена открытия",
+      "dealPrice": "Цена сделки",
+      "averagePrice": "Средняя цена",
+      "openQty": "Кол-во открытия",
+      "dealQty": "Кол-во сделки",
+      "direction": "Направление",
+      "status": "Статус",
+      "type": "Тип",
+      "orderId": "ID заказа",
+      "orderNo": "Номер заказа",
+      "openTime": "Время открытия",
+      "note": "Заметка",
+      "transactionTime": "Время транзакции"
+    },
+    "button": {
+      "search": "Поиск",
+      "export": "Экспорт"
+    },
+    "updateTime": "Время обновления данных"
+  },
+  "coinDeposit": {
+    "title": "Депозит/Вывод монет",
+    "search": {
+      "uid": "UID",
+      "userType": "Тип пользователя",
+      "businessDirection": "Бизнес-направление",
+      "currency": "Валюта",
+      "dateRange": "До",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания"
+    },
+    "userType": {
+      "nonPartner": "Не партнер",
+      "partner": "Партнер"
+    },
+    "businessDirection": {
+      "deposit": "Депозит",
+      "withdrawal": "Вывод"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "Тип пользователя",
+      "currency": "Валюта",
+      "quantity": "Количество",
+      "businessDirection": "Бизнес-направление",
+      "note": "Заметка",
+      "transactionTime": "Время транзакции"
+    },
+    "button": {
+      "search": "Поиск",
+      "export": "Экспорт"
+    },
+    "updateTime": "Время обновления данных"
+  },
+  "partnerConfig": {
+    "title": "Настройка партнеров",
+    "search": {
+      "uid": "UID",
+      "note": "Заметка",
+      "futuresRebateRatio": "Коэффициент возврата фьючерсов",
+      "type": "Тип"
+    },
+    "type": {
+      "client": "Клиент",
+      "agent": "Агент"
+    },
+    "button": {
+      "search": "Поиск",
+      "addPartner": "Добавить партнера",
+      "modifyInfo": "Изменить информацию",
+      "back": "Назад",
+      "next": "Далее",
+      "cancel": "Отмена",
+      "ok": "ОК"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "Страна/Регион",
+      "futuresRebateRatio": "Коэффициент возврата фьючерсов",
+      "apiRebateRatio": "Коэффициент возврата API",
+      "spotRebateRatio": "Коэффициент возврата спота",
+      "etfRebateRatio": "Коэффициент возврата ETF",
+      "note": "Заметка",
+      "loginName": "Имя входа",
+      "mobileNumber": "Номер телефона",
+      "email": "Email"
+    },
+    "dialog": {
+      "addPartner": "Добавить партнера",
+      "changePassword": "Изменить пароль",
+      "uid": "UID",
+      "type": "Тип",
+      "futuresRebate": "Возврат фьючерсов",
+      "apiRebate": "Возврат API",
+      "spotRebate": "Возврат спота",
+      "etfRebate": "Возврат ETF",
+      "note": "Заметка",
+      "newPassword": "Новый пароль",
+      "confirmPassword": "Подтвердить пароль"
+    },
+    "updateTime": "Время обновления данных"
+  },
+  "partnerList": {
+    "title": "Список партнеров",
+    "search": {
+      "uid": "UID",
+      "note": "Заметка",
+      "feeRatio": "Коэффициент комиссии",
+      "userType": "Тип пользователя"
+    },
+    "type": {
+      "client": "Клиент",
+      "agent": "Агент"
+    },
+    "button": {
+      "search": "Поиск"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "Идентичность партнера",
+      "futuresRebateRatio": "Коэффициент возврата фьючерсов",
+      "totalFuturesRebate": "Общий возврат фьючерсов команды",
+      "totalFuturesServiceCharge": "Общая комиссия за услуги фьючерсов команды",
+      "spotRebateRatio": "Коэффициент возврата спота",
+      "totalSpotRebate": "Общий возврат спота команды",
+      "totalSpotServiceCharge": "Общая комиссия за услуги спота команды",
+      "etfRebateRatio": "Коэффициент возврата ETF",
+      "totalEtfRebate": "Общий возврат ETF команды",
+      "totalEtfServiceCharge": "Общая комиссия за услуги ETF команды",
+      "currencyName": "Название валюты",
+      "teamTotalDeposit": "Общий депозит команды",
+      "teamTotalWithdrawal": "Общий вывод команды",
+      "teamTotalNumber": "Общее число команды",
+      "teamTotalDepositUsers": "Пользователи депозита команды",
+      "firstDepositTime": "Время первого депозита",
+      "note": "Заметка",
+      "loginName": "Имя входа",
+      "mobileNumber": "Номер телефона",
+      "email": "Email",
+      "registrationTime": "Время регистрации аккаунта"
+    }
+  },
+  "referralLinks": {
+    "title": "Реферальные ссылки",
+    "referralLink": "Реферальная ссылка",
+    "directUsers": "Реферальная ссылка прямых пользователей",
+    "copyLink": "Копировать ссылку",
+    "partnerLinks": "Реферальные ссылки партнеров",
+    "createNewLink": "Создать новую ссылку",
+    "table": {
+      "referralCode": "Реферальный код",
+      "spotCommission": "Комиссия спота",
+      "inferiorSpotCommission": "Комиссия спота низшего уровня",
+      "etfCommission": "Комиссия ETF",
+      "inferiorEtfCommission": "Комиссия ETF низшего уровня",
+      "futuresCommission": "Комиссия фьючерсов",
+      "inferiorFuturesCommission": "Комиссия фьючерсов низшего уровня",
+      "apiCommission": "Комиссия API",
+      "inferiorApiCommission": "Комиссия API низшего уровня",
+      "numberOfInvites": "Количество приглашений",
+      "note": "Заметка",
+      "operate": "Операция"
+    },
+    "button": {
+      "editMemo": "Редактировать заметку",
+      "viewReferralList": "Просмотр списка рефералов",
+      "cancel": "Отмена",
+      "ok": "ОК"
+    },
+    "dialog": {
+      "referralList": "Список рефералов",
+      "createNewLink": "Создать новую ссылку",
+      "editMemo": "Редактировать заметку",
+      "partnerReferralLink": "Реферальная ссылка партнера",
+      "spotCommission": "Комиссия спота",
+      "inferiorSpotCommission": "Комиссия спота низшего уровня",
+      "etfCommission": "Комиссия ETF",
+      "inferiorEtfCommission": "Комиссия ETF низшего уровня",
+      "futuresCommission": "Комиссия фьючерсов",
+      "inferiorFuturesCommission": "Комиссия фьючерсов низшего уровня",
+      "apiCommission": "Комиссия API",
+      "inferiorApiCommission": "Комиссия API низшего уровня",
+      "note": "Заметка",
+      "memo": "Заметка"
+    },
+    "message": {
+      "copySuccess": "Копирование успешно!",
+      "copyFailed": "Копирование не удалось!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "Поиск всех заказов",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID заказа",
+      "userType": "Тип пользователя",
+      "accountType": "Тип аккаунта",
+      "currency": "Валюта",
+      "direction": "Направление",
+      "status": "Статус",
+      "dateRange": "Диапазон дат",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания"
+    },
+    "userType": {
+      "currentUser": "Текущий пользователь",
+      "subordinates": "Подчиненные",
+      "allUsers": "Все пользователи"
+    },
+    "accountType": {
+      "main": "Основной аккаунт",
+      "sub": "Субаккаунт",
+      "all": "Все валюты"
+    },
+    "direction": {
+      "openLong": "Открыть/Long",
+      "openShort": "Открыть/Short",
+      "closeLong": "Закрыть/Long",
+      "closeShort": "Закрыть/Short"
+    },
+    "status": {
+      "closed": "Закрыто",
+      "canceled": "Отменено"
+    },
+    "button": {
+      "search": "Поиск"
+    },
+    "table": {
+      "no": "№",
+      "uid": "UID",
+      "accountType": "Тип аккаунта",
+      "mainAccount": "Основной аккаунт",
+      "currency": "Валюта",
+      "margin": "Маржа",
+      "leverage": "Кредитное плечо",
+      "currency2": "Валюта",
+      "openPrice": "Цена открытия",
+      "dealPrice": "Цена сделки",
+      "averagePrice": "Средняя цена",
+      "openQty": "Кол-во открытия",
+      "dealQty": "Кол-во сделки",
+      "direction": "Направление",
+      "status": "Статус",
+      "type": "Тип",
+      "orderId": "ID заказа",
+      "orderNo": "Номер заказа",
+      "openTime": "Время открытия"
+    }
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "welcome": "Добро пожаловать"
+  }
+}

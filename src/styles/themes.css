@@ -1,0 +1,559 @@
+/*
+ * Copyright © 2026 TinyTrader. All rights reserved.
+ * Author: Raymond
+ * This software is proprietary and confidential information of TinyTrader.
+ */
+
+/* ============================================
+   Light Theme (default) - OpenSea Style
+   ============================================ */
+:root {
+  /* OpenSea 主色调 */
+  --theme-primary: #2081e2;
+  --theme-primary-hover: #1868b7;
+  --theme-primary-light: #e9f1fb;
+  --theme-primary-rgb: 32, 129, 226;
+
+  /* 背景色 - OpenSea Light */
+  --theme-bg-sidebar: #ffffff;
+  --theme-bg-header: #ffffff;
+  --theme-bg-main: #fbfdff;
+  --theme-bg-card: #ffffff;
+  --theme-bg-input: #f4f5f6;
+  --theme-bg-hover: #f4f5f6;
+  --theme-bg-popup: #ffffff;
+
+  /* 文字色 - OpenSea Light */
+  --theme-text-primary: #04111d;
+  --theme-text-secondary: #707a83;
+  --theme-text-muted: #8a939b;
+  --theme-text-link: #2081e2;
+
+  /* 边框色 */
+  --theme-border: #e5e8eb;
+  --theme-border-light: #edf0f3;
+
+  /* 菜单选中态 - OpenSea pill style */
+  --theme-menu-active-bg: #e9f1fb;
+  --theme-menu-active-text: #2081e2;
+  --theme-menu-hover-bg: #f4f5f6;
+  --theme-menu-item-radius: 10px;
+
+  /* 消息提示 */
+  --theme-message-bg: #e9f1fb;
+  --theme-message-text: #2081e2;
+
+  /* 比率颜色 */
+  --theme-ratio: #2081e2;
+
+  /* 圆角系统 - OpenSea uses larger radii */
+  --border-radius-sm: 8px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+
+  /* 阴影 - OpenSea subtle */
+  --box-shadow-sm: 0 1px 2px rgba(4, 17, 29, 0.04);
+  --box-shadow-md: 0 4px 16px rgba(4, 17, 29, 0.06);
+  --box-shadow-lg: 0 8px 32px rgba(4, 17, 29, 0.08);
+  --box-shadow-sidebar: none;
+
+  /* 滚动条 */
+  --scrollbar-bg: #f4f5f6;
+  --scrollbar-thumb: #d1d5db;
+
+  /* Element Plus CSS Variables - OpenSea Blue */
+  --el-color-primary: #2081e2;
+  --el-color-primary-light-3: #4a9aea;
+  --el-color-primary-light-5: #7ab3f2;
+  --el-color-primary-light-7: #a5ccf9;
+  --el-color-primary-light-8: #c5dffa;
+  --el-color-primary-light-9: #e9f1fb;
+  --el-color-primary-dark-2: #1868b7;
+  --el-color-success: #34c759;
+  --el-color-success-light-3: #6dd58d;
+  --el-color-success-light-5: #99e3af;
+  --el-color-success-light-7: #c2f0ce;
+  --el-color-success-light-8: #d8f5e0;
+  --el-color-success-light-9: #eefaf1;
+  --el-color-success-dark-2: #28a745;
+  --el-color-warning: #e6a23c;
+  --el-color-warning-light-3: #eebe77;
+  --el-color-warning-light-5: #f3d19e;
+  --el-color-warning-light-7: #f8e3c5;
+  --el-color-warning-light-8: #faecd8;
+  --el-color-warning-light-9: #fdf6ec;
+  --el-color-warning-dark-2: #b88230;
+  --el-color-danger: #eb5757;
+  --el-color-danger-light-3: #f08585;
+  --el-color-danger-light-5: #f5abab;
+  --el-color-danger-light-7: #f9cfcf;
+  --el-color-danger-light-8: #fbe0e0;
+  --el-color-danger-light-9: #fef0f0;
+  --el-color-danger-dark-2: #c44545;
+  --el-color-error: #eb5757;
+  --el-color-error-light-3: #f08585;
+  --el-color-error-light-5: #f5abab;
+  --el-color-error-light-7: #f9cfcf;
+  --el-color-error-light-8: #fbe0e0;
+  --el-color-error-light-9: #fef0f0;
+  --el-color-error-dark-2: #c44545;
+  --el-color-info: #8a939b;
+  --el-color-info-light-3: #a7aeb5;
+  --el-color-info-light-5: #c4c9cd;
+  --el-color-info-light-7: #dfe2e4;
+  --el-color-info-light-8: #ebedef;
+  --el-color-info-light-9: #f5f6f7;
+  --el-color-info-dark-2: #6e767c;
+  --el-bg-color: #ffffff;
+  --el-bg-color-page: #fbfdff;
+  --el-bg-color-overlay: #ffffff;
+  --el-text-color-primary: #04111d;
+  --el-text-color-regular: #353840;
+  --el-text-color-secondary: #707a83;
+  --el-text-color-placeholder: #8a939b;
+  --el-text-color-disabled: #c0c4cc;
+  --el-border-color: #e5e8eb;
+  --el-border-color-light: #edf0f3;
+  --el-border-color-lighter: #f4f5f6;
+  --el-border-color-extra-light: #f8f9fa;
+  --el-border-color-dark: #d5d8db;
+  --el-border-color-darker: #c0c4c8;
+  --el-fill-color: #f4f5f6;
+  --el-fill-color-light: #f8f9fa;
+  --el-fill-color-lighter: #fbfcfc;
+  --el-fill-color-extra-light: #fdfdfe;
+  --el-fill-color-dark: #ebedef;
+  --el-fill-color-darker: #e5e8eb;
+  --el-fill-color-blank: #ffffff;
+  --el-box-shadow: 0px 8px 24px rgba(4, 17, 29, 0.06);
+  --el-box-shadow-light: 0px 2px 12px rgba(4, 17, 29, 0.08);
+  --el-box-shadow-lighter: 0px 1px 6px rgba(4, 17, 29, 0.04);
+  --el-box-shadow-dark: 0px 12px 40px rgba(4, 17, 29, 0.12);
+  --el-disabled-bg-color: var(--el-fill-color-light);
+  --el-disabled-text-color: var(--el-text-color-placeholder);
+  --el-disabled-border-color: var(--el-border-color-light);
+  --el-overlay-color: rgba(4, 17, 29, 0.6);
+  --el-overlay-color-light: rgba(4, 17, 29, 0.5);
+  --el-overlay-color-lighter: rgba(4, 17, 29, 0.3);
+  --el-mask-color: rgba(255, 255, 255, 0.9);
+  --el-mask-color-extra-light: rgba(255, 255, 255, 0.3);
+  --el-border-width: 1px;
+  --el-border-style: solid;
+  --el-border-color-hover: var(--el-text-color-disabled);
+  --el-border: var(--el-border-width) var(--el-border-style) var(--el-border-color);
+  --el-svg-monochrome-grey: var(--el-border-color);
+}
+
+/* ============================================
+   Dark Theme - OpenSea Style
+   ============================================ */
+html.dark {
+  --theme-primary: #2081e2;
+  --theme-primary-hover: #4a9aea;
+  --theme-primary-light: #15253d;
+  --theme-primary-rgb: 32, 129, 226;
+
+  /* 背景色 - OpenSea Dark */
+  --theme-bg-sidebar: #111419;
+  --theme-bg-header: #18191c;
+  --theme-bg-main: #0b0c0f;
+  --theme-bg-card: #18191c;
+  --theme-bg-input: #23262f;
+  --theme-bg-hover: #23262f;
+  --theme-bg-popup: #23262f;
+
+  /* 文字色 - OpenSea Dark */
+  --theme-text-primary: #e5e8eb;
+  --theme-text-secondary: #8a939b;
+  --theme-text-muted: #707a83;
+  --theme-text-link: #4a9aea;
+
+  /* 边框色 */
+  --theme-border: #2a2d35;
+  --theme-border-light: #23262f;
+
+  /* 菜单选中态 */
+  --theme-menu-active-bg: #15253d;
+  --theme-menu-active-text: #4a9aea;
+  --theme-menu-hover-bg: #23262f;
+  --theme-menu-item-radius: 10px;
+
+  /* 消息提示 */
+  --theme-message-bg: #15253d;
+  --theme-message-text: #4a9aea;
+
+  /* 比率颜色 */
+  --theme-ratio: #4a9aea;
+
+  /* Dark 模式阴影 */
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --box-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --box-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --box-shadow-sidebar: none;
+
+  /* 滚动条 */
+  --scrollbar-bg: #18191c;
+  --scrollbar-thumb: #353840;
+
+  /* Element Plus Dark Mode CSS Variables */
+  --el-color-primary: #2081e2;
+  --el-color-primary-light-3: #1868b7;
+  --el-color-primary-light-5: #144f8f;
+  --el-color-primary-light-7: #0f3a6b;
+  --el-color-primary-light-8: #0b2a50;
+  --el-color-primary-light-9: #071c38;
+  --el-color-primary-dark-2: #4a9aea;
+  --el-color-success: #34c759;
+  --el-color-success-light-3: #28a745;
+  --el-color-success-light-5: #1f8a38;
+  --el-color-success-light-7: #186e2c;
+  --el-color-success-light-8: #135523;
+  --el-color-success-light-9: #0e3c19;
+  --el-color-success-dark-2: #6dd58d;
+  --el-color-warning: #e6a23c;
+  --el-color-warning-light-3: #b88230;
+  --el-color-warning-light-5: #8f6726;
+  --el-color-warning-light-7: #72511f;
+  --el-color-warning-light-8: #5d411a;
+  --el-color-warning-light-9: #432d13;
+  --el-color-warning-dark-2: #eebe77;
+  --el-color-danger: #eb5757;
+  --el-color-danger-light-3: #c44545;
+  --el-color-danger-light-5: #9d3838;
+  --el-color-danger-light-7: #7d2d2d;
+  --el-color-danger-light-8: #642525;
+  --el-color-danger-light-9: #461a1a;
+  --el-color-danger-dark-2: #f08585;
+  --el-color-error: #eb5757;
+  --el-color-error-light-3: #c44545;
+  --el-color-error-light-5: #9d3838;
+  --el-color-error-light-7: #7d2d2d;
+  --el-color-error-light-8: #642525;
+  --el-color-error-light-9: #461a1a;
+  --el-color-error-dark-2: #f08585;
+  --el-color-info: #8a939b;
+  --el-color-info-light-3: #6e767c;
+  --el-color-info-light-5: #565d63;
+  --el-color-info-light-7: #42484d;
+  --el-color-info-light-8: #35393d;
+  --el-color-info-light-9: #262a2d;
+  --el-color-info-dark-2: #a7aeb5;
+  --el-bg-color: #18191c;
+  --el-bg-color-page: #0b0c0f;
+  --el-bg-color-overlay: #23262f;
+  --el-text-color-primary: #e5e8eb;
+  --el-text-color-regular: #c8ccd1;
+  --el-text-color-secondary: #8a939b;
+  --el-text-color-placeholder: #707a83;
+  --el-text-color-disabled: #565d63;
+  --el-border-color: #353840;
+  --el-border-color-light: #2a2d35;
+  --el-border-color-lighter: #23262f;
+  --el-border-color-extra-light: #1d2028;
+  --el-border-color-dark: #42484d;
+  --el-border-color-darker: #565d63;
+  --el-fill-color: #23262f;
+  --el-fill-color-light: #1d2028;
+  --el-fill-color-lighter: #18191c;
+  --el-fill-color-extra-light: #141519;
+  --el-fill-color-dark: #2a2d35;
+  --el-fill-color-darker: #353840;
+  --el-fill-color-blank: transparent;
+  --el-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
+  --el-box-shadow-light: 0px 2px 12px rgba(0, 0, 0, 0.5);
+  --el-box-shadow-lighter: 0px 1px 6px rgba(0, 0, 0, 0.4);
+  --el-box-shadow-dark: 0px 12px 40px rgba(0, 0, 0, 0.6);
+  --el-disabled-bg-color: var(--el-fill-color-light);
+  --el-disabled-text-color: var(--el-text-color-placeholder);
+  --el-disabled-border-color: var(--el-border-color-light);
+  --el-overlay-color: rgba(0, 0, 0, 0.7);
+  --el-overlay-color-light: rgba(0, 0, 0, 0.6);
+  --el-overlay-color-lighter: rgba(0, 0, 0, 0.4);
+  --el-mask-color: rgba(0, 0, 0, 0.85);
+  --el-mask-color-extra-light: rgba(0, 0, 0, 0.3);
+  --el-border-color-hover: var(--el-text-color-disabled);
+  --el-svg-monochrome-grey: #565d63;
+}
+
+/* ============================================
+   Element Plus Dark Mode Component Overrides
+   ============================================ */
+html.dark .el-menu {
+  background-color: var(--theme-bg-sidebar);
+  border-color: var(--theme-border);
+}
+
+html.dark .el-menu--horizontal > .el-menu-item.is-active,
+html.dark .el-menu--horizontal > .el-sub-menu.is-active .el-sub-menu__title {
+  border-bottom-color: var(--el-color-primary);
+}
+
+html.dark .el-menu-item,
+html.dark .el-sub-menu__title {
+  color: var(--el-text-color-regular);
+}
+
+html.dark .el-menu-item:hover,
+html.dark .el-sub-menu__title:hover {
+  background-color: var(--theme-menu-hover-bg);
+}
+
+html.dark .el-menu-item.is-active {
+  color: var(--el-color-primary);
+}
+
+html.dark .el-sub-menu .el-menu {
+  background-color: var(--theme-bg-sidebar);
+}
+
+html.dark .el-card {
+  background-color: var(--el-bg-color);
+  border-color: var(--el-border-color-lighter);
+}
+
+html.dark .el-card__header {
+  border-bottom-color: var(--el-border-color-lighter);
+  color: var(--el-text-color-primary);
+}
+
+html.dark .el-tabs__item {
+  color: var(--el-text-color-regular);
+}
+
+html.dark .el-tabs__item:hover {
+  color: var(--el-text-color-primary);
+}
+
+html.dark .el-tabs__item.is-active {
+  color: var(--el-color-primary);
+}
+
+html.dark .el-tabs__active-bar {
+  background-color: var(--el-color-primary);
+}
+
+html.dark .el-tabs__nav-wrap::after {
+  background-color: var(--el-border-color-lighter);
+}
+
+html.dark .el-select .el-input__wrapper {
+  background-color: var(--theme-bg-input);
+  box-shadow: 0 0 0 1px var(--el-border-color) inset;
+}
+
+html.dark .el-select .el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px var(--el-text-color-secondary) inset;
+}
+
+html.dark .el-select .el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--el-color-primary) inset;
+}
+
+html.dark .el-select-dropdown {
+  background-color: var(--el-bg-color-overlay);
+  border-color: var(--el-border-color-lighter);
+}
+
+html.dark .el-select-dropdown__item {
+  color: var(--el-text-color-regular);
+}
+
+html.dark .el-select-dropdown__item:hover {
+  background-color: var(--el-fill-color-light);
+}
+
+html.dark .el-select-dropdown__item.selected {
+  color: var(--el-color-primary);
+}
+
+html.dark .el-button {
+  color: var(--el-text-color-regular);
+}
+
+html.dark .el-button--primary {
+  background-color: var(--el-color-primary);
+  border-color: var(--el-color-primary);
+  color: #fff;
+}
+
+html.dark .el-button--success {
+  background-color: var(--el-color-success);
+  border-color: var(--el-color-success);
+  color: #fff;
+}
+
+html.dark .el-button--warning {
+  background-color: var(--el-color-warning);
+  border-color: var(--el-color-warning);
+  color: #fff;
+}
+
+html.dark .el-button--danger {
+  background-color: var(--el-color-danger);
+  border-color: var(--el-color-danger);
+  color: #fff;
+}
+
+html.dark .el-button--info {
+  background-color: var(--el-color-info);
+  border-color: var(--el-color-info);
+  color: #fff;
+}
+
+html.dark .el-carousel__arrow {
+  background-color: var(--el-fill-color-dark);
+  color: var(--el-text-color-primary);
+}
+
+html.dark .el-carousel__arrow:hover {
+  background-color: var(--el-fill-color-darker);
+}
+
+html.dark .el-badge__content {
+  background-color: var(--el-color-danger);
+  border-color: var(--el-bg-color);
+}
+
+html.dark .el-dropdown-menu {
+  background-color: var(--el-bg-color-overlay);
+  border-color: var(--el-border-color-lighter);
+}
+
+html.dark .el-dropdown-menu__item {
+  color: var(--el-text-color-regular);
+}
+
+html.dark .el-dropdown-menu__item:hover {
+  background-color: var(--el-fill-color-light);
+  color: var(--el-color-primary);
+}
+
+html.dark .el-popper {
+  background-color: var(--el-bg-color-overlay);
+  color: var(--el-text-color-primary);
+}
+
+html.dark .el-tooltip__popper {
+  background-color: var(--el-bg-color-overlay);
+  color: var(--el-text-color-primary);
+}
+
+/* ============================================
+   Global Element Plus Enhancements (both modes)
+   ============================================ */
+
+/* Cards - OpenSea rounded style */
+.el-card {
+  border-radius: var(--border-radius-lg) !important;
+  border: 1px solid var(--theme-border) !important;
+  box-shadow: none !important;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.el-card:hover {
+  box-shadow: var(--box-shadow-md) !important;
+}
+
+/* Buttons - OpenSea rounded pill style */
+.el-button {
+  border-radius: var(--border-radius-md) !important;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.el-button--primary {
+  background-color: var(--theme-primary) !important;
+  border-color: var(--theme-primary) !important;
+}
+
+.el-button--primary:hover {
+  background-color: var(--theme-primary-hover) !important;
+  border-color: var(--theme-primary-hover) !important;
+}
+
+/* Input fields - OpenSea style */
+.el-input__wrapper {
+  border-radius: var(--border-radius-md) !important;
+  transition: box-shadow 0.15s ease;
+}
+
+/* Select dropdown - OpenSea rounded */
+.el-select-dropdown {
+  border-radius: var(--border-radius-md) !important;
+  overflow: hidden;
+}
+
+/* Table - Clean OpenSea style */
+.el-table {
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.el-table th {
+  background-color: var(--theme-bg-hover) !important;
+  color: var(--theme-text-secondary) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Dropdown menu - OpenSea style */
+.el-dropdown-menu {
+  border-radius: var(--border-radius-md) !important;
+  padding: 6px !important;
+  border: 1px solid var(--theme-border) !important;
+  box-shadow: var(--box-shadow-lg) !important;
+}
+
+.el-dropdown-menu__item {
+  border-radius: 6px !important;
+  padding: 8px 12px !important;
+  margin: 2px 0 !important;
+  font-size: 14px !important;
+  transition: background-color 0.15s ease;
+}
+
+/* Smooth theme transition for key elements */
+.el-card,
+.el-menu,
+.el-table,
+.el-container,
+.el-aside,
+.el-header,
+.el-main,
+body {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+.el-menu-item,
+.el-sub-menu__title {
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Custom scrollbar - OpenSea style */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-text-muted);
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

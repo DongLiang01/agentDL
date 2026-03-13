@@ -458,6 +458,16 @@ const volumeFilter = ref('all')
 const feesFilter = ref('all')
 const commissionFilter = ref('all')
 
+// OpenSea-aligned chart color palette
+const CHART_COLORS = {
+  primary: '#2081e2',     // OpenSea Blue
+  secondary: '#4a9aea',   // Light Blue
+  success: '#34c759',     // Green
+  warning: '#e6a23c',     // Orange/Amber
+  danger: '#eb5757',      // Red
+  info: '#8a939b',        // Gray
+}
+
 // Generate sample data for last 7 days
 const generateDateLabels = () => {
   const labels = []
@@ -490,9 +500,9 @@ const dailyNewDepositOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(1000, 5000)[0], name: t('home.futures'), itemStyle: { color: '#0cb4c7' } },
-        { value: generateRandomData(1000, 4000)[0], name: t('home.spot'), itemStyle: { color: '#409eff' } },
-        { value: generateRandomData(500, 2000)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(1000, 5000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.primary } },
+        { value: generateRandomData(1000, 4000)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.secondary } },
+        { value: generateRandomData(500, 2000)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -520,9 +530,9 @@ const dailyNewWithdrawalOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(800, 4000)[0], name: t('home.futures'), itemStyle: { color: '#f56c6c' } },
-        { value: generateRandomData(800, 3500)[0], name: t('home.spot'), itemStyle: { color: '#e6a23c' } },
-        { value: generateRandomData(400, 1500)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(800, 4000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.danger } },
+        { value: generateRandomData(800, 3500)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.warning } },
+        { value: generateRandomData(400, 1500)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -550,9 +560,9 @@ const dailyNewTransactionVolumeOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(50000, 200000)[0], name: t('home.futures'), itemStyle: { color: '#e6a23c' } },
-        { value: generateRandomData(40000, 150000)[0], name: t('home.spot'), itemStyle: { color: '#67c23a' } },
-        { value: generateRandomData(20000, 80000)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(50000, 200000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.warning } },
+        { value: generateRandomData(40000, 150000)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.success } },
+        { value: generateRandomData(20000, 80000)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -580,9 +590,9 @@ const dailyTransactionFeeOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(1000, 5000)[0], name: t('home.futures'), itemStyle: { color: '#67c23a' } },
-        { value: generateRandomData(800, 4000)[0], name: t('home.spot'), itemStyle: { color: '#409eff' } },
-        { value: generateRandomData(400, 2000)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(1000, 5000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.success } },
+        { value: generateRandomData(800, 4000)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.primary } },
+        { value: generateRandomData(400, 2000)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -610,9 +620,9 @@ const estimatedRebatesYesterdayOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(1000, 5000)[0], name: t('home.futures'), itemStyle: { color: '#409eff' } },
-        { value: generateRandomData(800, 4000)[0], name: t('home.spot'), itemStyle: { color: '#67c23a' } },
-        { value: generateRandomData(400, 2000)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(1000, 5000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.primary } },
+        { value: generateRandomData(800, 4000)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.success } },
+        { value: generateRandomData(400, 2000)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -640,9 +650,9 @@ const estimatedRebatesTodayOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(800, 4000)[0], name: t('home.futures'), itemStyle: { color: '#0cb4c7' } },
-        { value: generateRandomData(600, 3500)[0], name: t('home.spot'), itemStyle: { color: '#e6a23c' } },
-        { value: generateRandomData(300, 1500)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(800, 4000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.secondary } },
+        { value: generateRandomData(600, 3500)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.warning } },
+        { value: generateRandomData(300, 1500)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -670,9 +680,9 @@ const exactRebatesYesterdayOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(900, 4500)[0], name: t('home.futures'), itemStyle: { color: '#67c23a' } },
-        { value: generateRandomData(700, 3800)[0], name: t('home.spot'), itemStyle: { color: '#409eff' } },
-        { value: generateRandomData(350, 1800)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(900, 4500)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.success } },
+        { value: generateRandomData(700, 3800)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.primary } },
+        { value: generateRandomData(350, 1800)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -700,9 +710,9 @@ const totalDepositOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(200000, 800000)[0], name: t('home.futures'), itemStyle: { color: '#0cb4c7' } },
-        { value: generateRandomData(150000, 600000)[0], name: t('home.spot'), itemStyle: { color: '#409eff' } },
-        { value: generateRandomData(80000, 300000)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(200000, 800000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.secondary } },
+        { value: generateRandomData(150000, 600000)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.primary } },
+        { value: generateRandomData(80000, 300000)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -730,9 +740,9 @@ const totalWithdrawalOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(100000, 600000)[0], name: t('home.futures'), itemStyle: { color: '#f56c6c' } },
-        { value: generateRandomData(80000, 450000)[0], name: t('home.spot'), itemStyle: { color: '#e6a23c' } },
-        { value: generateRandomData(40000, 200000)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(100000, 600000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.danger } },
+        { value: generateRandomData(80000, 450000)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.warning } },
+        { value: generateRandomData(40000, 200000)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -760,9 +770,9 @@ const activeUsersOption = computed(() => ({
       type: 'pie',
       radius: '50%',
       data: [
-        { value: generateRandomData(1000, 4000)[0], name: t('home.futures'), itemStyle: { color: '#e6a23c' } },
-        { value: generateRandomData(800, 3500)[0], name: t('home.spot'), itemStyle: { color: '#67c23a' } },
-        { value: generateRandomData(400, 1800)[0], name: t('home.etf'), itemStyle: { color: '#909399' } }
+        { value: generateRandomData(1000, 4000)[0], name: t('home.futures'), itemStyle: { color: CHART_COLORS.warning } },
+        { value: generateRandomData(800, 3500)[0], name: t('home.spot'), itemStyle: { color: CHART_COLORS.success } },
+        { value: generateRandomData(400, 1800)[0], name: t('home.etf'), itemStyle: { color: CHART_COLORS.info } }
       ],
       emphasis: {
         itemStyle: {
@@ -804,10 +814,10 @@ const dailyNewDepositLineOption = computed(() => ({
       data: generateRandomData(1000, 5000),
       smooth: true,
       lineStyle: {
-        color: '#0cb4c7'
+        color: CHART_COLORS.primary
       },
       areaStyle: {
-        color: 'rgba(12, 180, 199, 0.1)'
+        color: 'rgba(32, 129, 226, 0.1)'
       }
     }
   ]
@@ -840,10 +850,10 @@ const dailyNewWithdrawalLineOption = computed(() => ({
       data: generateRandomData(800, 4000),
       smooth: true,
       lineStyle: {
-        color: '#f56c6c'
+        color: CHART_COLORS.danger
       },
       areaStyle: {
-        color: 'rgba(245, 108, 108, 0.1)'
+        color: 'rgba(235, 87, 87, 0.1)'
       }
     }
   ]
@@ -876,7 +886,7 @@ const dailyNewTransactionVolumeLineOption = computed(() => ({
       data: generateRandomData(50000, 200000),
       smooth: true,
       lineStyle: {
-        color: '#e6a23c'
+        color: CHART_COLORS.warning
       },
       areaStyle: {
         color: 'rgba(230, 162, 60, 0.1)'
@@ -912,10 +922,10 @@ const dailyTransactionFeeLineOption = computed(() => ({
       data: generateRandomData(1000, 5000),
       smooth: true,
       lineStyle: {
-        color: '#67c23a'
+        color: CHART_COLORS.success
       },
       areaStyle: {
-        color: 'rgba(103, 194, 58, 0.1)'
+        color: 'rgba(52, 199, 89, 0.1)'
       }
     }
   ]
@@ -948,10 +958,10 @@ const estimatedRebatesYesterdayLineOption = computed(() => ({
       data: generateRandomData(1000, 5000),
       smooth: true,
       lineStyle: {
-        color: '#409eff'
+        color: CHART_COLORS.secondary
       },
       areaStyle: {
-        color: 'rgba(64, 158, 255, 0.1)'
+        color: 'rgba(74, 154, 234, 0.1)'
       }
     }
   ]
@@ -984,10 +994,10 @@ const estimatedRebatesTodayLineOption = computed(() => ({
       data: generateRandomData(800, 4000),
       smooth: true,
       lineStyle: {
-        color: '#0cb4c7'
+        color: CHART_COLORS.primary
       },
       areaStyle: {
-        color: 'rgba(12, 180, 199, 0.1)'
+        color: 'rgba(32, 129, 226, 0.1)'
       }
     }
   ]
@@ -1020,10 +1030,10 @@ const exactRebatesYesterdayLineOption = computed(() => ({
       data: generateRandomData(900, 4500),
       smooth: true,
       lineStyle: {
-        color: '#67c23a'
+        color: CHART_COLORS.success
       },
       areaStyle: {
-        color: 'rgba(103, 194, 58, 0.1)'
+        color: 'rgba(52, 199, 89, 0.1)'
       }
     }
   ]
@@ -1056,10 +1066,10 @@ const totalDepositLineOption = computed(() => ({
       data: generateRandomData(200000, 800000),
       smooth: true,
       lineStyle: {
-        color: '#0cb4c7'
+        color: CHART_COLORS.secondary
       },
       areaStyle: {
-        color: 'rgba(12, 180, 199, 0.1)'
+        color: 'rgba(74, 154, 234, 0.1)'
       }
     }
   ]
@@ -1092,10 +1102,10 @@ const totalWithdrawalLineOption = computed(() => ({
       data: generateRandomData(100000, 600000),
       smooth: true,
       lineStyle: {
-        color: '#f56c6c'
+        color: CHART_COLORS.danger
       },
       areaStyle: {
-        color: 'rgba(245, 108, 108, 0.1)'
+        color: 'rgba(235, 87, 87, 0.1)'
       }
     }
   ]
@@ -1128,7 +1138,7 @@ const activeUsersLineOption = computed(() => ({
       data: generateRandomData(1000, 4000),
       smooth: true,
       lineStyle: {
-        color: '#e6a23c'
+        color: CHART_COLORS.warning
       },
       areaStyle: {
         color: 'rgba(230, 162, 60, 0.1)'
@@ -1192,7 +1202,7 @@ const activeUsersLineOption = computed(() => ({
 .stat-value .value {
   font-size: 24px;
   font-weight: 600;
-  color: #333;
+  color: var(--theme-text-primary);
 }
 
 .tag {
@@ -1219,7 +1229,7 @@ const activeUsersLineOption = computed(() => ({
 .describe {
   font-size: 14px;
   font-weight: 600;
-  color: #333;
+  color: var(--theme-text-primary);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1228,7 +1238,7 @@ const activeUsersLineOption = computed(() => ({
 .value {
   font-size: 32px;
   font-weight: 700;
-  color: #666;
+  color: var(--theme-text-secondary);
   margin-top: 10px;
 }
 
@@ -1242,10 +1252,10 @@ const activeUsersLineOption = computed(() => ({
 }
 
 :deep(.el-tabs__item.is-active) {
-  color: #0cb4c7;
+  color: var(--brand-secondary);
 }
 
 :deep(.el-tabs__active-bar) {
-  background-color: #0cb4c7;
+  background-color: var(--brand-secondary);
 }
 </style>

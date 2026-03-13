@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "Đăng nhập",
+    "username": "Tài khoản",
+    "password": "Mật khẩu",
+    "remember": "Ghi nhớ thông tin đăng nhập",
+    "loginBtn": "Đăng nhập",
+    "usernamePlaceholder": "Vui lòng nhập tên người dùng",
+    "passwordPlaceholder": "Vui lòng nhập mật khẩu",
+    "loggingIn": "Đang đăng nhập...",
+    "forgotPassword": "Quên mật khẩu?",
+    "pleaseEnterAccount": "Vui lòng nhập tài khoản",
+    "pleaseEnterPassword": "Vui lòng nhập mật khẩu",
+    "loginSuccessful": "Đăng nhập thành công!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "Hệ thống Hỗ trợ Quốc tế"
+  },
+  "layout": {
+    "logo": "Hệ thống Hỗ trợ Kênh",
+    "logoShort": "CSS",
+    "collapseExpand": "Thu gọn/Mở rộng",
+    "select": "Chọn",
+    "futuresRebate": "Tỷ lệ hoàn tiền hợp đồng tương lai",
+    "spotRebate": "Tỷ lệ hoàn tiền giao ngay",
+    "etfRebate": "Tỷ lệ hoàn tiền ETF",
+    "apiRebate": "Tỷ lệ hoàn tiền API",
+    "languages": {
+      "zh-CN": "Tiếng Trung giản thể",
+      "zh-TW": "Tiếng Trung phồn thể",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "Đổi mật khẩu",
+    "managementArea": "Khu vực quản lý: Khác",
+    "logout": "Đăng xuất",
+    "messageInfo": "CrazyEarn Happy Week # 2: 13% APR trên USDT",
+    "more": "Thêm"
+  },
+  "menu": {
+    "homePage": "Tổng quan Trang chủ",
+    "searchRebate": "Tìm kiếm Bản ghi Hoàn tiền",
+    "rebateSummary": "Tóm tắt Hoàn tiền",
+    "rebateRecords": "Bản ghi Hoàn tiền",
+    "partnerManagement": "Quản lý Đối tác",
+    "partnerConfig": "Cấu hình Đối tác",
+    "partnerList": "Danh sách Đối tác",
+    "referralLinks": "Liên kết Giới thiệu",
+    "searchAllOrders": "Tìm kiếm Tất cả Đơn hàng",
+    "depositWithdraw": "Nạp/Rút tiền",
+    "otcDeposit": "Nạp/Rút OTC",
+    "coinDeposit": "Nạp/Rút Coin",
+    "transfer": "Chuyển tiền",
+    "externalDeposit": "Tổng số tiền nạp từ bên ngoài",
+    "securityCenter": "Trung tâm Bảo mật"
+  },
+  "transfer": {
+    "search": {
+      "uid": "UID người dùng",
+      "userType": "Loại người dùng",
+      "direction": "Hướng kinh doanh",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc"
+    },
+    "type": {
+      "nonPartner": "Không phải đối tác",
+      "partner": "Đối tác"
+    },
+    "direction": {
+      "deposit": "Nạp tiền",
+      "withdraw": "Rút tiền"
+    },
+    "button": {
+      "search": "Tìm kiếm",
+      "download": "Tải xuống"
+    },
+    "dataUpdateTime": "Thời gian cập nhật dữ liệu",
+    "table": {
+      "uid": "UID người dùng",
+      "userType": "Loại người dùng",
+      "currency": "Tiền tệ",
+      "amount": "Số lượng",
+      "direction": "Hướng kinh doanh",
+      "note": "Ghi chú",
+      "createTime": "Thời gian tạo"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "UID người dùng",
+      "userType": "Loại người dùng",
+      "currency": "Tiền tệ",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc"
+    },
+    "type": {
+      "nonPartner": "Không phải đối tác",
+      "partner": "Đối tác"
+    },
+    "button": {
+      "search": "Tìm kiếm",
+      "download": "Tải xuống"
+    },
+    "dataUpdateTime": "Thời gian cập nhật dữ liệu",
+    "table": {
+      "uid": "UID người dùng",
+      "userType": "Loại người dùng",
+      "currency": "Tiền tệ",
+      "totalExternalDeposit": "Tổng tiền gửi ngoài của nút",
+      "totalExternalWithdraw": "Tổng tiền rút ngoài của nút",
+      "totalNodeUsers": "Tổng số người dùng nút",
+      "totalExternalDepositUsers": "Tổng người dùng gửi tiền ngoài của nút"
+    }
+  },
+  "home": {
+    "newSystemButton": "Hệ thống Hỗ trợ Kênh mới đã online. Nhấp để trải nghiệm mới",
+    "teamDailyNew": "Đăng ký Mới Hàng ngày của Đội",
+    "timeOfDataUpdate": "Thời gian cập nhật dữ liệu: ",
+    "select": "Chọn",
+    "all": "Tất cả",
+    "futures": "Hợp đồng tương lai",
+    "spot": "Giao ngay",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "Thời gian thực",
+      "yesterday": "Hôm qua",
+      "last7days": "7 ngày trước",
+      "last30days": "30 ngày trước",
+      "thisMonth": "Tháng này",
+      "lastMonth": "Tháng trước",
+      "thisYear": "Năm nay",
+      "history": "Lịch sử"
+    },
+    "cards": {
+      "registrations": "Đăng ký (Đội)",
+      "tradingVolume": "Khối lượng Giao dịch (Đội)",
+      "tradingFees": "Phí Giao dịch (Đội)",
+      "totalCommission": "Tổng Hoa hồng Chia (Đội)"
+    },
+    "charts": {
+      "dailyNewDeposit": "Nạp tiền Mới Hôm qua của Đội",
+      "dailyNewWithdrawal": "Rút tiền Mới Hôm qua của Đội",
+      "dailyNewTransactionVolume": "Khối lượng Giao dịch Hôm qua của Đội",
+      "dailyTransactionFee": "Tổng quan Phí Giao dịch Hôm qua của Đội",
+      "estimatedRebatesYesterday": "Số tiền Hoàn dự kiến Hôm qua của Đội",
+      "estimatedRebatesToday": "Số tiền Hoàn dự kiến Hôm nay của Đội",
+      "exactRebatesYesterday": "Số tiền Hoàn chính xác Hôm qua của Đội",
+      "totalDeposit": "Tổng Nạp tiền Tích lũy của Đội",
+      "totalWithdrawal": "Tổng Rút tiền Tích lũy của Đội",
+      "activeUsers": "Người dùng Hoạt động Hợp đồng tương lai của Đội"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "Hoàn tiền của tôi",
+    "selfReturnRebate": "Hoàn tiền tự hoàn",
+    "clientTransactionFee": "Phí giao dịch của Khách hàng",
+    "clientContributionRebate": "Hoàn tiền đóng góp của Khách hàng",
+    "totalTransactionFee": "Tổng Phí giao dịch",
+    "totalRebate": "Tổng Hoàn tiền",
+    "uid": "UID",
+    "note": "Ghi chú",
+    "userType": "Loại người dùng",
+    "client": "Khách hàng",
+    "agent": "Đại lý",
+    "currency": "Tiền tệ",
+    "allCurrency": "Tất cả Tiền tệ",
+    "start": "Bắt đầu",
+    "end": "Kết thúc",
+    "search": "Tìm kiếm",
+    "reset": "Đặt lại",
+    "table": {
+      "date": "Ngày",
+      "uid": "UID",
+      "time": "Thời gian",
+      "symbol": "Ký hiệu",
+      "type": "Loại",
+      "side": "Hướng",
+      "volume": "Khối lượng",
+      "price": "Giá",
+      "fee": "Phí",
+      "rebate": "Hoàn tiền",
+      "currency": "Tiền tệ",
+      "note": "Ghi chú"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "Vui lòng chọn",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "yesterday": "Hôm qua",
+    "today": "Hôm nay",
+    "search": "Tìm kiếm",
+    "distributionNote": "Tiền hoàn sẽ được phân phối cho bạn lúc 07:00 (UTC) ngày mai",
+    "back": "Trở lại",
+    "next": "Tiếp theo",
+    "transactionType": {
+      "futures": "Hợp đồng tương lai",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "Giao ngay",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "Tiền tệ",
+      "estimatedRebate": "Số tiền hoàn dự kiến",
+      "actualRebate": "Số tiền hoàn thực tế",
+      "transactionType": "Loại giao dịch",
+      "arrivalTime": "Thời gian đến",
+      "issueStatus": "Trạng thái Phát hành",
+      "issued": "Đã phát hành",
+      "pending": "Đang chờ"
+    }
+  },
+  "common": {
+    "search": "Tìm kiếm",
+    "export": "Xuất",
+    "download": "Tải xuống",
+    "reset": "Đặt lại",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "uid": "UID",
+    "userType": "Loại người dùng",
+    "currency": "Tiền tệ",
+    "allCurrency": "Tất cả Tiền tệ",
+    "direction": "Hướng",
+    "status": "Trạng thái",
+    "note": "Ghi chú",
+    "time": "Thời gian",
+    "date": "Ngày",
+    "quantity": "Số lượng",
+    "noData": "Không có dữ liệu"
+  },
+  "otcDeposit": {
+    "title": "Nạp/Rút OTC",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID đơn hàng",
+      "userType": "Loại người dùng",
+      "accountType": "Loại tài khoản",
+      "currency": "Tiền tệ",
+      "quoteCurrency": "Tiền tệ báo giá",
+      "direction": "Hướng",
+      "status": "Trạng thái",
+      "dateRange": "Phạm vi ngày",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc",
+      "businessDirection": "Hướng kinh doanh"
+    },
+    "userType": {
+      "currentUser": "Người dùng hiện tại",
+      "subordinates": "Cấp dưới",
+      "allUsers": "Tất cả người dùng",
+      "client": "Khách hàng",
+      "agent": "Đại lý"
+    },
+    "businessDirection": {
+      "deposit": "Nạp tiền",
+      "withdrawal": "Rút tiền"
+    },
+    "accountType": {
+      "main": "Tài khoản chính",
+      "sub": "Tài khoản phụ"
+    },
+    "direction": {
+      "openLong": "Mở/Long",
+      "openShort": "Mở/Short",
+      "closeLong": "Đóng/Long",
+      "closeShort": "Đóng/Short"
+    },
+    "status": {
+      "closed": "Đã đóng",
+      "canceled": "Đã hủy"
+    },
+    "table": {
+      "no": "STT",
+      "uid": "UID",
+      "userType": "Loại người dùng",
+      "accountType": "Loại tài khoản",
+      "mainAccount": "Tài khoản chính thuộc về",
+      "currency": "Tiền tệ",
+      "quantity": "Số lượng",
+      "businessDirection": "Hướng kinh doanh",
+      "margin": "Ký quỹ",
+      "leverage": "Đòn bẩy",
+      "quoteCurrency": "Tiền tệ báo giá",
+      "openPrice": "Giá mở",
+      "dealPrice": "Giá giao dịch",
+      "averagePrice": "Giá trung bình",
+      "openQty": "Số lượng mở",
+      "dealQty": "Số lượng giao dịch",
+      "direction": "Hướng",
+      "status": "Trạng thái",
+      "type": "Loại",
+      "orderId": "ID đơn hàng",
+      "orderNo": "Số đơn hàng",
+      "openTime": "Thời gian mở",
+      "note": "Ghi chú",
+      "transactionTime": "Thời gian giao dịch"
+    },
+    "button": {
+      "search": "Tìm kiếm",
+      "export": "Xuất"
+    },
+    "updateTime": "Thời gian cập nhật dữ liệu"
+  },
+  "coinDeposit": {
+    "title": "Nạp/Rút Coin",
+    "search": {
+      "uid": "UID",
+      "userType": "Loại người dùng",
+      "businessDirection": "Hướng kinh doanh",
+      "currency": "Tiền tệ",
+      "dateRange": "Đến",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc"
+    },
+    "userType": {
+      "nonPartner": "Không phải Đối tác",
+      "partner": "Đối tác"
+    },
+    "businessDirection": {
+      "deposit": "Nạp tiền",
+      "withdrawal": "Rút tiền"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "Loại người dùng",
+      "currency": "Tiền tệ",
+      "quantity": "Số lượng",
+      "businessDirection": "Hướng kinh doanh",
+      "note": "Ghi chú",
+      "transactionTime": "Thời gian giao dịch"
+    },
+    "button": {
+      "search": "Tìm kiếm",
+      "export": "Xuất"
+    },
+    "updateTime": "Thời gian cập nhật dữ liệu"
+  },
+  "partnerConfig": {
+    "title": "Cấu hình Đối tác",
+    "search": {
+      "uid": "UID",
+      "note": "Ghi chú",
+      "futuresRebateRatio": "Tỷ lệ hoàn tiền hợp đồng tương lai",
+      "type": "Loại"
+    },
+    "type": {
+      "client": "Khách hàng",
+      "agent": "Đại lý"
+    },
+    "button": {
+      "search": "Tìm kiếm",
+      "addPartner": "Thêm Đối tác",
+      "modifyInfo": "Sửa thông tin",
+      "back": "Trở lại",
+      "next": "Tiếp theo",
+      "cancel": "Hủy",
+      "ok": "OK"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "Quốc gia/Khu vực",
+      "futuresRebateRatio": "Tỷ lệ hoàn tiền hợp đồng tương lai",
+      "apiRebateRatio": "Tỷ lệ hoàn tiền API",
+      "spotRebateRatio": "Tỷ lệ hoàn tiền giao ngay",
+      "etfRebateRatio": "Tỷ lệ hoàn tiền ETF",
+      "note": "Ghi chú",
+      "loginName": "Tên đăng nhập",
+      "mobileNumber": "Số điện thoại",
+      "email": "Email"
+    },
+    "dialog": {
+      "addPartner": "Thêm Đối tác",
+      "changePassword": "Đổi mật khẩu",
+      "uid": "UID",
+      "type": "Loại",
+      "futuresRebate": "Hoàn tiền Hợp đồng tương lai",
+      "apiRebate": "Hoàn tiền API",
+      "spotRebate": "Hoàn tiền Giao ngay",
+      "etfRebate": "Hoàn tiền ETF",
+      "note": "Ghi chú",
+      "newPassword": "Mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu"
+    },
+    "updateTime": "Thời gian cập nhật dữ liệu"
+  },
+  "partnerList": {
+    "title": "Danh sách Đối tác",
+    "search": {
+      "uid": "UID",
+      "note": "Ghi chú",
+      "feeRatio": "Tỷ lệ phí",
+      "userType": "Loại người dùng"
+    },
+    "type": {
+      "client": "Khách hàng",
+      "agent": "Đại lý"
+    },
+    "button": {
+      "search": "Tìm kiếm"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "Danh tính Đối tác",
+      "futuresRebateRatio": "Tỷ lệ hoàn tiền hợp đồng tương lai",
+      "totalFuturesRebate": "Tổng hoàn tiền hợp đồng tương lai của đội",
+      "totalFuturesServiceCharge": "Tổng phí dịch vụ hợp đồng tương lai của đội",
+      "spotRebateRatio": "Tỷ lệ hoàn tiền giao ngay",
+      "totalSpotRebate": "Tổng hoàn tiền giao ngay của đội",
+      "totalSpotServiceCharge": "Tổng phí dịch vụ giao ngay của đội",
+      "etfRebateRatio": "Tỷ lệ hoàn tiền ETF",
+      "totalEtfRebate": "Tổng hoàn tiền ETF của đội",
+      "totalEtfServiceCharge": "Tổng phí dịch vụ ETF của đội",
+      "currencyName": "Tên Tiền tệ",
+      "teamTotalDeposit": "Tổng nạp tiền của Đội",
+      "teamTotalWithdrawal": "Tổng rút tiền của Đội",
+      "teamTotalNumber": "Tổng số của Đội",
+      "teamTotalDepositUsers": "Người dùng nạp tiền của Đội",
+      "firstDepositTime": "Thời gian nạp tiền đầu tiên",
+      "note": "Ghi chú",
+      "loginName": "Tên đăng nhập",
+      "mobileNumber": "Số điện thoại",
+      "email": "Email",
+      "registrationTime": "Thời gian đăng ký tài khoản"
+    }
+  },
+  "referralLinks": {
+    "title": "Liên kết Giới thiệu",
+    "referralLink": "Liên kết giới thiệu",
+    "directUsers": "Liên kết giới thiệu Người dùng trực tiếp",
+    "copyLink": "Sao chép Liên kết",
+    "partnerLinks": "Liên kết Giới thiệu Đối tác",
+    "createNewLink": "Tạo Liên kết Mới",
+    "table": {
+      "referralCode": "Mã giới thiệu",
+      "spotCommission": "Hoa hồng spot",
+      "inferiorSpotCommission": "Hoa hồng spot cấp dưới",
+      "etfCommission": "Hoa hồng ETF",
+      "inferiorEtfCommission": "Hoa hồng ETF cấp dưới",
+      "futuresCommission": "Hoa hồng hợp đồng tương lai",
+      "inferiorFuturesCommission": "Hoa hồng hợp đồng tương lai cấp dưới",
+      "apiCommission": "Hoa hồng API",
+      "inferiorApiCommission": "Hoa hồng API cấp dưới",
+      "numberOfInvites": "Số lượng mời",
+      "note": "Ghi chú",
+      "operate": "Thao tác"
+    },
+    "button": {
+      "editMemo": "Sửa Ghi chú",
+      "viewReferralList": "Xem Danh sách Giới thiệu",
+      "cancel": "Hủy",
+      "ok": "OK"
+    },
+    "dialog": {
+      "referralList": "Danh sách Giới thiệu",
+      "createNewLink": "Tạo Liên kết Mới",
+      "editMemo": "Sửa Ghi chú",
+      "partnerReferralLink": "Liên kết Giới thiệu Đối tác",
+      "spotCommission": "Hoa hồng Spot",
+      "inferiorSpotCommission": "Hoa hồng Spot cấp dưới",
+      "etfCommission": "Hoa hồng ETF",
+      "inferiorEtfCommission": "Hoa hồng ETF cấp dưới",
+      "futuresCommission": "Hoa hồng Hợp đồng tương lai",
+      "inferiorFuturesCommission": "Hoa hồng Hợp đồng tương lai cấp dưới",
+      "apiCommission": "Hoa hồng API",
+      "inferiorApiCommission": "Hoa hồng API cấp dưới",
+      "note": "Ghi chú",
+      "memo": "Ghi chú"
+    },
+    "message": {
+      "copySuccess": "Sao chép thành công!",
+      "copyFailed": "Sao chép thất bại!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "Tìm kiếm Tất cả Đơn hàng",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID đơn hàng",
+      "userType": "Loại người dùng",
+      "accountType": "Loại tài khoản",
+      "currency": "Tiền tệ",
+      "direction": "Hướng",
+      "status": "Trạng thái",
+      "dateRange": "Phạm vi ngày",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc"
+    },
+    "userType": {
+      "currentUser": "Người dùng hiện tại",
+      "subordinates": "Cấp dưới",
+      "allUsers": "Tất cả người dùng"
+    },
+    "accountType": {
+      "main": "Tài khoản chính",
+      "sub": "Tài khoản phụ",
+      "all": "Tất cả Tiền tệ"
+    },
+    "direction": {
+      "openLong": "Mở/Long",
+      "openShort": "Mở/Short",
+      "closeLong": "Đóng/Long",
+      "closeShort": "Đóng/Short"
+    },
+    "status": {
+      "closed": "Đã đóng",
+      "canceled": "Đã hủy"
+    },
+    "button": {
+      "search": "Tìm kiếm"
+    },
+    "table": {
+      "no": "STT",
+      "uid": "UID",
+      "accountType": "Loại tài khoản",
+      "mainAccount": "Tài khoản chính thuộc về",
+      "currency": "Tiền tệ",
+      "margin": "Ký quỹ",
+      "leverage": "Đòn bẩy",
+      "currency2": "Tiền tệ",
+      "openPrice": "Giá mở",
+      "dealPrice": "Giá giao dịch",
+      "averagePrice": "Giá trung bình",
+      "openQty": "Số lượng mở",
+      "dealQty": "Số lượng giao dịch",
+      "direction": "Hướng",
+      "status": "Trạng thái",
+      "type": "Loại",
+      "orderId": "ID đơn hàng",
+      "orderNo": "Số đơn hàng",
+      "openTime": "Thời gian mở"
+    }
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "welcome": "Chào mừng"
+  }
+}

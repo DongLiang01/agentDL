@@ -164,7 +164,7 @@ onMounted(() => {
 .container {
   width: 100%;
   height: 100%;
-  background: rgb(28, 30, 40);
+  background: var(--theme-bg-main, #0b0c0f);
   position: relative;
   display: flex;
   align-items: center;
@@ -172,18 +172,24 @@ onMounted(() => {
 
 .lang-selector {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 24px;
+  right: 24px;
   z-index: 10;
 }
 
 .lang-link {
   cursor: pointer;
-  color: #fff;
+  color: var(--theme-text-secondary);
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   font-size: 14px;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.lang-link:hover {
+  color: var(--theme-text-primary);
 }
 
 .container .main {
@@ -205,49 +211,62 @@ onMounted(() => {
 }
 
 .main .right {
-  width: 400px;
-  background: rgb(255, 255, 255);
-  border-radius: 8px;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 420px;
+  background: var(--theme-bg-card);
+  border-radius: 16px;
+  padding: 0 36px;
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--theme-border);
+  box-shadow: var(--box-shadow-lg);
 }
 
 .main .right .first_information {
-  margin-top: 40px;
+  margin-top: 44px;
   font-size: 24px;
-  font-weight: 500;
-  color: rgb(28, 29, 40);
+  font-weight: 700;
+  color: var(--theme-text-primary);
   display: flex;
   justify-content: center;
+  letter-spacing: -0.02em;
 }
 
 .main .right .tt {
   display: flex;
-  font-size: 12px;
-  font-weight: 400;
-  color: rgb(28, 29, 40);
-  margin-bottom: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--theme-text-secondary);
+  margin-bottom: 8px;
 }
 
 .main .right input {
-  border-radius: 6px;
-  border: 1px solid rgba(134, 136, 156, 0.1);
+  border-radius: 10px;
+  border: 1px solid var(--theme-border);
   font-size: 14px;
-  font-family: DINPro-Medium, DINPro;
+  font-family: inherit;
   font-weight: 500;
-  color: rgb(28, 29, 40);
-  line-height: 44px;
-  height: 44px;
-  padding-left: 10px;
+  color: var(--theme-text-primary);
+  background-color: var(--theme-bg-input, var(--theme-bg-card));
+  line-height: 48px;
+  height: 48px;
+  padding-left: 14px;
   width: 100%;
   outline: none;
   box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.main .right input:focus {
+  border-color: var(--theme-primary);
+  box-shadow: 0 0 0 3px rgba(var(--theme-primary-rgb, 32, 129, 226), 0.15);
+}
+
+.main .right input::placeholder {
+  color: var(--theme-text-muted);
 }
 
 .main .right .input1 {
-  margin-bottom: 29px;
+  margin-bottom: 24px;
 }
 
 .main .right .input2 {
@@ -265,60 +284,66 @@ onMounted(() => {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 10px;
+  right: 14px;
   cursor: pointer;
-  color: #999;
+  color: var(--theme-text-muted);
+  transition: color 0.15s ease;
 }
 
 .main .right .password .passwordType:hover {
-  color: #666;
+  color: var(--theme-text-primary);
 }
 
 .main .right .errtip {
   font-size: 12px;
-  font-weight: 400;
-  color: rgb(230, 82, 97);
+  font-weight: 500;
+  color: var(--el-color-danger);
   margin-top: 6px;
   margin-bottom: 8px;
 }
 
 .main .right .btn {
-  cursor: pointer;
-  user-select: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 400;
-  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
-  height: 45px;
-  background: linear-gradient(135deg, #4c70f4 0%, #3a5ce0 100%);
+  height: 48px;
+  background: var(--theme-primary);
   border: none;
+  border-radius: 12px;
   width: 100%;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;
 }
 
 .main .right .btn:hover {
-  background: linear-gradient(135deg, #5a7ff5 0%, #4869e2 100%);
+  background: var(--theme-primary-hover);
+}
+
+.main .right .btn:active {
+  transform: scale(0.98);
 }
 
 .main .right .btn:disabled {
-  opacity: 0.7;
+  opacity: 0.6;
   cursor: not-allowed;
+  transform: none;
 }
 
 .main .right .bottomtip {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 73px;
+  margin-bottom: 48px;
 }
 
 .main .right .bottomtip .check {
   font-size: 14px;
-  font-family: PingFangSC-Regular, "PingFang SC";
+  font-family: inherit;
   font-weight: 400;
-  color: rgb(133, 136, 156);
+  color: var(--theme-text-muted);
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -330,27 +355,28 @@ onMounted(() => {
 }
 
 .main .right .bottomtip .check .el-checkbox__inner {
-  width: 14px;
-  height: 14px;
-  border: 1px solid #dcdfe6;
-  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--theme-border);
+  border-radius: 4px;
   display: inline-block;
   position: relative;
 }
 
 .main .right .bottomtip .righttip {
-  font-size: 12px;
-  font-family: PingFangSC-Regular, "PingFang SC";
-  font-weight: 400;
-  color: rgb(133, 136, 156);
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--theme-text-muted);
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
+  transition: color 0.15s ease;
 }
 
 .main .right .bottomtip .righttip:hover {
-  color: #4c70f4;
+  color: var(--theme-primary);
 }
 
 @media screen and (max-width: 1024px) {

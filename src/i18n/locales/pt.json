@@ -1,0 +1,547 @@
+{
+  "login": {
+    "title": "Entrar",
+    "username": "Conta",
+    "password": "Senha",
+    "remember": "Lembrar informações de login",
+    "loginBtn": "Entrar",
+    "usernamePlaceholder": "Por favor, insira o nome de usuário",
+    "passwordPlaceholder": "Por favor, insira a senha",
+    "loggingIn": "Entrando...",
+    "forgotPassword": "Esqueceu a senha?",
+    "pleaseEnterAccount": "Por favor, insira a conta",
+    "pleaseEnterPassword": "Por favor, insira a senha",
+    "loginSuccessful": "Login bem-sucedido!"
+  },
+  "brand": {
+    "title": "TEAM HUB",
+    "subtitle": "Sistema de Suporte Internacional"
+  },
+  "layout": {
+    "logo": "Sistema de Suporte de Canal",
+    "logoShort": "CSS",
+    "collapseExpand": "Recolher/Expandir",
+    "select": "Selecionar",
+    "futuresRebate": "Taxa de reembolso de futuros",
+    "spotRebate": "Taxa de reembolso de spot",
+    "etfRebate": "Taxa de reembolso de ETF",
+    "apiRebate": "Taxa de reembolso de API",
+    "languages": {
+      "zh-CN": "Chinês simplificado",
+      "zh-TW": "Chinês tradicional",
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية"
+    },
+    "changePassword": "Alterar Senha",
+    "managementArea": "Área de Gerenciamento: Outro",
+    "logout": "Sair",
+    "messageInfo": "CrazyEarn Happy Week # 2: 13% APR em USDT",
+    "more": "Mais"
+  },
+  "menu": {
+    "homePage": "Visão Geral da Página Inicial",
+    "searchRebate": "Pesquisar Registro de Reembolso",
+    "rebateSummary": "Resumo de Reembolso",
+    "rebateRecords": "Registros de Reembolso",
+    "partnerManagement": "Gerenciamento de Parceiros",
+    "partnerConfig": "Configuração de Parceiros",
+    "partnerList": "Lista de Parceiros",
+    "referralLinks": "Links de Indicação",
+    "searchAllOrders": "Pesquisar Todos os Pedidos",
+    "depositWithdraw": "Depósito/Saque",
+    "otcDeposit": "Depósito/Saque OTC",
+    "coinDeposit": "Depósito/Saque de Moedas",
+    "transfer": "Transferência",
+    "externalDeposit": "Valor total de depósito externo",
+    "securityCenter": "Centro de Segurança"
+  },
+  "transfer": {
+    "search": {
+      "uid": "UID do usuário",
+      "userType": "Tipo de usuário",
+      "direction": "Direção do negócio",
+      "startDate": "Data de início",
+      "endDate": "Data de término"
+    },
+    "type": {
+      "nonPartner": "Não parceiro",
+      "partner": "Parceiro"
+    },
+    "direction": {
+      "deposit": "Depósito",
+      "withdraw": "Saque"
+    },
+    "button": {
+      "search": "Pesquisar",
+      "download": "Baixar"
+    },
+    "dataUpdateTime": "Hora da atualização dos dados",
+    "table": {
+      "uid": "UID do usuário",
+      "userType": "Tipo de usuário",
+      "currency": "Moeda",
+      "amount": "Quantidade",
+      "direction": "Direção do negócio",
+      "note": "Nota",
+      "createTime": "Hora de criação"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "UID do usuário",
+      "userType": "Tipo de usuário",
+      "currency": "Moeda",
+      "startDate": "Data de início",
+      "endDate": "Data de término"
+    },
+    "type": {
+      "nonPartner": "Não Parceiro",
+      "partner": "Parceiro"
+    },
+    "button": {
+      "search": "Pesquisar",
+      "download": "Baixar"
+    },
+    "dataUpdateTime": "Hora da atualização dos dados",
+    "table": {
+      "uid": "UID do usuário",
+      "userType": "Tipo de usuário",
+      "currency": "Moeda",
+      "totalExternalDeposit": "Depósito Externo Total do Nó",
+      "totalExternalWithdraw": "Retirada Externa Total do Nó",
+      "totalNodeUsers": "Total de Usuários do Nó",
+      "totalExternalDepositUsers": "Total de Usuários de Depósito Externo do Nó"
+    }
+  },
+  "home": {
+    "newSystemButton": "O novo Sistema de Suporte de Canal está online. Clique para pular e получите nova experiência",
+    "teamDailyNew": "Novas Registros Diários da Equipe",
+    "timeOfDataUpdate": "Hora da atualização dos dados: ",
+    "select": "Selecionar",
+    "all": "Todos",
+    "futures": "Futuros",
+    "spot": "Spot",
+    "etf": "ETF",
+    "tabs": {
+      "realtime": "Tempo Real",
+      "yesterday": "Ontem",
+      "last7days": "Últimos 7 dias",
+      "last30days": "Últimos 30 dias",
+      "thisMonth": "Este Mês",
+      "lastMonth": "Mês Passado",
+      "thisYear": "Este Ano",
+      "history": "Histórico"
+    },
+    "cards": {
+      "registrations": "Registros (Equipe)",
+      "tradingVolume": "Volume de Negociação (Equipe)",
+      "tradingFees": "Taxas de Negociação (Equipe)",
+      "totalCommission": "Comissão Total Compartilhada (Equipe)"
+    },
+    "charts": {
+      "dailyNewDeposit": "Novo Depósito de Ontem da Equipe",
+      "dailyNewWithdrawal": "Novo Saque de Ontem da Equipe",
+      "dailyNewTransactionVolume": "Volume de Negociação de Ontem da Equipe",
+      "dailyTransactionFee": "Visão Geral da Taxa de Negociação de Ontem da Equipe",
+      "estimatedRebatesYesterday": "Valor Estimado de Reembolso de Ontem da Equipe",
+      "estimatedRebatesToday": "Valor Estimado de Reembolso de Hoje da Equipe",
+      "exactRebatesYesterday": "Valor Exato de Reembolso de Ontem da Equipe",
+      "totalDeposit": "Depósito Cumulativo da Equipe",
+      "totalWithdrawal": "Saque Cumulativo da Equipe",
+      "activeUsers": "Usuários Ativos de Futuros da Equipe"
+    }
+  },
+  "rebateSummary": {
+    "myRebate": "Meu Reembolso",
+    "selfReturnRebate": "Reembolso Próprio",
+    "clientTransactionFee": "Taxa de Transação do Cliente",
+    "clientContributionRebate": "Reembolso de Contribuição do Cliente",
+    "totalTransactionFee": "Taxa Total de Transação",
+    "totalRebate": "Reembolso Total",
+    "uid": "UID",
+    "note": "Nota",
+    "userType": "Tipo de Usuário",
+    "client": "Cliente",
+    "agent": "Agente",
+    "currency": "Moeda",
+    "allCurrency": "Todas as Moedas",
+    "start": "Início",
+    "end": "Fim",
+    "search": "Pesquisar",
+    "reset": "Redefinir",
+    "table": {
+      "date": "Data",
+      "uid": "UID",
+      "time": "Hora",
+      "symbol": "Símbolo",
+      "type": "Tipo",
+      "side": "Lado",
+      "volume": "Volume",
+      "price": "Preço",
+      "fee": "Taxa",
+      "rebate": "Reembolso",
+      "currency": "Moeda",
+      "note": "Nota"
+    }
+  },
+  "rebateRecords": {
+    "pleaseSelect": "Por favor, selecione",
+    "startDate": "Data de Início",
+    "endDate": "Data de Término",
+    "yesterday": "Ontem",
+    "today": "Hoje",
+    "search": "Pesquisar",
+    "distributionNote": "O reembolso será distribuído para você às 07:00 (UTC) do dia seguinte",
+    "back": "Voltar",
+    "next": "Próximo",
+    "transactionType": {
+      "futures": "Futuros",
+      "nonApi": "Non-API",
+      "api": "API",
+      "spot": "Spot",
+      "etf": "ETF"
+    },
+    "table": {
+      "currency": "Moeda",
+      "estimatedRebate": "Valor estimado de reembolso",
+      "actualRebate": "Valor real de reembolso",
+      "transactionType": "Tipo de transação",
+      "arrivalTime": "Hora de Chegada",
+      "issueStatus": "Status de Emissão",
+      "issued": "Emitido",
+      "pending": "Pendente"
+    }
+  },
+  "common": {
+    "search": "Pesquisar",
+    "export": "Exportar",
+    "download": "Baixar",
+    "reset": "Redefinir",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "uid": "UID",
+    "userType": "Tipo de Usuário",
+    "currency": "Moeda",
+    "allCurrency": "Todas as Moedas",
+    "direction": "Direção",
+    "status": "Status",
+    "note": "Nota",
+    "time": "Hora",
+    "date": "Data",
+    "quantity": "Quantidade",
+    "noData": "Sem Dados"
+  },
+  "otcDeposit": {
+    "title": "Depósito/Saque OTC",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID do Pedido",
+      "userType": "Tipo de Usuário",
+      "accountType": "Tipo de Conta",
+      "currency": "Moeda",
+      "quoteCurrency": "Moeda de Cotação",
+      "direction": "Direção",
+      "status": "Status",
+      "dateRange": "Intervalo de Datas",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "businessDirection": "Direção de Negócio"
+    },
+    "userType": {
+      "currentUser": "Usuário Atual",
+      "subordinates": "Subordinados",
+      "allUsers": "Todos os Usuários",
+      "client": "Cliente",
+      "agent": "Agente"
+    },
+    "businessDirection": {
+      "deposit": "Depósito",
+      "withdrawal": "Saque"
+    },
+    "accountType": {
+      "main": "Conta Principal",
+      "sub": "Sub-conta"
+    },
+    "direction": {
+      "openLong": "Abrir/Long",
+      "openShort": "Abrir/Short",
+      "closeLong": "Fechar/Long",
+      "closeShort": "Fechar/Short"
+    },
+    "status": {
+      "closed": "Fechado",
+      "canceled": "Cancelado"
+    },
+    "table": {
+      "no": "Nº",
+      "uid": "UID",
+      "userType": "Tipo de Usuário",
+      "accountType": "Tipo de Conta",
+      "mainAccount": "Conta Principal",
+      "currency": "Moeda",
+      "quantity": "Quantidade",
+      "businessDirection": "Direção de Negócio",
+      "margin": "Margem",
+      "leverage": "Alavancagem",
+      "quoteCurrency": "Moeda de Cotação",
+      "openPrice": "Preço de Abertura",
+      "dealPrice": "Preço de Negociação",
+      "averagePrice": "Preço Médio",
+      "openQty": "Qtd de Abertura",
+      "dealQty": "Qtd de Negociação",
+      "direction": "Direção",
+      "status": "Status",
+      "type": "Tipo",
+      "orderId": "ID do Pedido",
+      "orderNo": "Nº do Pedido",
+      "openTime": "Hora de Abertura",
+      "note": "Nota",
+      "transactionTime": "Hora da Transação"
+    },
+    "button": {
+      "search": "Pesquisar",
+      "export": "Exportar"
+    },
+    "updateTime": "Hora da atualização dos dados"
+  },
+  "coinDeposit": {
+    "title": "Depósito/Saque de Moedas",
+    "search": {
+      "uid": "UID",
+      "userType": "Tipo de Usuário",
+      "businessDirection": "Direção de Negócio",
+      "currency": "Moeda",
+      "dateRange": "Até",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término"
+    },
+    "userType": {
+      "nonPartner": "Não Parceiro",
+      "partner": "Parceiro"
+    },
+    "businessDirection": {
+      "deposit": "Depósito",
+      "withdrawal": "Saque"
+    },
+    "table": {
+      "uid": "UID",
+      "userType": "Tipo de Usuário",
+      "currency": "Moeda",
+      "quantity": "Quantidade",
+      "businessDirection": "Direção de Negócio",
+      "note": "Nota",
+      "transactionTime": "Hora da Transação"
+    },
+    "button": {
+      "search": "Pesquisar",
+      "export": "Exportar"
+    },
+    "updateTime": "Hora da atualização dos dados"
+  },
+  "partnerConfig": {
+    "title": "Configuração de Parceiros",
+    "search": {
+      "uid": "UID",
+      "note": "Nota",
+      "futuresRebateRatio": "Taxa de reembolso de futuros",
+      "type": "Tipo"
+    },
+    "type": {
+      "client": "Cliente",
+      "agent": "Agente"
+    },
+    "button": {
+      "search": "Pesquisar",
+      "addPartner": "Adicionar Parceiro",
+      "modifyInfo": "Modificar Informação",
+      "back": "Voltar",
+      "next": "Próximo",
+      "cancel": "Cancelar",
+      "ok": "OK"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "País/Região",
+      "futuresRebateRatio": "Taxa de reembolso de futuros",
+      "apiRebateRatio": "Taxa de reembolso de API",
+      "spotRebateRatio": "Taxa de reembolso de spot",
+      "etfRebateRatio": "Taxa de reembolso de ETF",
+      "note": "Nota",
+      "loginName": "Nome de Login",
+      "mobileNumber": "Número de Celular",
+      "email": "E-mail"
+    },
+    "dialog": {
+      "addPartner": "Adicionar Parceiro",
+      "changePassword": "Alterar Senha",
+      "uid": "UID",
+      "type": "Tipo",
+      "futuresRebate": "Reembolso de Futuros",
+      "apiRebate": "Reembolso de API",
+      "spotRebate": "Reembolso de Spot",
+      "etfRebate": "Reembolso de ETF",
+      "note": "Nota",
+      "newPassword": "Nova Senha",
+      "confirmPassword": "Confirmar Senha"
+    },
+    "updateTime": "Hora da atualização dos dados"
+  },
+  "partnerList": {
+    "title": "Lista de Parceiros",
+    "search": {
+      "uid": "UID",
+      "note": "Nota",
+      "feeRatio": "Taxa de Taxa",
+      "userType": "Tipo de Usuário"
+    },
+    "type": {
+      "client": "Cliente",
+      "agent": "Agente"
+    },
+    "button": {
+      "search": "Pesquisar"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "Identidade do Parceiro",
+      "futuresRebateRatio": "Taxa de reembolso de futuros",
+      "totalFuturesRebate": "Reembolso total de futuros da equipe",
+      "totalFuturesServiceCharge": "Taxa total de serviço de futuros da equipe",
+      "spotRebateRatio": "Taxa de reembolso de spot",
+      "totalSpotRebate": "Reembolso total de spot da equipe",
+      "totalSpotServiceCharge": "Taxa total de serviço de spot da equipe",
+      "etfRebateRatio": "Taxa de reembolso de ETF",
+      "totalEtfRebate": "Reembolso total de ETF da equipe",
+      "totalEtfServiceCharge": "Taxa total de serviço de ETF da equipe",
+      "currencyName": "Nome da Moeda",
+      "teamTotalDeposit": "Depósito Total da Equipe",
+      "teamTotalWithdrawal": "Saque Total da Equipe",
+      "teamTotalNumber": "Número Total da Equipe",
+      "teamTotalDepositUsers": "Usuários de Depósito da Equipe",
+      "firstDepositTime": "Hora do Primeiro Depósito",
+      "note": "Nota",
+      "loginName": "Nome de Login",
+      "mobileNumber": "Número de Celular",
+      "email": "E-mail",
+      "registrationTime": "Hora de Registro da Conta"
+    }
+  },
+  "referralLinks": {
+    "title": "Links de Indicação",
+    "referralLink": "Link de indicação",
+    "directUsers": "Link de indicação de usuários diretos",
+    "copyLink": "Copiar o Link",
+    "partnerLinks": "Links de Indicação de Parceiros",
+    "createNewLink": "Criar Novo Link",
+    "table": {
+      "referralCode": "Código de indicação",
+      "spotCommission": "Comissão de spot",
+      "inferiorSpotCommission": "Comissão de spot inferior",
+      "etfCommission": "Comissão de ETF",
+      "inferiorEtfCommission": "Comissão de ETF inferior",
+      "futuresCommission": "Comissão de futuros",
+      "inferiorFuturesCommission": "Comissão de futuros inferior",
+      "apiCommission": "Comissão de API",
+      "inferiorApiCommission": "Comissão de API inferior",
+      "numberOfInvites": "Número de convites",
+      "note": "Nota",
+      "operate": "Operar"
+    },
+    "button": {
+      "editMemo": "Editar Nota",
+      "viewReferralList": "Ver Lista de Indicações",
+      "cancel": "Cancelar",
+      "ok": "OK"
+    },
+    "dialog": {
+      "referralList": "Lista de Indicações",
+      "createNewLink": "Criar Novo Link",
+      "editMemo": "Editar a Nota",
+      "partnerReferralLink": "Link de Indicação de Parceiro",
+      "spotCommission": "Comissão de Spot",
+      "inferiorSpotCommission": "Comissão de Spot Inferior",
+      "etfCommission": "Comissão de ETF",
+      "inferiorEtfCommission": "Comissão de ETF Inferior",
+      "futuresCommission": "Comissão de Futuros",
+      "inferiorFuturesCommission": "Comissão de Futuros Inferior",
+      "apiCommission": "Comissão de API",
+      "inferiorApiCommission": "Comissão de API Inferior",
+      "note": "Nota",
+      "memo": "Nota"
+    },
+    "message": {
+      "copySuccess": "Cópia bem-sucedida!",
+      "copyFailed": "Falha na cópia!"
+    }
+  },
+  "searchAllOrders": {
+    "title": "Pesquisar Todos os Pedidos",
+    "search": {
+      "uid": "UID",
+      "orderId": "ID do Pedido",
+      "userType": "Tipo de Usuário",
+      "accountType": "Tipo de conta",
+      "currency": "Moeda",
+      "direction": "Direção",
+      "status": "Status",
+      "dateRange": "Intervalo de Datas",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término"
+    },
+    "userType": {
+      "currentUser": "Usuário Atual",
+      "subordinates": "Subordinados",
+      "allUsers": "Todos os Usuários"
+    },
+    "accountType": {
+      "main": "Conta Principal",
+      "sub": "Sub-conta",
+      "all": "Todas as Moedas"
+    },
+    "direction": {
+      "openLong": "Abrir/Long",
+      "openShort": "Abrir/Short",
+      "closeLong": "Fechar/Long",
+      "closeShort": "Fechar/Short"
+    },
+    "status": {
+      "closed": "Fechado",
+      "canceled": "Cancelado"
+    },
+    "button": {
+      "search": "Pesquisar"
+    },
+    "table": {
+      "no": "Nº",
+      "uid": "UID",
+      "accountType": "Tipo de conta",
+      "mainAccount": "Conta Principal",
+      "currency": "Moeda",
+      "margin": "Margem",
+      "leverage": "Alavancagem",
+      "currency2": "Moeda",
+      "openPrice": "Preço de Abertura",
+      "dealPrice": "Preço de Negociação",
+      "averagePrice": "Preço Médio",
+      "openQty": "Qtd de Abertura",
+      "dealQty": "Qtd de Negociação",
+      "direction": "Direção",
+      "status": "Status",
+      "type": "Tipo",
+      "orderId": "ID do Pedido",
+      "orderNo": "Nº do Pedido",
+      "openTime": "Hora de Abertura"
+    }
+  },
+  "dashboard": {
+    "title": "Painel",
+    "welcome": "Bem-vindo"
+  }
+}

@@ -27,14 +27,15 @@
     "etfRebate": "ETF返傭比例",
     "apiRebate": "API返傭比例",
     "languages": {
-      "kr": "한국어",
+      "zh-CN": "簡體中文",
+      "zh-TW": "繁體中文",
       "en": "English",
-      "tr": "Türkçe",
-      "vi": "Tiếng Việt",
-      "ru": "Русский",
-      "tw": "繁體中文",
-      "pt": "Português",
+      "ko": "한국어",
       "ja": "日本語",
+      "vi": "Tiếng Việt",
+      "tr": "Türkçe",
+      "pt": "Português",
+      "ru": "Русский",
       "uk": "Українська",
       "ar": "العربية"
     },
@@ -59,11 +60,65 @@
     "coinDeposit": "幣幣充提幣",
     "transfer": "劃轉",
     "externalDeposit": "外部充值總額",
-    "viewAgreement": "查看協議",
-    "regulatoryGuidelines": "監管指南",
-    "agentAgreement": "代理協議",
-    "materialDownload": "資料下載",
     "securityCenter": "安全中心"
+  },
+  "transfer": {
+    "search": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "direction": "業務方向",
+      "startDate": "開始日期",
+      "endDate": "結束日期"
+    },
+    "type": {
+      "nonPartner": "非合夥人",
+      "partner": "合夥人"
+    },
+    "direction": {
+      "deposit": "入金",
+      "withdraw": "出金"
+    },
+    "button": {
+      "search": "查詢",
+      "download": "下載"
+    },
+    "dataUpdateTime": "數據更新時間",
+    "table": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "currency": "幣種",
+      "amount": "數量",
+      "direction": "業務方向",
+      "note": "備註",
+      "createTime": "成交時間"
+    }
+  },
+  "externalTotalAmount": {
+    "search": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "currency": "幣種",
+      "startDate": "開始日期",
+      "endDate": "結束日期"
+    },
+    "type": {
+      "nonPartner": "非合夥人",
+      "partner": "合夥人"
+    },
+    "button": {
+      "search": "查詢",
+      "download": "下載"
+    },
+    "dataUpdateTime": "數據更新時間",
+    "table": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "currency": "幣種",
+      "totalExternalDeposit": "節點總外部入金",
+      "totalExternalWithdraw": "節點總外部出金",
+      "totalNodeUsers": "節點總人數",
+      "totalExternalDepositUsers": "節點總外部入金人數"
+    }
   },
   "home": {
     "newSystemButton": "新的渠道支持系統現已上線。點擊跳轉獲得新體驗",
@@ -163,5 +218,330 @@
       "issued": "已發放",
       "pending": "待發放"
     }
+  },
+  "common": {
+    "search": "查詢",
+    "export": "導出",
+    "download": "下載",
+    "reset": "重置",
+    "confirm": "確認",
+    "cancel": "取消",
+    "uid": "UID",
+    "userType": "用戶類型",
+    "currency": "幣種",
+    "allCurrency": "全部幣種",
+    "direction": "方向",
+    "status": "狀態",
+    "note": "備註",
+    "time": "時間",
+    "date": "日期",
+    "quantity": "數量",
+    "noData": "暫無資料"
+  },
+  "otcDeposit": {
+    "title": "OTC 充提幣",
+    "search": {
+      "uid": "UID",
+      "orderId": "訂單ID",
+      "userType": "用戶類型",
+      "accountType": "賬戶類型",
+      "currency": "幣種",
+      "quoteCurrency": "報價幣種",
+      "direction": "方向",
+      "status": "狀態",
+      "dateRange": "至",
+      "startDate": "開始日期",
+      "endDate": "結束日期",
+      "businessDirection": "業務方向"
+    },
+    "userType": {
+      "currentUser": "當前用戶",
+      "subordinates": "下屬",
+      "allUsers": "所有用戶",
+      "client": "客戶",
+      "agent": "代理"
+    },
+    "businessDirection": {
+      "deposit": "入金",
+      "withdrawal": "出金"
+    },
+    "accountType": {
+      "main": "主賬戶",
+      "sub": "子賬戶"
+    },
+    "direction": {
+      "openLong": "開多",
+      "openShort": "開空",
+      "closeLong": "平多",
+      "closeShort": "平空"
+    },
+    "status": {
+      "closed": "已關閉",
+      "canceled": "已取消"
+    },
+    "table": {
+      "no": "序號",
+      "uid": "UID",
+      "userType": "用戶類型",
+      "accountType": "賬戶類型",
+      "mainAccount": "所屬主賬戶",
+      "currency": "幣種",
+      "quantity": "數量",
+      "businessDirection": "業務方向",
+      "margin": "保證金",
+      "leverage": "杠桿",
+      "quoteCurrency": "報價幣種",
+      "openPrice": "開倉價",
+      "dealPrice": "成交價",
+      "averagePrice": "平均價",
+      "openQty": "開倉數量",
+      "dealQty": "成交數量",
+      "direction": "方向",
+      "status": "狀態",
+      "type": "類型",
+      "orderId": "訂單ID",
+      "orderNo": "訂單號",
+      "openTime": "開倉時間",
+      "note": "備註",
+      "transactionTime": "成交時間"
+    },
+    "button": {
+      "search": "查詢",
+      "export": "導出"
+    },
+    "updateTime": "數據更新時間"
+  },
+  "coinDeposit": {
+    "title": "幣幣充提幣",
+    "search": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "businessDirection": "業務方向",
+      "currency": "幣種",
+      "dateRange": "至",
+      "startDate": "開始日期",
+      "endDate": "結束日期"
+    },
+    "userType": {
+      "nonPartner": "非合夥人",
+      "partner": "合夥人"
+    },
+    "businessDirection": {
+      "deposit": "入金",
+      "withdrawal": "出金"
+    },
+    "table": {
+      "uid": "用戶UID",
+      "userType": "用戶類型",
+      "currency": "幣種",
+      "quantity": "數量",
+      "businessDirection": "業務方向",
+      "note": "備註",
+      "transactionTime": "成交時間"
+    },
+    "button": {
+      "search": "查詢",
+      "export": "下載"
+    },
+    "updateTime": "數據更新時間"
+  },
+  "partnerConfig": {
+    "title": "合作夥伴配置",
+    "search": {
+      "uid": "UID",
+      "note": "備註",
+      "futuresRebateRatio": "合約返傭比例",
+      "type": "類型"
+    },
+    "type": {
+      "client": "客戶",
+      "agent": "代理"
+    },
+    "button": {
+      "search": "查詢",
+      "addPartner": "添加合夥人",
+      "modifyInfo": "修改信息",
+      "back": "上一頁",
+      "next": "下一頁",
+      "cancel": "取消",
+      "ok": "確定"
+    },
+    "table": {
+      "uid": "UID",
+      "country": "國家/地區",
+      "futuresRebateRatio": "合約返傭比例",
+      "apiRebateRatio": "API返傭比例",
+      "spotRebateRatio": "現貨返傭比例",
+      "etfRebateRatio": "ETF返傭比例",
+      "note": "備註",
+      "loginName": "登錄名",
+      "mobileNumber": "手機號",
+      "email": "郵箱"
+    },
+    "dialog": {
+      "addPartner": "添加合夥人",
+      "changePassword": "修改密碼",
+      "uid": "UID",
+      "type": "類型",
+      "futuresRebate": "合約返傭",
+      "apiRebate": "API返傭",
+      "spotRebate": "現貨返傭",
+      "etfRebate": "ETF返傭",
+      "note": "備註",
+      "newPassword": "新密碼",
+      "confirmPassword": "確認密碼"
+    },
+    "updateTime": "數據更新時間"
+  },
+  "partnerList": {
+    "title": "合作夥伴列表",
+    "search": {
+      "uid": "UID",
+      "note": "備註",
+      "feeRatio": "費率比例",
+      "userType": "用戶類型"
+    },
+    "type": {
+      "client": "客戶",
+      "agent": "代理"
+    },
+    "button": {
+      "search": "查詢"
+    },
+    "table": {
+      "uid": "UID",
+      "partnerIdentity": "合夥人標識",
+      "futuresRebateRatio": "合約返傭比例",
+      "totalFuturesRebate": "團隊合約返傭總額",
+      "totalFuturesServiceCharge": "團隊合約手續費總額",
+      "spotRebateRatio": "現貨返傭比例",
+      "totalSpotRebate": "團隊現貨返傭總額",
+      "totalSpotServiceCharge": "團隊現貨手續費總額",
+      "etfRebateRatio": "ETF返傭比例",
+      "totalEtfRebate": "團隊ETF返傭總額",
+      "totalEtfServiceCharge": "團隊ETF手續費總額",
+      "currencyName": "幣種名稱",
+      "teamTotalDeposit": "團隊入金總額",
+      "teamTotalWithdrawal": "團隊出金總額",
+      "teamTotalNumber": "團隊總人數",
+      "teamTotalDepositUsers": "團隊入金人數",
+      "firstDepositTime": "首次入金時間",
+      "note": "備註",
+      "loginName": "登錄名",
+      "mobileNumber": "手機號",
+      "email": "郵箱",
+      "registrationTime": "賬戶注冊時間"
+    }
+  },
+  "referralLinks": {
+    "title": "推薦鏈接",
+    "referralLink": "推薦鏈接",
+    "directUsers": "直推用戶推薦鏈接",
+    "copyLink": "複製鏈接",
+    "partnerLinks": "合夥人推薦鏈接",
+    "createNewLink": "創建新鏈接",
+    "table": {
+      "referralCode": "推薦碼",
+      "spotCommission": "現貨佣金",
+      "inferiorSpotCommission": "下級現貨佣金",
+      "etfCommission": "ETF佣金",
+      "inferiorEtfCommission": "下級ETF佣金",
+      "futuresCommission": "合約佣金",
+      "inferiorFuturesCommission": "下級合約佣金",
+      "apiCommission": "API佣金",
+      "inferiorApiCommission": "下級API佣金",
+      "numberOfInvites": "邀請人數",
+      "note": "備註",
+      "operate": "操作"
+    },
+    "button": {
+      "editMemo": "編輯備註",
+      "viewReferralList": "查看推薦列表",
+      "cancel": "取消",
+      "ok": "確定"
+    },
+    "dialog": {
+      "referralList": "推薦列表",
+      "createNewLink": "創建新鏈接",
+      "editMemo": "編輯備註",
+      "partnerReferralLink": "合夥人推薦鏈接",
+      "spotCommission": "現貨佣金",
+      "inferiorSpotCommission": "下級現貨佣金",
+      "etfCommission": "ETF佣金",
+      "inferiorEtfCommission": "下級ETF佣金",
+      "futuresCommission": "合約佣金",
+      "inferiorFuturesCommission": "下級合約佣金",
+      "apiCommission": "API佣金",
+      "inferiorApiCommission": "下級API佣金",
+      "note": "備註",
+      "memo": "備註"
+    },
+    "message": {
+      "copySuccess": "復制成功！",
+      "copyFailed": "復制失敗！"
+    }
+  },
+  "searchAllOrders": {
+    "title": "查詢所有訂單",
+    "search": {
+      "uid": "UID",
+      "orderId": "訂單ID",
+      "userType": "用戶類型",
+      "accountType": "賬戶類型",
+      "currency": "幣種",
+      "direction": "方向",
+      "status": "狀態",
+      "dateRange": "日期範圍",
+      "startDate": "開始日期",
+      "endDate": "結束日期"
+    },
+    "userType": {
+      "currentUser": "當前用戶",
+      "subordinates": "下屬",
+      "allUsers": "所有用戶"
+    },
+    "accountType": {
+      "main": "主賬戶",
+      "sub": "子賬戶",
+      "all": "所有幣種"
+    },
+    "direction": {
+      "openLong": "開多",
+      "openShort": "開空",
+      "closeLong": "平多",
+      "closeShort": "平空"
+    },
+    "status": {
+      "closed": "已關閉",
+      "canceled": "已取消"
+    },
+    "button": {
+      "search": "查詢"
+    },
+    "table": {
+      "no": "序號",
+      "uid": "UID",
+      "accountType": "賬戶類型",
+      "mainAccount": "所屬主賬戶",
+      "currency": "幣種",
+      "margin": "保證金",
+      "leverage": "杠桿",
+      "currency2": "幣種",
+      "openPrice": "開倉價",
+      "dealPrice": "成交價",
+      "averagePrice": "平均價",
+      "openQty": "開倉數量",
+      "dealQty": "成交數量",
+      "direction": "方向",
+      "status": "狀態",
+      "type": "類型",
+      "orderId": "訂單ID",
+      "orderNo": "訂單號",
+      "openTime": "開倉時間"
+    }
+  },
+  "dashboard": {
+    "title": "儀表板",
+    "welcome": "歡迎"
   }
 }
